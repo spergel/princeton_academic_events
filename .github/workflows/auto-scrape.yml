@@ -1,0 +1,60 @@
+name: Auto-scrape Princeton Events
+
+on:
+  schedule:
+    # Run every day at 6 AM UTC
+    - cron: '0 6 * * *'
+  workflow_dispatch: # Allow manual triggering
+
+jobs:
+  scrape-and-refresh:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Trigger Cloudflare refresh
+      run: |
+        echo "🔄 Triggering Cloudflare API refresh..."
+        
+        # Call the refresh endpoint to automatically scrape and update
+        response=$(curl -s -X POST "https://princeton-academic-events.spergel-joshua.workers.dev/api/refresh")
+        
+        echo "📊 Refresh response: $response"
+        
+        # Check if refresh was successful
+        if echo "$response" | grep -q '"success":true'; then
+          echo "✅ Refresh successful!"
+        else
+          echo "❌ Refresh failed"
+          exit 1
+        fi
+        
+    - name: Verify events are loaded
+      run: |
+        echo "🔍 Verifying events are loaded..."
+        
+        # Check the stats endpoint
+        stats=$(curl -s "https://princeton-academic-events.spergel-joshua.workers.dev/api/stats")
+        echo "📈 Stats: $stats"
+        
+        # Extract event count
+        event_count=$(echo "$stats" | grep -o '"total_events":[0-9]*' | cut -d: -f2)
+        
+        if [ "$event_count" -gt 0 ]; then
+          echo "✅ Successfully loaded $event_count events"
+        else
+          echo "❌ No events loaded"
+          exit 1
+        fi
+        
+    - name: Commit updated data
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        
+        # Add any updated files
+        git add .
+        git commit -m "Auto-update: Events refreshed at $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No changes to commit"
+        git push || echo "No changes to push"
