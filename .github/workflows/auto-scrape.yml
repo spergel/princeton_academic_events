@@ -7,29 +7,59 @@ on:
   workflow_dispatch: # Allow manual triggering
 
 jobs:
-  scrape-and-refresh:
+  scrape-and-import:
     runs-on: ubuntu-latest
     
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
       
-    - name: Trigger Cloudflare refresh
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
       run: |
-        echo "🔄 Triggering Cloudflare API refresh..."
+        cd scrapers
+        pip install cloudscraper beautifulsoup4 requests
         
-        # Call the refresh endpoint to automatically scrape and update
-        response=$(curl -s -X POST "https://princeton-academic-events.spergel-joshua.workers.dev/api/refresh")
+    - name: Run scrapers
+      run: |
+        cd scrapers
+        python combine_cloudscraper_events.py
         
-        echo "📊 Refresh response: $response"
-        
-        # Check if refresh was successful
-        if echo "$response" | grep -q '"success":true'; then
-          echo "✅ Refresh successful!"
-        else
-          echo "❌ Refresh failed"
-          exit 1
-        fi
+    - name: Import to Cloudflare API
+      run: |
+        cd scrapers
+        python -c "
+import json
+import requests
+
+# Load the scraped events
+with open('all_princeton_academic_events.json', 'r', encoding='utf-8') as f:
+    data = json.load(f)
+
+print(f'📊 Loaded {len(data[\"events\"])} events')
+
+# Import to Cloudflare API
+api_url = 'https://princeton-academic-events.spergel-joshua.workers.dev/api/import'
+headers = {'Content-Type': 'application/json'}
+
+try:
+    response = requests.post(api_url, json=data, headers=headers)
+    if response.status_code == 200:
+        result = response.json()
+        print(f'✅ Import successful: {result.get(\"message\")}')
+        print(f'📈 Events imported: {result.get(\"count\")}')
+    else:
+        print(f'❌ Import failed: {response.status_code}')
+        print(f'Response: {response.text}')
+        exit(1)
+except Exception as e:
+    print(f'❌ Error during import: {str(e)}')
+    exit(1)
+"
         
     - name: Verify events are loaded
       run: |
@@ -54,7 +84,7 @@ jobs:
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         
-        # Add any updated files
-        git add .
-        git commit -m "Auto-update: Events refreshed at $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No changes to commit"
+        # Add the updated JSON file
+        git add scrapers/all_princeton_academic_events.json
+        git commit -m "Auto-update: Fresh events scraped at $(date -u +'%Y-%m-%d %H:%M UTC')" || echo "No changes to commit"
         git push || echo "No changes to push"
