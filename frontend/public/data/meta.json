@@ -1,0 +1,17 @@
+{
+  "site_info": {
+    "name": "Princeton Academic Events",
+    "description": "Academic events across Princeton University",
+    "version": "1.0.0"
+  },
+  "stats": {
+    "total_events": 554,
+    "total_departments": 24,
+    "last_updated": "2025-09-06T11:54:32.284006"
+  },
+  "build_info": {
+    "build_date": "2025-09-06T11:54:32.284281",
+    "data_source": "Princeton University Department Websites",
+    "update_frequency": "Weekly"
+  }
+}

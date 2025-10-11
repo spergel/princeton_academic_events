@@ -1,0 +1,298 @@
+/* Princeton University Theme Overrides */
+/* Applied on top of classic-2000s.css */
+
+/* Princeton Color Palette */
+:root {
+  --princeton-orange: #ff8c00;
+  --princeton-black: #000000;
+  --princeton-white: #ffffff;
+  --princeton-light-grey: #f5f5f5;
+  --princeton-dark-grey: #333333;
+  --princeton-medium-grey: #666666;
+  --princeton-border: #cccccc;
+}
+
+/* Header with Princeton Branding */
+.header {
+  background: linear-gradient(90deg, var(--princeton-orange) 0%, #ffa500 100%);
+  border-bottom: 2px solid var(--princeton-black);
+  color: var(--princeton-white);
+}
+
+.header h1 {
+  color: var(--princeton-white);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.header .princeton-logo {
+  background-color: var(--princeton-white);
+  border: 2px solid var(--princeton-black);
+  position: relative;
+}
+
+.header .princeton-logo::after {
+  content: "P";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 18px;
+  color: var(--princeton-black);
+}
+
+/* Section Headers with Princeton Orange Accent */
+.section-header {
+  background: linear-gradient(90deg, var(--princeton-orange) 0%, #ffa500 100%);
+  color: var(--princeton-white);
+  border-bottom: 1px solid var(--princeton-black);
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Primary Buttons with Princeton Orange */
+.button-primary {
+  background-color: var(--princeton-orange);
+  color: var(--princeton-white);
+  border-color: var(--princeton-black);
+  font-weight: bold;
+}
+
+.button-primary:hover {
+  background-color: #e67e00;
+  color: var(--princeton-white);
+  border-color: var(--princeton-black);
+}
+
+/* Event Items with Princeton Styling */
+.event-item {
+  border-left: 3px solid var(--princeton-orange);
+  padding-left: 15px;
+  transition: background-color 0.2s ease;
+}
+
+.event-item:hover {
+  background-color: #fff8f0;
+}
+
+.event-title {
+  color: var(--princeton-black);
+}
+
+.event-title a {
+  color: var(--princeton-black);
+  text-decoration: none;
+}
+
+.event-title a:hover {
+  color: var(--princeton-orange);
+  text-decoration: underline;
+}
+
+/* Department Filter with Princeton Styling */
+.department-item label {
+  padding: 5px 8px;
+  border-radius: 3px;
+  transition: background-color 0.2s ease;
+}
+
+.department-item label:hover {
+  background-color: #fff8f0;
+}
+
+.department-item input[type="checkbox"]:checked + span {
+  color: var(--princeton-orange);
+  font-weight: bold;
+}
+
+/* Search Bar with Princeton Focus */
+.search-bar:focus {
+  border-color: var(--princeton-orange);
+  box-shadow: 0 0 5px rgba(255, 140, 0, 0.3);
+}
+
+/* Department Tags with Princeton Colors */
+.department-tag {
+  background-color: var(--princeton-light-grey);
+  border: 1px solid var(--princeton-orange);
+  color: var(--princeton-black);
+}
+
+.department-tag.arts-humanities {
+  background-color: #e8f4f8;
+  border-color: #4a90a4;
+  color: #2c5f6f;
+}
+
+.department-tag.social-sciences {
+  background-color: #f0f8e8;
+  border-color: #7cb342;
+  color: #4a5f2c;
+}
+
+.department-tag.sciences-engineering {
+  background-color: #f8e8f0;
+  border-color: #a44a90;
+  color: #6f2c5f;
+}
+
+.department-tag.area-studies {
+  background-color: #f8f0e8;
+  border-color: #a47c4a;
+  color: #6f4a2c;
+}
+
+.department-tag.interdisciplinary {
+  background-color: #e8e8f8;
+  border-color: #4a4aa4;
+  color: #2c2c6f;
+}
+
+/* Event Type Badges with Princeton Styling */
+.event-type-badge {
+  background-color: var(--princeton-light-grey);
+  border: 1px solid var(--princeton-orange);
+  color: var(--princeton-black);
+  font-weight: bold;
+}
+
+.event-type-badge.seminar {
+  background-color: #fff0e6;
+  border-color: var(--princeton-orange);
+}
+
+.event-type-badge.lecture {
+  background-color: #e6f0ff;
+  border-color: #4a90a4;
+}
+
+.event-type-badge.workshop {
+  background-color: #f0ffe6;
+  border-color: #7cb342;
+}
+
+.event-type-badge.conference {
+  background-color: #ffe6f0;
+  border-color: #a44a90;
+}
+
+/* Calendar Button Special Styling */
+.calendar-button {
+  background: linear-gradient(135deg, var(--princeton-orange) 0%, #ffa500 100%);
+  color: var(--princeton-white);
+  border: 2px solid var(--princeton-black);
+  padding: 12px 24px;
+  font-size: 16px;
+  font-weight: bold;
+  text-decoration: none;
+  display: inline-block;
+  margin: 20px 0;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease;
+}
+
+.calendar-button:hover {
+  background: linear-gradient(135deg, #e67e00 0%, var(--princeton-orange) 100%);
+  color: var(--princeton-white);
+  text-decoration: none;
+  transform: translateY(-1px);
+  box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+}
+
+/* Princeton Footer */
+.footer {
+  background-color: var(--princeton-black);
+  color: var(--princeton-white);
+  padding: 20px 0;
+  margin-top: 40px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.footer a {
+  color: var(--princeton-orange);
+}
+
+.footer a:hover {
+  color: #ffa500;
+}
+
+/* Loading States */
+.loading {
+  color: var(--princeton-medium-grey);
+  font-style: italic;
+}
+
+.loading::after {
+  content: "...";
+  animation: dots 1.5s infinite;
+}
+
+@keyframes dots {
+  0%, 20% { content: ""; }
+  40% { content: "."; }
+  60% { content: ".."; }
+  80%, 100% { content: "..."; }
+}
+
+/* Error States */
+.error {
+  background-color: #ffe6e6;
+  border: 1px solid #ff9999;
+  color: #cc0000;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Success States */
+.success {
+  background-color: #e6ffe6;
+  border: 1px solid #99ff99;
+  color: #006600;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+/* Princeton Academic Feel */
+.academic-note {
+  background-color: #f9f9f9;
+  border-left: 4px solid var(--princeton-orange);
+  padding: 15px;
+  margin: 15px 0;
+  font-style: italic;
+  color: var(--princeton-dark-grey);
+}
+
+/* Responsive Princeton Theme */
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 20px;
+  }
+  
+  .calendar-button {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .event-item {
+    border-left: 2px solid var(--princeton-orange);
+    padding-left: 10px;
+  }
+}
+
+/* Print Styles */
+@media print {
+  .header {
+    background: none !important;
+    color: var(--princeton-black) !important;
+    border-bottom: 2px solid var(--princeton-black);
+  }
+  
+  .button, .calendar-button {
+    display: none;
+  }
+  
+  .event-item {
+    border-left: none;
+    border-bottom: 1px solid var(--princeton-border);
+  }
+}

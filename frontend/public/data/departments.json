@@ -1,0 +1,146 @@
+[
+  {
+    "name": "Computer Science",
+    "meta_category": "sciences_engineering",
+    "event_count": 5,
+    "is_selected": false
+  },
+  {
+    "name": "Geosciences",
+    "meta_category": "sciences_engineering",
+    "event_count": 86,
+    "is_selected": false
+  },
+  {
+    "name": "Mathematics",
+    "meta_category": "sciences_engineering",
+    "event_count": 81,
+    "is_selected": false
+  },
+  {
+    "name": "Philosophy",
+    "meta_category": "arts_humanities",
+    "event_count": 32,
+    "is_selected": false
+  },
+  {
+    "name": "Physics",
+    "meta_category": "sciences_engineering",
+    "event_count": 112,
+    "is_selected": false
+  },
+  {
+    "name": "anthropology",
+    "meta_category": "social_sciences",
+    "event_count": 10,
+    "is_selected": false
+  },
+  {
+    "name": "cbe",
+    "meta_category": "sciences_engineering",
+    "event_count": 7,
+    "is_selected": false
+  },
+  {
+    "name": "citp",
+    "meta_category": "interdisciplinary",
+    "event_count": 12,
+    "is_selected": false
+  },
+  {
+    "name": "classics",
+    "meta_category": "arts_humanities",
+    "event_count": 5,
+    "is_selected": false
+  },
+  {
+    "name": "comparative_literature",
+    "meta_category": "arts_humanities",
+    "event_count": 3,
+    "is_selected": false
+  },
+  {
+    "name": "ece",
+    "meta_category": "sciences_engineering",
+    "event_count": 4,
+    "is_selected": false
+  },
+  {
+    "name": "ecology_evolutionary_biology",
+    "meta_category": "sciences_engineering",
+    "event_count": 11,
+    "is_selected": false
+  },
+  {
+    "name": "english",
+    "meta_category": "arts_humanities",
+    "event_count": 7,
+    "is_selected": false
+  },
+  {
+    "name": "gender_sexuality_studies",
+    "meta_category": "arts_humanities",
+    "event_count": 8,
+    "is_selected": false
+  },
+  {
+    "name": "history",
+    "meta_category": "arts_humanities",
+    "event_count": 25,
+    "is_selected": false
+  },
+  {
+    "name": "latin_american_studies",
+    "meta_category": "area_studies",
+    "event_count": 14,
+    "is_selected": false
+  },
+  {
+    "name": "molecular_biology",
+    "meta_category": "sciences_engineering",
+    "event_count": 15,
+    "is_selected": false
+  },
+  {
+    "name": "music",
+    "meta_category": "arts_humanities",
+    "event_count": 35,
+    "is_selected": false
+  },
+  {
+    "name": "near_eastern_studies",
+    "meta_category": "area_studies",
+    "event_count": 25,
+    "is_selected": false
+  },
+  {
+    "name": "orfe",
+    "meta_category": "sciences_engineering",
+    "event_count": 10,
+    "is_selected": false
+  },
+  {
+    "name": "psychology",
+    "meta_category": "social_sciences",
+    "event_count": 24,
+    "is_selected": false
+  },
+  {
+    "name": "religion",
+    "meta_category": "arts_humanities",
+    "event_count": 2,
+    "is_selected": false
+  },
+  {
+    "name": "slavic_languages",
+    "meta_category": "arts_humanities",
+    "event_count": 12,
+    "is_selected": false
+  },
+  {
+    "name": "sociology",
+    "meta_category": "social_sciences",
+    "event_count": 9,
+    "is_selected": false
+  }
+]

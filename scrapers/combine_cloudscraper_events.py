@@ -3,56 +3,68 @@ import json
 import importlib
 from datetime import datetime
 from typing import List, Dict, Any
+from universal_drupal_cloudscraper import UniversalDrupalCloudScraper
 
-# Updated list of all working scrapers
-WORKING_SCRAPERS = [
-    ('politics_cloudscraper', 'PoliticsCloudScraper', 'scrape_politics_events'),
-    ('philosophy_cloudscraper', 'PhilosophyCloudScraper', 'scrape_events'),
-    ('history_cloudscraper', 'HistoryCloudScraper', 'scrape_events'),
-    ('english_cloudscraper', 'EnglishCloudScraper', 'scrape_events'),
-    ('psychology_cloudscraper', 'PsychologyCloudScraper', 'scrape_psychology_events'),
-    ('physics_cloudscraper', 'PhysicsCloudScraper', 'scrape_events'),
-    ('classics_cloudscraper', 'ClassicsCloudScraper', 'scrape_classics_events'),
-    ('geosciences_cloudscraper', 'GeosciencesCloudScraper', 'scrape_geosciences_events'),
-    ('computer_science_cloudscraper', 'ComputerScienceCloudScraper', 'scrape_cs_events'),
-    ('economics_cloudscraper', 'EconomicsCloudScraper', 'scrape_economics_events'),
-    ('sociology_cloudscraper', 'SociologyCloudScraper', 'scrape_sociology_events'),
-    # New scrapers
-    ('molecular_biology_cloudscraper', 'MolecularBiologyCloudScraper', 'scrape_molecular_biology_events'),
-    ('ecology_evolutionary_biology_cloudscraper', 'EcologyEvolutionaryBiologyCloudScraper', 'scrape_ecology_evolutionary_biology_events'),
-    ('chemical_biological_engineering_cloudscraper', 'ChemicalBiologicalEngineeringCloudScraper', 'scrape_chemical_biological_engineering_events'),
-    ('civil_environmental_engineering_cloudscraper', 'CivilEnvironmentalEngineeringCloudScraper', 'scrape_civil_environmental_engineering_events'),
-    ('electrical_computer_engineering_cloudscraper', 'ElectricalComputerEngineeringCloudScraper', 'scrape_electrical_computer_engineering_events'),
-    ('operations_research_financial_engineering_cloudscraper', 'OperationsResearchFinancialEngineeringCloudScraper', 'scrape_operations_research_financial_engineering_events'),
-    ('anthropology_cloudscraper', 'AnthropologyCloudScraper', 'scrape_anthropology_events'),
-    ('public_international_affairs_cloudscraper', 'PublicInternationalAffairsCloudScraper', 'scrape_public_international_affairs_events'),
-    # Additional new scrapers
-    ('mathematics_cloudscraper', 'MathematicsCloudScraper', 'scrape_mathematics_events'),
-    ('music_cloudscraper', 'MusicCloudScraper', 'scrape_music_events'),
-    ('art_archaeology_cloudscraper', 'ArtArchaeologyCloudScraper', 'scrape_art_archaeology_events'),
-    ('religion_cloudscraper', 'ReligionCloudScraper', 'scrape_religion_events'),
-    # Additional new scrapers
-    ('comparative_literature_cloudscraper', 'ComparativeLiteratureCloudScraper', 'scrape_comparative_literature_events'),
-    ('citp_cloudscraper', 'CITPCloudScraper', 'scrape_citp_events'),
-    ('pacm_cloudscraper', 'PACMCloudScraper', 'scrape_pacm_events'),
-    # Additional new scrapers
-    ('environmental_studies_cloudscraper', 'EnvironmentalStudiesCloudScraper', 'scrape_environmental_studies_events'),
-    ('latin_american_studies_cloudscraper', 'LatinAmericanStudiesCloudScraper', 'scrape_latin_american_studies_events'),
-    ('gender_sexuality_studies_cloudscraper', 'GenderSexualityStudiesCloudScraper', 'scrape_gender_sexuality_studies_events'),
-    # Additional new scrapers
-    ('african_studies_cloudscraper', 'AfricanStudiesCloudScraper', 'scrape_african_studies_events'),
-    ('near_eastern_studies_cloudscraper', 'NearEasternStudiesCloudScraper', 'scrape_near_eastern_studies_events'),
-    ('russian_east_european_eurasian_studies_cloudscraper', 'RussianEastEuropeanEurasianStudiesCloudScraper', 'scrape_russian_east_european_eurasian_studies_events'),
-    # Additional new scrapers
-    ('east_asian_studies_cloudscraper', 'EastAsianStudiesCloudScraper', 'scrape_east_asian_studies_events'),
-    ('south_asian_studies_cloudscraper', 'SouthAsianStudiesCloudScraper', 'scrape_south_asian_studies_events'),
-    ('hellenic_studies_cloudscraper', 'HellenicStudiesCloudScraper', 'scrape_hellenic_studies_events'),
-    # Additional new scrapers
-    ('astrophysical_sciences_cloudscraper', 'AstrophysicalSciencesCloudScraper', 'scrape_astrophysical_sciences_events')
+# Working individual scrapers (these have their own modules)
+INDIVIDUAL_SCRAPERS = [
+    ('math_ics_scraper', 'MathICSScraper', 'scrape_math_events'),
+    ('philosophy_ics_scraper', 'PhilosophyICSScraper', 'scrape_philosophy_events'),
+    ('physics_json_scraper', 'PhysicsJSONScraper', 'scrape_physics_events'),
+    ('geosciences_json_scraper', 'GeosciencesJSONScraper', 'scrape_geosciences_events'),
+    ('cs_cloudscraper', 'CSCloudScraper', 'scrape_cs_events'),
 ]
 
-def run_scraper(scraper_name: str, class_name: str, method_name: str) -> List[Dict[str, Any]]:
-    """Run a single scraper and return its events"""
+# Departments to scrape with universal Drupal scraper
+UNIVERSAL_DRUPAL_DEPARTMENTS = [
+    # Social Sciences
+    ('sociology', 'https://sociology.princeton.edu', 'https://sociology.princeton.edu/events', 'social_sciences'),
+    ('politics', 'https://politics.princeton.edu', 'https://politics.princeton.edu/events', 'social_sciences'),
+    ('economics', 'https://economics.princeton.edu', 'https://economics.princeton.edu/events', 'social_sciences'),
+    ('spia', 'https://spia.princeton.edu', 'https://spia.princeton.edu/events', 'social_sciences'),
+    ('psychology', 'https://psychology.princeton.edu', 'https://psychology.princeton.edu/events', 'social_sciences'),
+    ('anthropology', 'https://anthropology.princeton.edu', 'https://anthropology.princeton.edu/events', 'social_sciences'),
+    
+    # Humanities & Arts
+    ('history', 'https://history.princeton.edu', 'https://history.princeton.edu/events', 'arts_humanities'),
+    ('english', 'https://english.princeton.edu', 'https://english.princeton.edu/events', 'arts_humanities'),
+    ('classics', 'https://classics.princeton.edu', 'https://classics.princeton.edu/events', 'arts_humanities'),
+    ('comparative_literature', 'https://complit.princeton.edu', 'https://complit.princeton.edu/events', 'arts_humanities'),
+    ('music', 'https://music.princeton.edu', 'https://music.princeton.edu/events', 'arts_humanities'),
+    ('art_archaeology', 'https://artandarchaeology.princeton.edu', 'https://artandarchaeology.princeton.edu/events', 'arts_humanities'),
+    ('religion', 'https://religion.princeton.edu', 'https://religion.princeton.edu/events', 'arts_humanities'),
+    ('slavic_languages', 'https://slavic.princeton.edu', 'https://slavic.princeton.edu/events', 'arts_humanities'),
+    ('french_italian', 'https://frit.princeton.edu', 'https://frit.princeton.edu/events', 'arts_humanities'),
+    ('gender_sexuality_studies', 'https://gss.princeton.edu', 'https://gss.princeton.edu/events', 'arts_humanities'),
+    ('humanities_council', 'https://humanities.princeton.edu', 'https://humanities.princeton.edu/events', 'arts_humanities'),
+    ('medieval_studies', 'https://medieval.princeton.edu', 'https://medieval.princeton.edu/events', 'arts_humanities'),
+    
+    # Area Studies
+    ('african_studies', 'https://africanstudies.princeton.edu', 'https://africanstudies.princeton.edu/events', 'area_studies'),
+    ('east_asian_studies', 'https://eastasianstudies.princeton.edu', 'https://eastasianstudies.princeton.edu/events', 'area_studies'),
+    ('south_asian_studies', 'https://southasianstudies.princeton.edu', 'https://southasianstudies.princeton.edu/events', 'area_studies'),
+    ('near_eastern_studies', 'https://nes.princeton.edu', 'https://nes.princeton.edu/events', 'area_studies'),
+    ('latin_american_studies', 'https://plas.princeton.edu', 'https://plas.princeton.edu/events', 'area_studies'),
+    ('russian_east_european_eurasian_studies', 'https://rees.princeton.edu', 'https://rees.princeton.edu/events', 'area_studies'),
+    ('hellenic_studies', 'https://hellenic.princeton.edu', 'https://hellenic.princeton.edu/events', 'area_studies'),
+    
+    # Sciences & Engineering
+    ('cbe', 'https://cbe.princeton.edu', 'https://cbe.princeton.edu/events', 'sciences_engineering'),
+    ('orfe', 'https://orfe.princeton.edu', 'https://orfe.princeton.edu/events', 'sciences_engineering'),
+    ('ece', 'https://ece.princeton.edu', 'https://ece.princeton.edu/events', 'sciences_engineering'),
+    ('astrophysical_sciences', 'https://astro.princeton.edu', 'https://astro.princeton.edu/events', 'sciences_engineering'),
+    ('molecular_biology', 'https://molbio.princeton.edu', 'https://molbio.princeton.edu/events', 'sciences_engineering'),
+    ('ecology_evolutionary_biology', 'https://eeb.princeton.edu', 'https://eeb.princeton.edu/events', 'sciences_engineering'),
+    ('civil_environmental_engineering', 'https://cee.princeton.edu', 'https://cee.princeton.edu/events', 'sciences_engineering'),
+    ('mechanical_aerospace_engineering', 'https://mae.princeton.edu', 'https://mae.princeton.edu/events', 'sciences_engineering'),
+    
+    # Other Programs
+    ('citp', 'https://citp.princeton.edu', 'https://citp.princeton.edu/events', 'interdisciplinary'),
+    ('pacm', 'https://pacm.princeton.edu', 'https://pacm.princeton.edu/events', 'sciences_engineering'),
+    ('environmental_studies', 'https://environment.princeton.edu', 'https://environment.princeton.edu/events', 'interdisciplinary'),
+]
+
+def run_individual_scraper(scraper_name: str, class_name: str, method_name: str) -> List[Dict[str, Any]]:
+    """Run a single individual scraper and return its events"""
     try:
         print(f"🔍 Running {scraper_name}...")
         scraper_module = importlib.import_module(scraper_name)
@@ -66,6 +78,18 @@ def run_scraper(scraper_name: str, class_name: str, method_name: str) -> List[Di
         print(f"❌ {scraper_name}: Error - {e}")
         return []
 
+def run_universal_drupal_scraper(dept_name: str, base_url: str, events_url: str, meta_category: str) -> List[Dict[str, Any]]:
+    """Run the universal Drupal scraper for a department"""
+    try:
+        print(f"🔍 Running universal Drupal scraper for {dept_name}...")
+        scraper = UniversalDrupalCloudScraper(dept_name, base_url, events_url, meta_category)
+        events = scraper.scrape_events(max_pages=5, fetch_details=True)
+        print(f"✅ {dept_name}: {len(events)} events found")
+        return events
+    except Exception as e:
+        print(f"❌ {dept_name}: Error - {e}")
+        return []
+
 def combine_all_events():
     """Combine events from all working scrapers"""
     print("COMBINING ALL CLOUDSCRAPER EVENTS")
@@ -75,21 +99,32 @@ def combine_all_events():
     successful_scrapers = 0
     total_events = 0
     
-    for scraper_name, class_name, method_name in WORKING_SCRAPERS:
-        events = run_scraper(scraper_name, class_name, method_name)
+    # Run individual scrapers
+    for scraper_name, class_name, method_name in INDIVIDUAL_SCRAPERS:
+        events = run_individual_scraper(scraper_name, class_name, method_name)
+        if events:
+            all_events.extend(events)
+            successful_scrapers += 1
+            total_events += len(events)
+    
+    # Run universal Drupal scraper for multiple departments
+    for dept_name, base_url, events_url, meta_category in UNIVERSAL_DRUPAL_DEPARTMENTS:
+        events = run_universal_drupal_scraper(dept_name, base_url, events_url, meta_category)
         if events:
             all_events.extend(events)
             successful_scrapers += 1
             total_events += len(events)
     
     # Add metadata
+    total_scrapers = len(INDIVIDUAL_SCRAPERS) + len(UNIVERSAL_DRUPAL_DEPARTMENTS)
     combined_data = {
         "metadata": {
             "total_events": len(all_events),
             "successful_scrapers": successful_scrapers,
-            "total_scrapers": len(WORKING_SCRAPERS),
+            "total_scrapers": total_scrapers,
             "combined_at": datetime.now().isoformat(),
-            "scrapers_used": [scraper[0] for scraper in WORKING_SCRAPERS[:successful_scrapers]]
+            "individual_scrapers_used": len(INDIVIDUAL_SCRAPERS),
+            "universal_drupal_departments_used": len(UNIVERSAL_DRUPAL_DEPARTMENTS)
         },
         "events": all_events
     }
@@ -101,7 +136,7 @@ def combine_all_events():
     
     print("\n📊 COMBINATION RESULTS")
     print("=" * 60)
-    print(f"✅ Successful scrapers: {successful_scrapers}/{len(WORKING_SCRAPERS)}")
+    print(f"✅ Successful scrapers: {successful_scrapers}/{total_scrapers}")
     print(f"📈 Total events: {total_events}")
     print(f"💾 Saved to: {output_file}")
     
