@@ -66,28 +66,28 @@ UNIVERSAL_DRUPAL_DEPARTMENTS = [
 def run_individual_scraper(scraper_name: str, class_name: str, method_name: str) -> List[Dict[str, Any]]:
     """Run a single individual scraper and return its events"""
     try:
-        print(f"🔍 Running {scraper_name}...")
+        print(f"Running {scraper_name}...")
         scraper_module = importlib.import_module(scraper_name)
         scraper_class = getattr(scraper_module, class_name)
         scraper = scraper_class()
         scrape_method = getattr(scraper, method_name)
         events = scrape_method()
-        print(f"✅ {scraper_name}: {len(events)} events found")
+        print(f"SUCCESS: {scraper_name}: {len(events)} events found")
         return events
     except Exception as e:
-        print(f"❌ {scraper_name}: Error - {e}")
+        print(f"ERROR: {scraper_name}: {e}")
         return []
 
 def run_universal_drupal_scraper(dept_name: str, base_url: str, events_url: str, meta_category: str) -> List[Dict[str, Any]]:
     """Run the universal Drupal scraper for a department"""
     try:
-        print(f"🔍 Running universal Drupal scraper for {dept_name}...")
+        print(f"Running universal Drupal scraper for {dept_name}...")
         scraper = UniversalDrupalCloudScraper(dept_name, base_url, events_url, meta_category)
         events = scraper.scrape_events(max_pages=5, fetch_details=True)
-        print(f"✅ {dept_name}: {len(events)} events found")
+        print(f"SUCCESS: {dept_name}: {len(events)} events found")
         return events
     except Exception as e:
-        print(f"❌ {dept_name}: Error - {e}")
+        print(f"ERROR: {dept_name}: {e}")
         return []
 
 def combine_all_events():
@@ -134,11 +134,11 @@ def combine_all_events():
     with open(output_file, 'w', encoding='utf-8') as f:
         json.dump(combined_data, f, indent=2, ensure_ascii=False)
     
-    print("\n📊 COMBINATION RESULTS")
+    print("\nCOMBINATION RESULTS")
     print("=" * 60)
-    print(f"✅ Successful scrapers: {successful_scrapers}/{total_scrapers}")
-    print(f"📈 Total events: {total_events}")
-    print(f"💾 Saved to: {output_file}")
+    print(f"SUCCESS: Successful scrapers: {successful_scrapers}/{total_scrapers}")
+    print(f"Total events: {total_events}")
+    print(f"Saved to: {output_file}")
     
     # Show breakdown by department
     department_counts = {}
@@ -146,7 +146,7 @@ def combine_all_events():
         dept = event.get('department', 'Unknown')
         department_counts[dept] = department_counts.get(dept, 0) + 1
     
-    print("\n📋 EVENTS BY DEPARTMENT:")
+    print("\nEVENTS BY DEPARTMENT:")
     for dept, count in sorted(department_counts.items(), key=lambda x: x[1], reverse=True):
         print(f"  - {dept}: {count} events")
     
