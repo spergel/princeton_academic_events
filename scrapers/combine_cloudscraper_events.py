@@ -25,7 +25,7 @@ UNIVERSAL_DRUPAL_DEPARTMENTS = [
     ('anthropology', 'https://anthropology.princeton.edu', 'https://anthropology.princeton.edu/events', 'social_sciences'),
     
     # Humanities & Arts
-    ('history', 'https://history.princeton.edu', 'https://history.princeton.edu/events', 'arts_humanities'),
+    ('history', 'https://history.princeton.edu', 'https://history.princeton.edu/graduate/phd-history-science/events', 'arts_humanities'),
     ('english', 'https://english.princeton.edu', 'https://english.princeton.edu/events', 'arts_humanities'),
     ('classics', 'https://classics.princeton.edu', 'https://classics.princeton.edu/events', 'arts_humanities'),
     ('comparative_literature', 'https://complit.princeton.edu', 'https://complit.princeton.edu/events', 'arts_humanities'),
