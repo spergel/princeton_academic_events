@@ -161,8 +161,8 @@ class UniversalDrupalCloudScraper:
                 parsed_date = self._parse_date(date_text)
                 if parsed_date:
                     event['start_date'] = parsed_date
-            
-            # Look for time spans
+
+            # Look for time spans first (preferred method)
             time_spans = date_elem.find_all('span', class_='time')
             if time_spans:
                 if len(time_spans) == 1:
@@ -172,6 +172,22 @@ class UniversalDrupalCloudScraper:
                     start_time = time_spans[0].get_text(strip=True)
                     end_time = time_spans[1].get_text(strip=True)
                     event['time'] = f"{start_time} – {end_time}"
+            else:
+                # Fallback: extract time from the full text content of the date element
+                date_text = date_elem.get_text(strip=True)
+                # Look for time patterns like "3:00 pm", "4:30 pm – 6:00 pm", etc.
+                time_patterns = [
+                    r'(\d{1,2}:\d{2}\s*(?:am|pm|AM|PM)(?:\s*–\s*\d{1,2}:\d{2}\s*(?:am|pm|AM|PM))?)',  # "3:00 pm – 4:20 pm"
+                    r'(\d{1,2}:\d{2}\s*(?:am|pm|AM|PM))',  # Single time like "3:00 pm"
+                    r'(\d{1,2}\s*(?:am|pm|AM|PM)(?:\s*–\s*\d{1,2}\s*(?:am|pm|AM|PM))?)',  # "3 pm – 4 pm"
+                    r'(\d{1,2}\s*(?:am|pm|AM|PM))'  # Single time like "3 pm"
+                ]
+
+                for pattern in time_patterns:
+                    match = re.search(pattern, date_text, re.IGNORECASE)
+                    if match:
+                        event['time'] = match.group(1).strip()
+                        break
         
         # Extract location
         location_elem = container.find('div', class_='field--name-field-ps-events-location-name')
@@ -245,75 +261,35 @@ class UniversalDrupalCloudScraper:
             if description_elem:
                 details['description'] = description_elem.get_text(strip=True)
 
-            # Extract speaker information
+            # Skip speaker extraction - focus on times only
+            # Extract speaker information (minimal/simple version)
             speaker_elem = soup.find('div', class_='field--name-field-ps-events-speaker')
             if speaker_elem:
-                # Handle multiple speakers - find all speaker items
-                speaker_items = speaker_elem.find_all('li', class_='field__item')
-                speakers = []
+                # Simple speaker extraction - just get names, no complex parsing
+                speaker_names = []
+                speaker_links = speaker_elem.find_all('a')
+                for link in speaker_links:
+                    name = link.get_text(strip=True)
+                    if name and len(name) > 2:  # Avoid generic links
+                        speaker_names.append(name)
 
-                for speaker_item in speaker_items:
-                    speaker_info = {}
+                if speaker_names:
+                    details['speaker'] = '; '.join(speaker_names[:3])  # Limit to first 3 speakers
 
-                    # Extract speaker name - look for the paragraph containing speaker info
-                    speaker_paragraph = speaker_item.find('div', class_='paragraph--type--ps-event-speaker')
-                    if speaker_paragraph:
-                        # Find speaker name
-                        speaker_name_elem = speaker_paragraph.find('div', class_='field--name-field-ps-event-speaker-name')
-                        if speaker_name_elem:
-                            speaker_link = speaker_name_elem.find('a')
-                            if speaker_link:
-                                speaker_info['name'] = speaker_link.get_text(strip=True)
-                                speaker_href = speaker_link.get('href', '')
-                                if speaker_href:
-                                    if speaker_href.startswith('http'):
-                                        speaker_info['url'] = speaker_href
-                                    else:
-                                        # Handle relative URLs
-                                        base_url = event.get('source_url', '')
-                                        if base_url:
-                                            speaker_info['url'] = base_url.rsplit('/', 1)[0] + '/' + speaker_href.lstrip('/')
-                                        else:
-                                            speaker_info['url'] = speaker_href
-
-                        # Extract presentation title
-                        presentation_elem = speaker_paragraph.find('div', class_='field--name-field-ps-event-speaker-pres')
-                        if presentation_elem:
-                            presentation_item = presentation_elem.find('div', class_='field__item')
-                            if presentation_item:
-                                presentation_text = presentation_item.get_text(strip=True)
-                                if presentation_text:
-                                    # Clean up presentation text (remove quotes if present)
-                                    presentation_text = presentation_text.strip('"\'')
-                                    speaker_info['presentation'] = presentation_text
-
-                    if speaker_info.get('name'):
-                        speakers.append(speaker_info)
-
-                # Set speaker information
-                if speakers:
-                    if len(speakers) == 1:
-                        # Single speaker - use simple format
-                        speaker = speakers[0]
-                        details['speaker'] = speaker.get('name', '')
-                        details['speaker_url'] = speaker.get('url', '')
-                        if speaker.get('presentation'):
-                            # Include presentation in title if not already there
-                            current_title = event.get('title', '')
-                            if speaker['presentation'] not in current_title:
-                                details['title'] = f"{current_title}: {speaker['presentation']}"
-                    else:
-                        # Multiple speakers - format as list
-                        speaker_names = [s.get('name', '') for s in speakers if s.get('name')]
-                        details['speaker'] = '; '.join(speaker_names)
-                        details['speakers'] = speakers  # Store full speaker info
-
-                        # Update title to include presentations if available
-                        presentations = [s.get('presentation') for s in speakers if s.get('presentation')]
-                        if presentations:
-                            current_title = event.get('title', '')
-                            if not any(pres in current_title for pres in presentations):
-                                details['title'] = f"{current_title}: {', '.join(presentations)}"
+            # Extract time information if not already extracted
+            if not event.get('time'):
+                date_elem = soup.find('div', class_='field--name-field-ps-events-date')
+                if date_elem:
+                    # Look for time spans
+                    time_spans = date_elem.find_all('span', class_='time')
+                    if time_spans:
+                        if len(time_spans) == 1:
+                            details['time'] = time_spans[0].get_text(strip=True)
+                        elif len(time_spans) == 2:
+                            # Handle time range like "4:30 pm – 6:00 pm"
+                            start_time = time_spans[0].get_text(strip=True)
+                            end_time = time_spans[1].get_text(strip=True)
+                            details['time'] = f"{start_time} – {end_time}"
 
             # Extract additional topics/tags
             topics_elem = soup.find('div', class_='field--name-field-ps-events-topics')
@@ -330,11 +306,22 @@ class UniversalDrupalCloudScraper:
             return None
     
     def _parse_date(self, date_text: str) -> str:
-        """Parse date text like 'Wed, Sep 24, 2025' or 'Sep 8, 2025'"""
+        """Parse date text like 'Monday, November 10, 2025' or 'Wed, Sep 24, 2025' or 'Sep 8, 2025'"""
         try:
             # Clean the text
             date_text = re.sub(r'\s+', ' ', date_text.strip())
-            
+
+            # Try pattern with full month name and day of week: "Monday, November 10, 2025"
+            date_match = re.search(r'\w+,\s+(\w+)\s+(\d{1,2}),\s+(\d{4})', date_text)
+            if date_match:
+                month = date_match.group(1)
+                day = date_match.group(2)
+                year = date_match.group(3)
+
+                # Convert month name to number
+                month_num = self._month_to_number(month)
+                return f"{year}-{month_num}-{day.zfill(2)}"
+
             # Try pattern with day of week: "Wed, Sep 24, 2025"
             date_match = re.search(r'(\w+),?\s+(\w+)\s+(\d{1,2}),?\s+(\d{4})', date_text)
             if date_match:
@@ -342,32 +329,37 @@ class UniversalDrupalCloudScraper:
                 month = date_match.group(2)
                 day = date_match.group(3)
                 year = date_match.group(4)
-                
+
                 # Convert month abbreviation to number
                 month_num = self._month_to_number(month)
                 return f"{year}-{month_num}-{day.zfill(2)}"
-            
+
             # Try pattern without day of week: "Sep 8, 2025"
             date_match = re.search(r'(\w+)\s+(\d{1,2}),?\s+(\d{4})', date_text)
             if date_match:
                 month = date_match.group(1)
                 day = date_match.group(2)
                 year = date_match.group(3)
-                
+
                 # Convert month abbreviation to number
                 month_num = self._month_to_number(month)
                 return f"{year}-{month_num}-{day.zfill(2)}"
         except:
             pass
-        
+
         return ""
     
     def _month_to_number(self, month: str) -> str:
-        """Convert month abbreviation to number"""
+        """Convert month name or abbreviation to number"""
         months = {
+            # Abbreviations
             'Jan': '01', 'Feb': '02', 'Mar': '03', 'Apr': '04',
             'May': '05', 'Jun': '06', 'Jul': '07', 'Aug': '08',
-            'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12'
+            'Sep': '09', 'Oct': '10', 'Nov': '11', 'Dec': '12',
+            # Full names
+            'January': '01', 'February': '02', 'March': '03', 'April': '04',
+            'May': '05', 'June': '06', 'July': '07', 'August': '08',
+            'September': '09', 'October': '10', 'November': '11', 'December': '12'
         }
         return months.get(month, '01')
     
@@ -483,7 +475,7 @@ DEPARTMENT_CONFIGS = {
     'history': {
         'name': 'History',
         'base_url': 'https://history.princeton.edu',
-        'events_url': 'https://history.princeton.edu/graduate/phd-history-science/events',
+        'events_url': 'https://history.princeton.edu/news-events/events',
         'meta_category': 'arts_humanities'
     },
     'sociology': {
@@ -550,7 +542,7 @@ DEPARTMENT_CONFIGS = {
     'history': {
         'name': 'History',
         'base_url': 'https://history.princeton.edu',
-        'events_url': 'https://history.princeton.edu/graduate/phd-history-science/events',
+        'events_url': 'https://history.princeton.edu/news-events/events',
         'meta_category': 'arts_humanities'
     },
     'classics': {
@@ -604,7 +596,7 @@ DEPARTMENT_CONFIGS = {
 }
 
 
-def test_department(department_key: str, max_pages: int = 3, fetch_details: bool = False):
+def test_department(department_key: str, max_pages: int = 3, fetch_details: bool = True):
     """Test the universal scraper with a specific department"""
     if department_key not in DEPARTMENT_CONFIGS:
         print(f"❌ Department '{department_key}' not found in configurations")

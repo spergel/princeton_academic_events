@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Princeton Academic Events</title>
+    <style>
+        /* Classic Early 2000s Web Design Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 1.4;
+            color: #333333;
+            background-color: #ffffff;
+        }
+
+        /* Typography */
+        h1, h2, h3, h4, h5, h6 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            color: #000000;
+            margin-bottom: 10px;
+        }
+
+        h1 { font-size: 20px; }
+        h2 { font-size: 18px; }
+        h3 { font-size: 16px; }
+        h4 { font-size: 14px; }
+
+        p { margin-bottom: 10px; }
+
+        /* Links */
+        a {
+            color: #0000ff;
+            text-decoration: underline;
+        }
+
+        a:hover { color: #0000cc; }
+        a:visited { color: #800080; }
+
+        /* Layout Structure */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Two Column Layout */
+        .two-column {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .main-content {
+            flex: 2;
+            min-width: 0;
+        }
+
+        .sidebar {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        /* Princeton Colors */
+        :root {
+            --princeton-orange: #ff8c00;
+            --princeton-black: #000000;
+            --princeton-white: #ffffff;
+            --princeton-light-grey: #f5f5f5;
+            --princeton-dark-grey: #333333;
+            --princeton-medium-grey: #666666;
+            --princeton-border: #cccccc;
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(90deg, var(--princeton-orange) 0%, #ffa500 100%);
+            border-bottom: 2px solid var(--princeton-black);
+            color: var(--princeton-white);
+            padding: 15px 0;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            color: var(--princeton-white);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+            margin: 0;
+            font-size: 24px;
+        }
+
+        /* Section Headers */
+        .section-header {
+            background: linear-gradient(90deg, var(--princeton-orange) 0%, #ffa500 100%);
+            color: var(--princeton-white);
+            border-bottom: 1px solid var(--princeton-black);
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+            padding: 8px 12px;
+            margin-bottom: 15px;
+        }
+
+        /* Content Blocks */
+        .content-block {
+            background-color: var(--princeton-white);
+            border: 1px solid var(--princeton-border);
+            margin-bottom: 15px;
+            box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        .content-block-header {
+            background-color: var(--princeton-light-grey);
+            border-bottom: 1px solid var(--princeton-border);
+            padding: 8px 12px;
+            font-weight: bold;
+            color: var(--princeton-dark-grey);
+        }
+
+        .content-block-body {
+            padding: 12px;
+        }
+
+        /* Form Elements */
+        .search-bar {
+            width: 100%;
+            padding: 8px 12px;
+            border: 1px solid var(--princeton-border);
+            border-radius: 0;
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+
+        .search-bar:focus {
+            border-color: var(--princeton-orange);
+            outline: none;
+        }
+
+        .button {
+            background-color: var(--princeton-light-grey);
+            border: 1px solid var(--princeton-border);
+            color: var(--princeton-black);
+            padding: 8px 16px;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 14px;
+            cursor: pointer;
+            margin-right: 5px;
+            margin-bottom: 5px;
+        }
+
+        .button:hover {
+            background-color: #e5e5e5;
+        }
+
+        .button-primary {
+            background-color: var(--princeton-orange);
+            color: var(--princeton-white);
+            border-color: var(--princeton-black);
+            font-weight: bold;
+        }
+
+        .button-primary:hover {
+            background-color: #e67e00;
+        }
+
+        /* Event Items */
+        .event-item {
+            border: 1px solid var(--princeton-border);
+            margin-bottom: 10px;
+            padding: 12px;
+            background-color: var(--princeton-white);
+            border-left: 3px solid var(--princeton-orange);
+            padding-left: 15px;
+        }
+
+        .event-item:hover {
+            background-color: #fff8f0;
+        }
+
+        .event-title {
+            font-weight: bold;
+            color: var(--princeton-black);
+            margin-bottom: 5px;
+        }
+
+        .event-title a {
+            color: var(--princeton-black);
+            text-decoration: none;
+        }
+
+        .event-title a:hover {
+            color: var(--princeton-orange);
+            text-decoration: underline;
+        }
+
+        .event-meta {
+            color: var(--princeton-medium-grey);
+            font-size: 12px;
+            margin-bottom: 5px;
+        }
+
+        .event-description {
+            color: var(--princeton-dark-grey);
+            margin-bottom: 5px;
+        }
+
+        .event-location {
+            color: var(--princeton-medium-grey);
+            font-style: italic;
+        }
+
+        /* Department Filter */
+        .department-item {
+            margin-bottom: 5px;
+        }
+
+        .department-item label {
+            display: block;
+            padding: 5px 8px;
+            cursor: pointer;
+            border-radius: 3px;
+            transition: background-color 0.2s ease;
+        }
+
+        .department-item label:hover {
+            background-color: #fff8f0;
+        }
+
+        .department-item input[type="checkbox"] {
+            margin-right: 8px;
+        }
+
+        .department-item input[type="checkbox"]:checked + span {
+            color: var(--princeton-orange);
+            font-weight: bold;
+        }
+
+        /* Loading and Error States */
+        .loading {
+            color: var(--princeton-medium-grey);
+            font-style: italic;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .error {
+            background-color: #ffe6e6;
+            border: 1px solid #ff9999;
+            color: #cc0000;
+            padding: 10px;
+            margin: 10px 0;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--princeton-black);
+            color: var(--princeton-white);
+            padding: 20px 0;
+            margin-top: 40px;
+            text-align: center;
+            font-size: 12px;
+        }
+
+        .footer a {
+            color: var(--princeton-orange);
+        }
+
+        .footer a:hover {
+            color: #ffa500;
+        }
+
+        /* Academic Note */
+        .academic-note {
+            background-color: #f9f9f9;
+            border-left: 4px solid var(--princeton-orange);
+            padding: 15px;
+            margin: 15px 0;
+            font-style: italic;
+            color: var(--princeton-dark-grey);
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .two-column {
+                flex-direction: column;
+            }
+
+            .sidebar {
+                min-width: auto;
+            }
+
+            .header h1 {
+                font-size: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <h1>Princeton Academic Events</h1>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="two-column">
+            <!-- Main Content -->
+            <div class="main-content">
+                <div class="content-block">
+                    <div class="content-block-header">Search Events</div>
+                    <div class="content-block-body">
+                        <input
+                            type="text"
+                            id="searchInput"
+                            class="search-bar"
+                            placeholder="Search events by title, speaker, or description..."
+                            onkeyup="filterEvents()"
+                        >
+                        <button class="button" onclick="clearSearch()">Clear Search</button>
+                    </div>
+                </div>
+
+                <div id="loading" class="loading">Loading events...</div>
+                <div id="error" class="error" style="display: none;"></div>
+
+                <div id="eventsContainer">
+                    <!-- Events will be loaded here -->
+                </div>
+
+                <div class="content-block">
+                    <div class="content-block-body" style="text-align: center;">
+                        <a href="#" class="button button-primary" style="font-size: 16px; padding: 12px 24px;">
+                            📅 Export to Calendar (Coming Soon)
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div class="sidebar">
+                <div class="content-block">
+                    <div class="content-block-header">Filter by Department</div>
+                    <div class="content-block-body">
+                        <div id="departmentsContainer">
+                            <!-- Departments will be loaded here -->
+                        </div>
+                        <button class="button" onclick="selectAllDepartments()" style="width: 100%; margin-top: 10px;">Select All</button>
+                        <button class="button" onclick="clearAllDepartments()" style="width: 100%; margin-top: 5px;">Clear All</button>
+                    </div>
+                </div>
+
+                <div class="content-block">
+                    <div class="content-block-header">View Options</div>
+                    <div class="content-block-body">
+                        <button class="button" onclick="showListView()" style="width: 100%; margin-bottom: 5px;">📋 List View</button>
+                        <button class="button" onclick="showCalendarView()" style="width: 100%; margin-bottom: 5px;">📅 Calendar View (Coming Soon)</button>
+                        <button class="button" onclick="clearFilters()" style="width: 100%;">🔍 Clear All Filters</button>
+                    </div>
+                </div>
+
+                <div class="academic-note">
+                    <strong>About Princeton Academic Events</strong><br />
+                    This site aggregates academic events from departments across Princeton University.
+                    Events are updated weekly and include seminars, lectures, workshops, and conferences.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <p>
+                Princeton Academic Events |
+                <a href="https://www.princeton.edu" target="_blank" rel="noopener noreferrer">
+                    Princeton University
+                </a> |
+                Last updated: <span id="lastUpdated">Loading...</span>
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        let allEvents = [];
+        let allDepartments = [];
+        let selectedDepartments = [];
+        let searchQuery = '';
+
+        // Load data on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadData();
+        });
+
+        async function loadData() {
+            try {
+                showLoading();
+
+                // Load events and departments in parallel
+                const [eventsResponse, departmentsResponse, metaResponse] = await Promise.all([
+                    fetch('/data/events.json'),
+                    fetch('/data/departments.json'),
+                    fetch('/data/meta.json')
+                ]);
+
+                if (!eventsResponse.ok || !departmentsResponse.ok || !metaResponse.ok) {
+                    throw new Error('Failed to load data');
+                }
+
+                const eventsData = await eventsResponse.json();
+                const departmentsData = await departmentsResponse.json();
+                const metaData = await metaResponse.json();
+
+                allEvents = eventsData.events || [];
+                allDepartments = departmentsData.departments || [];
+
+                // Update last updated date
+                document.getElementById('lastUpdated').textContent =
+                    new Date(metaData.stats.last_updated).toLocaleDateString();
+
+                renderDepartments();
+                renderEvents();
+                hideLoading();
+
+            } catch (error) {
+                console.error('Error loading data:', error);
+                showError('Failed to load events. Please try again later.');
+                hideLoading();
+            }
+        }
+
+        function showLoading() {
+            document.getElementById('loading').style.display = 'block';
+        }
+
+        function hideLoading() {
+            document.getElementById('loading').style.display = 'none';
+        }
+
+        function showError(message) {
+            const errorDiv = document.getElementById('error');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+        }
+
+        function renderDepartments() {
+            const container = document.getElementById('departmentsContainer');
+            container.innerHTML = '';
+
+            allDepartments.forEach(dept => {
+                const div = document.createElement('div');
+                div.className = 'department-item';
+
+                const label = document.createElement('label');
+
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.value = dept.name;
+                checkbox.checked = selectedDepartments.includes(dept.name);
+                checkbox.onchange = function() {
+                    updateSelectedDepartments();
+                    filterEvents();
+                };
+
+                const span = document.createElement('span');
+                span.textContent = `${dept.name} (${dept.event_count})`;
+
+                label.appendChild(checkbox);
+                label.appendChild(span);
+                div.appendChild(label);
+                container.appendChild(div);
+            });
+        }
+
+        function renderEvents() {
+            const container = document.getElementById('eventsContainer');
+            container.innerHTML = '';
+
+            const filteredEvents = getFilteredEvents();
+
+            if (filteredEvents.length === 0) {
+                container.innerHTML = '<p style="padding: 20px; text-align: center; color: #666;">No events found matching your criteria.</p>';
+                return;
+            }
+
+            filteredEvents.forEach(event => {
+                const eventDiv = document.createElement('div');
+                eventDiv.className = 'event-item';
+
+                const titleDiv = document.createElement('div');
+                titleDiv.className = 'event-title';
+
+                const titleLink = document.createElement('a');
+                titleLink.href = event.source_url;
+                titleLink.target = '_blank';
+                titleLink.rel = 'noopener noreferrer';
+                titleLink.textContent = event.title;
+
+                titleDiv.appendChild(titleLink);
+
+                const metaDiv = document.createElement('div');
+                metaDiv.className = 'event-meta';
+
+                const dateStr = event.start_date ? new Date(event.start_date).toLocaleDateString() : 'TBD';
+                const timeStr = event.time || 'TBD';
+                const deptStr = event.department || 'Unknown';
+
+                metaDiv.textContent = `${dateStr} • ${timeStr} • ${deptStr}`;
+
+                const descDiv = document.createElement('div');
+                descDiv.className = 'event-description';
+                descDiv.textContent = event.description || 'No description available.';
+
+                if (event.location && event.location !== 'Princeton University') {
+                    const locationDiv = document.createElement('div');
+                    locationDiv.className = 'event-location';
+                    locationDiv.textContent = `📍 ${event.location}`;
+                    eventDiv.appendChild(locationDiv);
+                }
+
+                eventDiv.appendChild(titleDiv);
+                eventDiv.appendChild(metaDiv);
+                eventDiv.appendChild(descDiv);
+
+                container.appendChild(eventDiv);
+            });
+        }
+
+        function getFilteredEvents() {
+            return allEvents.filter(event => {
+                // Department filter
+                if (selectedDepartments.length > 0) {
+                    if (!selectedDepartments.includes(event.department)) {
+                        return false;
+                    }
+                }
+
+                // Search filter
+                if (searchQuery.trim()) {
+                    const query = searchQuery.toLowerCase();
+                    const searchableText = [
+                        event.title,
+                        event.description,
+                        event.speaker,
+                        event.department,
+                        event.location
+                    ].join(' ').toLowerCase();
+
+                    if (!searchableText.includes(query)) {
+                        return false;
+                    }
+                }
+
+                return true;
+            });
+        }
+
+        function updateSelectedDepartments() {
+            selectedDepartments = Array.from(document.querySelectorAll('#departmentsContainer input[type="checkbox"]:checked'))
+                .map(checkbox => checkbox.value);
+        }
+
+        function filterEvents() {
+            searchQuery = document.getElementById('searchInput').value;
+            renderEvents();
+        }
+
+        function clearSearch() {
+            document.getElementById('searchInput').value = '';
+            searchQuery = '';
+            filterEvents();
+        }
+
+        function selectAllDepartments() {
+            document.querySelectorAll('#departmentsContainer input[type="checkbox"]').forEach(checkbox => {
+                checkbox.checked = true;
+            });
+            updateSelectedDepartments();
+            filterEvents();
+        }
+
+        function clearAllDepartments() {
+            document.querySelectorAll('#departmentsContainer input[type="checkbox"]').forEach(checkbox => {
+                checkbox.checked = false;
+            });
+            updateSelectedDepartments();
+            filterEvents();
+        }
+
+        function clearFilters() {
+            clearSearch();
+            clearAllDepartments();
+        }
+
+        function showListView() {
+            // Already in list view
+            alert('Already showing list view');
+        }
+
+        function showCalendarView() {
+            alert('Calendar view coming soon!');
+        }
+    </script>
+</body>
+</html>

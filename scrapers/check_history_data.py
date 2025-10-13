@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 import json
+import sys
+
+# Set encoding for stdout to handle Unicode
+sys.stdout.reconfigure(encoding='utf-8')
 
 with open('all_princeton_academic_events.json', 'r', encoding='utf-8') as f:
     data = json.load(f)
@@ -17,12 +21,14 @@ print(f'\nDepartments found: {sorted(departments)}')
 print('\nFirst few events:')
 for i, event in enumerate(data['events'][:5]):
     print(f'\nEvent {i+1}:')
-    print(f'  Title: {event.get("title", "NULL")}')
+    title = event.get("title", "NULL")
+    print(f'  Title: {title}')
     print(f'  Department: {event.get("department", "NULL")}')
-    print(f'  Description: {event.get("description", "NULL")[:50]}...')
+    desc = event.get("description", "NULL")
+    print(f'  Description: {desc[:50]}...')
     print(f'  Date: {event.get("start_date", "NULL")}')
     print(f'  Location: {event.get("location", "NULL")}')
-    print(f'  Has description: {bool(event.get("description"))}')
+    print(f'  Has description: {bool(desc)}')
     print(f'  Has date: {bool(event.get("start_date"))}')
     print(f'  Has location: {bool(event.get("location"))}')
 

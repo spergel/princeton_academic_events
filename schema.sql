@@ -6,7 +6,7 @@ CREATE TABLE IF NOT EXISTS events (
     event_id TEXT NOT NULL UNIQUE, -- Our generated unique ID
     title TEXT NOT NULL,
     description TEXT,
-    start_date DATE, -- Changed from 'date' to 'start_date' to match our data
+    date DATE, -- Date field (matches worker code)
     time TEXT,
     location TEXT,
     department TEXT NOT NULL, -- Direct department name
@@ -17,7 +17,7 @@ CREATE TABLE IF NOT EXISTS events (
 
 -- Create indexes for better performance
 CREATE INDEX IF NOT EXISTS idx_events_department ON events(department);
-CREATE INDEX IF NOT EXISTS idx_events_start_date ON events(start_date);
+CREATE INDEX IF NOT EXISTS idx_events_date ON events(date);
 CREATE INDEX IF NOT EXISTS idx_events_title ON events(title);
 
 -- Meta-categories mapping (stored as a view for easy querying)

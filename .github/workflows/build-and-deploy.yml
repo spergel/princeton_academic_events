@@ -1,4 +1,4 @@
-name: Weekly Scrape and Build Princeton Academic Events
+name: Weekly Scrape and Deploy Princeton Academic Events
 
 on:
   schedule:
@@ -13,56 +13,46 @@ on:
       - 'scripts/**'
 
 jobs:
-  scrape-and-build:
+  scrape-and-deploy:
     runs-on: ubuntu-latest
-    
+
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4
-      
+
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
         python-version: '3.11'
-        
+
     - name: Install Python dependencies
       run: |
         python -m pip install --upgrade pip
         pip install -r requirements.txt
-        
+
     - name: Install jq for JSON processing
       run: |
         sudo apt-get update
         sudo apt-get install -y jq
-        
-    - name: Set up Node.js
-      uses: actions/setup-node@v4
-      with:
-        node-version: '18'
-        cache: 'npm'
-        cache-dependency-path: frontend/package-lock.json
-        
-    - name: Install frontend dependencies
-      run: |
-        cd frontend
-        npm ci
-        
+
     - name: Run scrapers and aggregate data
       run: |
         echo "🕷️ Running Python scrapers..."
         cd scrapers
         python combine_cloudscraper_events.py
-        
-    - name: Copy scraped data to frontend
+
+    - name: Prepare static site files
       run: |
-        echo "📁 Copying scraped data to frontend..."
-        mkdir -p frontend/public/data
-        cp scrapers/all_princeton_academic_events.json frontend/public/data/events.json
-        
+        echo "📁 Preparing static site files..."
+        mkdir -p frontend/data
+
+        # Copy the scraped data
+        cp scrapers/all_princeton_academic_events.json frontend/data/events.json
+
         # Create departments.json from events data
         echo "📊 Creating departments data..."
-        jq '[.events | group_by(.department) | map({name: .[0].department, meta_category: .[0].meta_category, event_count: length, is_selected: false}) | sort_by(.name)]' scrapers/all_princeton_academic_events.json > frontend/public/data/departments.json
-        
+        jq '[.events | group_by(.department) | map({name: .[0].department, meta_category: .[0].meta_category, event_count: length, is_selected: false}) | sort_by(.name)]' scrapers/all_princeton_academic_events.json > frontend/data/departments.json
+
         # Create a comprehensive meta file
         echo "📋 Creating meta data..."
         jq '{
@@ -81,41 +71,29 @@ jobs:
             data_source: "Princeton University Department Websites",
             update_frequency: "Weekly"
           }
-        }' scrapers/all_princeton_academic_events.json > frontend/public/data/meta.json
-        
-    - name: Build Next.js static site
-      run: |
-        cd frontend
-        npm run build
-        
-    - name: Upload build artifacts
-      uses: actions/upload-artifact@v4
-      with:
-        name: static-site
-        path: frontend/out/
-        retention-days: 7
-        
+        }' scrapers/all_princeton_academic_events.json > frontend/data/meta.json
+
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/main'
       uses: peaceiris/actions-gh-pages@v3
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./frontend/out
-        
+        publish_dir: ./frontend
+
   notify:
-    needs: scrape-and-build
+    needs: scrape-and-deploy
     runs-on: ubuntu-latest
     if: always()
-    
+
     steps:
     - name: Notify on success
-      if: needs.scrape-and-build.result == 'success'
+      if: needs.scrape-and-deploy.result == 'success'
       run: |
         echo "✅ Princeton Academic Events site built and deployed successfully!"
-        echo "🌐 Site updated with latest events data"
-        
+        echo "🌐 Site updated with latest events data on GitHub Pages"
+
     - name: Notify on failure
-      if: needs.scrape-and-build.result == 'failure'
+      if: needs.scrape-and-deploy.result == 'failure'
       run: |
         echo "❌ Princeton Academic Events build failed!"
         echo "🔍 Check the logs for details"
