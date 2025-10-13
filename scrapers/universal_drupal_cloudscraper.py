@@ -66,26 +66,11 @@ class UniversalDrupalCloudScraper:
                                  soup.find_all('div', class_='event-item') or \
                                  soup.find_all('article', class_='event') or \
                                  soup.find_all('div', class_='views-row') or \
-                                 soup.find_all('li', class_='event')
+                                 soup.find_all('li', class_='event') or \
+                                 soup.find_all('article', class_=lambda x: x and 'node' in x) or \
+                                 soup.find_all('div', class_=lambda x: x and 'event' in x.lower())
 
                 print(f"    Found {len(event_containers)} events on page {page}")
-
-                # Debug: if no events found, check for alternative structures
-                if len(event_containers) == 0:
-                    # Look for any elements that might contain events
-                    possible_containers = [
-                        soup.find_all('div', class_=lambda x: x and 'event' in x.lower()),
-                        soup.find_all('article'),
-                        soup.find_all('li', class_=lambda x: x and ('item' in x.lower() or 'event' in x.lower())),
-                        soup.find_all('div', class_=lambda x: x and ('card' in x.lower() or 'item' in x.lower()))
-                    ]
-
-                    for i, containers in enumerate(possible_containers):
-                        if containers and len(containers) > 0:
-                            print(f"    Found {len(containers)} possible event containers (type {i+1})")
-                            if len(containers) <= 5:  # Only show if reasonable number
-                                for j, container in enumerate(containers[:3]):
-                                    print(f"      Container {j+1}: {container.get('class', 'no-class')} - {container.name}")
 
                 if not event_containers:
                     print(f"    No events found on page {page}")
@@ -153,14 +138,15 @@ class UniversalDrupalCloudScraper:
         if title_elem:
             title_link = title_elem.find('a')
             if title_link:
-                event['title'] = title_link.get_text(strip=True)
+                event['title'] = title_link.get_text(strip=True).encode('ascii', 'ignore').decode('ascii')
                 href = title_link.get('href')
                 if href:
                     if href.startswith('http'):
                         event['source_url'] = href
                     else:
                         event['source_url'] = self.base_url + href
-                    event['id'] = f"{self.department_name.lower().replace(' ', '_')}_{datetime.now().strftime('%Y%m%d')}_{event['title'][:20].replace(' ', '_')}"
+                    safe_title = event['title'][:20].replace(' ', '_').encode('ascii', 'ignore').decode('ascii')
+                    event['id'] = f"{self.department_name.lower().replace(' ', '_')}_{datetime.now().strftime('%Y%m%d')}_{safe_title}"
         
         # Extract date from date badge
         date_badge = container.find('div', class_='date-badge')
@@ -273,7 +259,7 @@ class UniversalDrupalCloudScraper:
             if not event.get('source_url'):
                 return None
             
-            print(f"    Fetching details for: {event['title'][:50]}...")
+            print(f"    Fetching details for: {event['title'][:50].encode('ascii', 'ignore').decode('ascii')}...")
             response = self.scraper.get(event['source_url'], timeout=30)
             response.raise_for_status()
 
