@@ -12,6 +12,11 @@ on:
       - 'frontend/**'
       - 'scripts/**'
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   scrape-and-deploy:
     runs-on: ubuntu-latest

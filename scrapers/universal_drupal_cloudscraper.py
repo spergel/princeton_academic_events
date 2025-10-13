@@ -56,8 +56,10 @@ class UniversalDrupalCloudScraper:
                 
                 response = self.scraper.get(url, timeout=30)
                 response.raise_for_status()
-                
-                soup = BeautifulSoup(response.content, 'html.parser')
+
+                # Handle encoding issues
+                response.encoding = response.apparent_encoding or 'utf-8'
+                soup = BeautifulSoup(response.content.decode(response.encoding, errors='replace'), 'html.parser')
                 
                 # Find event containers - Drupal uses content-list-item class
                 event_containers = soup.find_all('div', class_='content-list-item')
@@ -253,7 +255,9 @@ class UniversalDrupalCloudScraper:
             response = self.scraper.get(event['source_url'], timeout=30)
             response.raise_for_status()
 
-            soup = BeautifulSoup(response.content, 'html.parser')
+            # Handle encoding issues
+            response.encoding = response.apparent_encoding or 'utf-8'
+            soup = BeautifulSoup(response.content.decode(response.encoding, errors='replace'), 'html.parser')
             details = {}
 
             # Extract detailed description
