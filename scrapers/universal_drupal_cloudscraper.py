@@ -61,9 +61,31 @@ class UniversalDrupalCloudScraper:
                 response.encoding = response.apparent_encoding or 'utf-8'
                 soup = BeautifulSoup(response.content.decode(response.encoding, errors='replace'), 'html.parser')
                 
-                # Find event containers - Drupal uses content-list-item class
-                event_containers = soup.find_all('div', class_='content-list-item')
+                # Find event containers - try multiple selectors for different Drupal versions
+                event_containers = soup.find_all('div', class_='content-list-item') or \
+                                 soup.find_all('div', class_='event-item') or \
+                                 soup.find_all('article', class_='event') or \
+                                 soup.find_all('div', class_='views-row') or \
+                                 soup.find_all('li', class_='event')
+
                 print(f"    Found {len(event_containers)} events on page {page}")
+
+                # Debug: if no events found, check for alternative structures
+                if len(event_containers) == 0:
+                    # Look for any elements that might contain events
+                    possible_containers = [
+                        soup.find_all('div', class_=lambda x: x and 'event' in x.lower()),
+                        soup.find_all('article'),
+                        soup.find_all('li', class_=lambda x: x and ('item' in x.lower() or 'event' in x.lower())),
+                        soup.find_all('div', class_=lambda x: x and ('card' in x.lower() or 'item' in x.lower()))
+                    ]
+
+                    for i, containers in enumerate(possible_containers):
+                        if containers and len(containers) > 0:
+                            print(f"    Found {len(containers)} possible event containers (type {i+1})")
+                            if len(containers) <= 5:  # Only show if reasonable number
+                                for j, container in enumerate(containers[:3]):
+                                    print(f"      Container {j+1}: {container.get('class', 'no-class')} - {container.name}")
 
                 if not event_containers:
                     print(f"    No events found on page {page}")
