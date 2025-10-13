@@ -17,7 +17,7 @@
 2. Go to **DNS settings**
 3. **Add CNAME record**:
    - **Name**: `www` (or your subdomain)
-   - **Target**: `jsper.github.io`
+   - **Target**: `spergel.github.io`
    - **TTL**: Auto
 
 4. **Page Rules** (optional for performance):
@@ -26,7 +26,7 @@
    - **Edge Cache TTL**: 1 hour
 
 ## Step 3: Custom Domain (Optional)
-To use a custom domain instead of `jsper.github.io`:
+To use a custom domain instead of `spergel.github.io`:
 
 1. In GitHub Pages settings:
    - **Custom domain**: `events.princeton.edu` (or your domain)

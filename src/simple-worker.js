@@ -112,9 +112,9 @@ async function handleRefresh(request, env, corsHeaders) {
 // Fetch latest data from GitHub repository and store in database
 async function fetchAndStoreLatestData(env) {
   // GitHub repository information (update these with your actual repo details)
-  const owner = 'jsper'; // Replace with your GitHub username
+  const owner = 'spergel'; // Replace with your GitHub username
   const repo = 'princeton_academic_events'; // Replace with your repo name
-  const branch = 'main'; // Or 'master' depending on your default branch
+  const branch = 'master'; // Or 'main' depending on your default branch
 
   // Fetch events data from GitHub
   const eventsUrl = `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/scrapers/all_princeton_academic_events.json`;
