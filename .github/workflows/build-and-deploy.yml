@@ -73,15 +73,16 @@ jobs:
           }
         }' scrapers/all_princeton_academic_events.json > frontend/data/meta.json
 
+    - name: Upload Pages Artifact
+      if: github.ref == 'refs/heads/master'
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./frontend
+
     - name: Deploy to GitHub Pages
       if: github.ref == 'refs/heads/master'
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./frontend
-        allow_empty_commit: false
-        keep_files: false
-        force_orphan: true
+      id: deployment
+      uses: actions/deploy-pages@v4
 
   notify:
     needs: scrape-and-deploy
