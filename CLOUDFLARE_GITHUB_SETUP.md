@@ -33,11 +33,11 @@ To use a custom domain instead of `spergel.github.io`:
    - **Save**
 
 2. In Cloudflare DNS:
-   - **Add CNAME**: `events.princeton.edu` → `jsper.github.io`
+   - **Add CNAME**: `events.princeton.edu` → `spergel.github.io`
 
 ## URLs After Setup
 
-- **GitHub Pages**: `https://jsper.github.io/princeton_academic_events`
+- **GitHub Pages**: `https://spergel.github.io/princeton_academic_events`
 - **Custom Domain + Cloudflare**: `https://events.princeton.edu` (if you set up custom domain)
 
 ## Benefits
@@ -50,6 +50,6 @@ To use a custom domain instead of `spergel.github.io`:
 ## Testing
 
 After setup, your site will be available at:
-`https://jsper.github.io/princeton_academic_events`
+`https://spergel.github.io/princeton_academic_events`
 
 With Cloudflare, it will be even faster worldwide!
