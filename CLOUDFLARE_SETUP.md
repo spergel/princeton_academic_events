@@ -20,9 +20,11 @@ Go to [cloudflare.com](https://cloudflare.com) and create a free account.
 4. Connect your GitHub repository: `princeton_academic_events`
 5. Configure build settings:
    - **Production branch**: `main`
-   - **Build command**: (leave empty - static HTML)
+   - **Build command**: (leave empty - static HTML + Functions)
    - **Build output directory**: `frontend`
    - **Root directory**: `/` (leave as default)
+
+**Note**: Functions will be automatically detected from the `functions/` directory.
 
 ### 3. Enable Functions
 Functions are automatically enabled when the `functions/` directory is detected.
