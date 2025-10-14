@@ -1,16 +1,13 @@
 {
-  "name": "princeton-academic-events-api",
-  "version": "2.0.0",
-  "description": "Cloudflare Worker API for Princeton Academic Events",
-  "main": "src/simple-worker.js",
+  "name": "princeton-academic-events",
+  "version": "3.0.0",
+  "description": "Princeton Academic Events - Cloudflare Pages + Functions",
   "scripts": {
-    "dev": "wrangler dev",
-    "deploy": "wrangler deploy",
-    "db:init": "wrangler d1 execute princeton-academic-events-db --file=schema.sql",
-    "db:local": "wrangler d1 execute princeton-academic-events-db --local --file=schema.sql",
+    "dev": "wrangler pages dev frontend",
+    "deploy": "wrangler pages deploy frontend",
     "test": "echo \"Tests would go here\""
   },
-  "keywords": ["cloudflare", "worker", "api", "princeton", "events"],
+  "keywords": ["cloudflare", "pages", "functions", "api", "princeton", "events"],
   "author": "Princeton Academic Events Team",
   "license": "MIT",
   "devDependencies": {

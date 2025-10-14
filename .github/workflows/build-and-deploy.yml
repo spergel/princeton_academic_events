@@ -10,12 +10,11 @@ on:
     paths:
       - 'scrapers/**'
       - 'frontend/**'
+      - 'functions/**'
       - 'scripts/**'
 
 permissions:
   contents: read
-  pages: write
-  id-token: write
 
 jobs:
   scrape-and-deploy:
@@ -78,16 +77,14 @@ jobs:
           }
         }' scrapers/all_princeton_academic_events.json > frontend/data/meta.json
 
-    - name: Upload Pages Artifact
-      if: github.ref == 'refs/heads/master'
-      uses: actions/upload-pages-artifact@v3
+    - name: Deploy to Cloudflare Pages
+      uses: cloudflare/pages-action@v1
       with:
-        path: ./frontend
-
-    - name: Deploy to GitHub Pages
-      if: github.ref == 'refs/heads/master'
-      id: deployment
-      uses: actions/deploy-pages@v4
+        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        projectName: princeton-academic-events
+        directory: ./frontend
+        gitHubToken: ${{ secrets.GITHUB_TOKEN }}
 
   notify:
     needs: scrape-and-deploy
@@ -99,7 +96,7 @@ jobs:
       if: needs.scrape-and-deploy.result == 'success'
       run: |
         echo "✅ Princeton Academic Events site built and deployed successfully!"
-        echo "🌐 Site updated with latest events data on GitHub Pages"
+        echo "🌐 Site updated with latest events data on Cloudflare Pages"
 
     - name: Notify on failure
       if: needs.scrape-and-deploy.result == 'failure'

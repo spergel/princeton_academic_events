@@ -1,17 +1,14 @@
+# Cloudflare Pages Configuration
 name = "princeton-academic-events"
-main = "src/simple-worker.js"
 compatibility_date = "2024-01-01"
 compatibility_flags = ["nodejs_compat"]
+
+# Pages Functions configuration
+pages_build_output_dir = "frontend"
 
 # Environment variables
 [vars]
 # Add any environment variables here if needed
-
-# D1 Database binding
-[[d1_databases]]
-binding = "DB"
-database_name = "princeton-academic-events-db"
-database_id = "your-database-id-here"  # Replace with your actual D1 database ID
 
 # Optional: Configure for production deployment
 [build]

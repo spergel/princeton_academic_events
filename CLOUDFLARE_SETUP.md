@@ -1,4 +1,12 @@
-# Cloudflare Pages Setup for Princeton Academic Events
+# Cloudflare Pages + Functions Setup for Princeton Academic Events
+
+## 🏗️ Architecture Overview
+
+This project uses **Cloudflare Pages + Functions** for a unified full-stack deployment:
+
+- **Cloudflare Pages**: Serves the static HTML frontend
+- **Cloudflare Pages Functions**: Provides API endpoints for event data
+- **GitHub Actions**: Runs weekly scrapers and deploys updates
 
 ## 🚀 Deploy to Cloudflare Pages
 
@@ -12,74 +20,107 @@ Go to [cloudflare.com](https://cloudflare.com) and create a free account.
 4. Connect your GitHub repository: `princeton_academic_events`
 5. Configure build settings:
    - **Production branch**: `main`
-   - **Build command**: (leave empty - we're using static HTML)
+   - **Build command**: (leave empty - static HTML)
    - **Build output directory**: `frontend`
    - **Root directory**: `/` (leave as default)
 
-### 3. Set up Environment Variables
-In your GitHub repository settings, add these secrets:
+### 3. Enable Functions
+Functions are automatically enabled when the `functions/` directory is detected.
 
-1. **CLOUDFLARE_API_TOKEN**
-   - Go to Cloudflare Dashboard → My Profile → API Tokens
-   - Create a new token with "Edit" permissions for Cloudflare Pages
+### 4. Set up Environment Variables (Optional)
+If you need environment variables for functions, add them in your Pages project settings.
 
-2. **CLOUDFLARE_ACCOUNT_ID**
-   - In Cloudflare Dashboard, go to any domain
-   - The Account ID is shown in the right sidebar
-
-### 4. Project Name
-The GitHub workflow is configured for project name: `princeton-academic-events`
-
-Make sure your Cloudflare Pages project name matches this exactly.
-
-### 5. Custom Domain (Optional)
-To use a custom domain:
-1. Go to your Cloudflare Pages project
-2. Click "Custom domains"
-3. Add your domain (e.g., `events.princeton.edu`)
-4. Configure DNS records as instructed
+### 5. Project Name
+The project name should be: `princeton-academic-events`
 
 ## 🔄 Weekly Updates
 
 The site automatically updates every Sunday at 2 AM UTC through GitHub Actions:
 - Scrapes fresh data from Princeton departments
-- Builds the static HTML site
-- Deploys to Cloudflare Pages
+- Generates JSON data files
+- Deploys frontend + functions to Cloudflare Pages
 
-## 📊 Site Structure
+## 📁 Project Structure
 
 ```
-frontend/
-├── index.html          # Main page with search/filter functionality
-└── data/
-    ├── events.json     # All scraped events
-    ├── departments.json # Department filter data
-    └── meta.json       # Site metadata and stats
+princeton_academic_events/
+├── CLOUDFLARE_SETUP.md     # This setup guide
+├── wrangler.toml          # Cloudflare configuration
+├── package.json           # Dependencies for functions
+├── functions/             # Cloudflare Pages Functions (API)
+│   └── api/
+│       ├── events.js      # GET /api/events
+│       ├── departments.js # GET /api/departments
+│       └── meta.js        # GET /api/meta
+├── frontend/              # Static HTML site
+│   ├── index.html         # Main page
+│   ├── data/              # Generated data (weekly)
+│   │   ├── events.json
+│   │   ├── departments.json
+│   │   └── meta.json
+│   └── public/            # Static assets
+└── scrapers/              # Python scrapers (GitHub Actions)
+    ├── combine_cloudscraper_events.py
+    └── [individual scrapers...]
 ```
 
-## 🎯 Features
+## 🎯 API Endpoints
 
-- **Search**: Full-text search across titles, descriptions, speakers
-- **Department Filter**: Filter by academic departments
-- **Responsive Design**: Works on mobile and desktop
-- **Weekly Updates**: Fresh data every Sunday
-- **Fast Loading**: Static HTML with no build step
+Your frontend can fetch data from these endpoints:
+
+- **GET `/api/events`** - Returns all events data
+- **GET `/api/departments`** - Returns department filter data
+- **GET `/api/meta`** - Returns site metadata and statistics
+
+Example API usage:
+```javascript
+// Fetch events
+const response = await fetch('/api/events');
+const events = await response.json();
+
+// Fetch departments
+const deptResponse = await fetch('/api/departments');
+const departments = await deptResponse.json();
+```
 
 ## 🛠️ Local Development
 
-To test locally:
+### Test the Frontend
 ```bash
 cd frontend
 python -m http.server 8000
 # Visit http://localhost:8000
 ```
 
-## 📈 Performance Benefits
+### Test Functions Locally
+```bash
+# Install Wrangler CLI
+npm install -g wrangler
 
-Cloudflare Pages provides:
+# Login to Cloudflare
+wrangler auth login
+
+# Run functions locally
+wrangler pages dev frontend
+# Visit http://localhost:8788
+```
+
+## 📊 Features
+
+- **Search**: Full-text search across titles, descriptions, speakers
+- **Department Filter**: Filter by academic departments
+- **Responsive Design**: Works on mobile and desktop
+- **Weekly Updates**: Fresh data every Sunday
+- **REST API**: Clean API endpoints for data access
+- **Fast Loading**: Static HTML + global CDN
+
+## 🚀 Performance Benefits
+
+Cloudflare Pages + Functions provides:
 - **Global CDN**: Fast loading worldwide
 - **Free SSL**: Automatic HTTPS
 - **Auto-scaling**: Handles traffic spikes
+- **Serverless API**: No server management
 - **Analytics**: Built-in traffic stats
 - **Generous free tier**: 100 GB bandwidth/month</content>
 </xai:function_call"> 

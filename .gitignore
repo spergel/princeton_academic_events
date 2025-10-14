@@ -94,6 +94,11 @@ venv.bak/
 .wrangler/
 wrangler.toml.bak
 
+# Generated data files (created by GitHub Actions)
+all_princeton_academic_events.json
+frontend/data/
+scrapers/all_princeton_academic_events.json
+
 # OS
 .DS_Store
 Thumbs.db
