@@ -284,18 +284,345 @@
             color: var(--princeton-dark-grey);
         }
 
+        /* Calendar Styles */
+        .calendar-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding: 0 10px;
+        }
+
+        .calendar-month-year {
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--princeton-black);
+        }
+
+        .calendar-nav {
+            display: flex;
+            gap: 5px;
+        }
+
+        .calendar-nav button {
+            background-color: var(--princeton-light-grey);
+            border: 1px solid var(--princeton-border);
+            color: var(--princeton-black);
+            padding: 5px 10px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .calendar-nav button:hover {
+            background-color: #e5e5e5;
+        }
+
+        .calendar-grid {
+            display: grid;
+            grid-template-columns: repeat(7, 1fr);
+            gap: 1px;
+            background-color: var(--princeton-border);
+            border: 1px solid var(--princeton-border);
+        }
+
+        .calendar-day-header {
+            background-color: var(--princeton-light-grey);
+            padding: 8px 4px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 12px;
+            color: var(--princeton-dark-grey);
+        }
+
+        .calendar-day {
+            background-color: var(--princeton-white);
+            min-height: 80px;
+            padding: 4px;
+            position: relative;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+        }
+
+        .calendar-day:hover {
+            background-color: #fff8f0;
+        }
+
+        .calendar-day.other-month {
+            background-color: #f9f9f9;
+            color: var(--princeton-medium-grey);
+        }
+
+        .calendar-day.today {
+            background-color: #fff2e6;
+            border: 2px solid var(--princeton-orange);
+        }
+
+        .calendar-day-number {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 2px;
+            color: var(--princeton-dark-grey);
+        }
+
+        .calendar-day.other-month .calendar-day-number {
+            color: var(--princeton-medium-grey);
+        }
+
+        .calendar-event {
+            background-color: var(--princeton-orange);
+            color: var(--princeton-white);
+            font-size: 11px;
+            padding: 2px 4px;
+            margin-bottom: 2px;
+            border-radius: 2px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            cursor: pointer;
+        }
+
+        .calendar-event:hover {
+            background-color: #e67e00;
+        }
+
+        .calendar-event-count {
+            position: absolute;
+            top: 2px;
+            right: 2px;
+            background-color: var(--princeton-black);
+            color: var(--princeton-white);
+            font-size: 10px;
+            padding: 1px 3px;
+            border-radius: 8px;
+            min-width: 16px;
+            text-align: center;
+        }
+
+        /* Event popup/modal */
+        .event-popup {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: var(--princeton-white);
+            border: 2px solid var(--princeton-border);
+            border-radius: 4px;
+            padding: 20px;
+            max-width: 500px;
+            max-height: 80vh;
+            overflow-y: auto;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            display: none;
+        }
+
+        .event-popup.active {
+            display: block;
+        }
+
+        .event-popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(0, 0, 0, 0.5);
+            z-index: 999;
+            display: none;
+        }
+
+        .event-popup-overlay.active {
+            display: block;
+        }
+
+        .event-popup-close {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: none;
+            border: none;
+            font-size: 20px;
+            cursor: pointer;
+            color: var(--princeton-dark-grey);
+        }
+
+        .event-popup-close:hover {
+            color: var(--princeton-orange);
+        }
+
+        /* View Toggle Styles */
+        .view-toggle {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .view-toggle button.active {
+            background-color: var(--princeton-orange);
+            color: var(--princeton-white);
+            border-color: var(--princeton-black);
+        }
+
         /* Responsive Design */
         @media (max-width: 768px) {
+            .container {
+                padding: 0 10px;
+            }
+
             .two-column {
                 flex-direction: column;
+                gap: 15px;
             }
 
             .sidebar {
                 min-width: auto;
+                order: -1; /* Move sidebar to top on mobile */
             }
 
             .header h1 {
-                font-size: 20px;
+                font-size: 18px;
+                padding: 10px 0;
+            }
+
+            .header {
+                margin-bottom: 15px;
+            }
+
+            /* Mobile calendar improvements */
+            .calendar-grid {
+                grid-template-columns: repeat(7, 1fr);
+                gap: 1px;
+                font-size: 11px;
+            }
+
+            .calendar-day {
+                min-height: 50px;
+                padding: 2px;
+            }
+
+            .calendar-day-number {
+                font-size: 11px;
+                margin-bottom: 1px;
+            }
+
+            .calendar-event {
+                font-size: 9px;
+                padding: 1px 2px;
+                margin-bottom: 1px;
+                line-height: 1.2;
+            }
+
+            .calendar-event-count {
+                font-size: 8px;
+                padding: 1px 2px;
+                min-width: 14px;
+            }
+
+            .calendar-header {
+                padding: 0 5px;
+                margin-bottom: 10px;
+            }
+
+            .calendar-month-year {
+                font-size: 14px;
+            }
+
+            .calendar-nav button {
+                padding: 4px 8px;
+                font-size: 12px;
+            }
+
+            /* Mobile event popup improvements */
+            .event-popup {
+                margin: 5px;
+                padding: 15px;
+                max-width: calc(100vw - 10px);
+                max-height: calc(100vh - 20px);
+                overflow-y: auto;
+            }
+
+            .event-popup-close {
+                top: 5px;
+                right: 5px;
+                font-size: 18px;
+            }
+
+            /* Mobile button improvements */
+            .button {
+                padding: 6px 12px;
+                font-size: 13px;
+            }
+
+            .view-toggle {
+                gap: 5px;
+            }
+
+            .view-toggle button {
+                font-size: 13px;
+                padding: 6px 8px;
+            }
+
+            /* Mobile form elements */
+            .search-bar {
+                font-size: 14px;
+                padding: 6px 10px;
+            }
+
+            /* Mobile content blocks */
+            .content-block {
+                margin-bottom: 10px;
+            }
+
+            .content-block-body {
+                padding: 10px;
+            }
+
+            /* Mobile department filter */
+            .department-item label {
+                padding: 4px 6px;
+                font-size: 13px;
+            }
+
+            .department-item input[type="checkbox"] {
+                margin-right: 6px;
+                transform: scale(1.1);
+            }
+
+            /* Mobile footer */
+            .footer {
+                padding: 15px 0;
+                font-size: 11px;
+            }
+
+            /* Mobile academic note */
+            .academic-note {
+                padding: 12px;
+                margin: 10px 0;
+                font-size: 13px;
+            }
+        }
+
+        /* Extra small screens */
+        @media (max-width: 480px) {
+            .container {
+                padding: 0 5px;
+            }
+
+            .calendar-day {
+                min-height: 45px;
+            }
+
+            .calendar-day-number {
+                font-size: 10px;
+            }
+
+            .calendar-event {
+                font-size: 8px;
+                padding: 1px;
+            }
+
+            .event-popup {
+                padding: 10px;
             }
         }
     </style>
@@ -328,15 +655,25 @@
                 <div id="loading" class="loading">Loading events...</div>
                 <div id="error" class="error" style="display: none;"></div>
 
-                <div id="eventsContainer">
-                    <!-- Events will be loaded here -->
+                <!-- List View -->
+                <div id="listViewContainer">
+                    <div id="eventsContainer">
+                        <!-- Events will be loaded here -->
+                    </div>
+                </div>
+
+                <!-- Calendar View -->
+                <div id="calendarViewContainer" style="display: none;">
+                    <div id="calendarContainer">
+                        <!-- Calendar will be generated here -->
+                    </div>
                 </div>
 
                 <div class="content-block">
                     <div class="content-block-body" style="text-align: center;">
-                        <a href="#" class="button button-primary" style="font-size: 16px; padding: 12px 24px;">
-                            📅 Export to Calendar (Coming Soon)
-                        </a>
+                        <button onclick="showExportModal()" class="button button-primary" style="font-size: 16px; padding: 12px 24px;">
+                            📅 Export to Calendar
+                        </button>
                     </div>
                 </div>
             </div>
@@ -357,9 +694,12 @@
                 <div class="content-block">
                     <div class="content-block-header">View Options</div>
                     <div class="content-block-body">
-                        <button class="button" onclick="showListView()" style="width: 100%; margin-bottom: 5px;">📋 List View</button>
-                        <button class="button" onclick="showCalendarView()" style="width: 100%; margin-bottom: 5px;">📅 Calendar View (Coming Soon)</button>
-                        <button class="button" onclick="clearFilters()" style="width: 100%;">🔍 Clear All Filters</button>
+                        <div class="view-toggle">
+                            <button id="listViewBtn" class="button active" onclick="showListView()" style="flex: 1;">📋 List</button>
+                            <button id="calendarViewBtn" class="button" onclick="showCalendarView()" style="flex: 1;">📅 Calendar</button>
+                        </div>
+                        <button class="button" onclick="clearFilters()" style="width: 100%; margin-bottom: 8px;">🔍 Clear All Filters</button>
+                        <button class="button button-primary" onclick="showExportModal()" style="width: 100%;">📤 Export Calendar</button>
                     </div>
                 </div>
 
@@ -414,8 +754,13 @@
                 const departmentsData = await departmentsResponse.json();
                 const metaData = await metaResponse.json();
 
+                // Process events: filter future events and sort by date
                 allEvents = eventsData.events || [];
-                allDepartments = departmentsData.departments || [];
+                allEvents = filterAndSortEvents(allEvents);
+                allDepartments = departmentsData || [];
+
+                // Update department event counts based on filtered events
+                updateDepartmentCounts();
 
                 // Update last updated date
                 document.getElementById('lastUpdated').textContent =
@@ -430,6 +775,68 @@
                 showError('Failed to load events. Please try again later.');
                 hideLoading();
             }
+        }
+
+        function filterAndSortEvents(events) {
+            const today = new Date();
+            today.setHours(0, 0, 0, 0); // Set to start of today
+
+            // Filter out past events and events without dates
+            const futureEvents = events.filter(event => {
+                if (!event.start_date) return false;
+                const eventDate = new Date(event.start_date);
+                eventDate.setHours(0, 0, 0, 0);
+                return eventDate >= today;
+            });
+
+            // Sort by start date (ascending)
+            futureEvents.sort((a, b) => {
+                const dateA = new Date(a.start_date);
+                const dateB = new Date(b.start_date);
+                return dateA - dateB;
+            });
+
+            return futureEvents;
+        }
+
+        function formatDepartmentName(name) {
+            if (!name) return '';
+
+            // Handle special cases that should stay as-is
+            const keepAsIs = ['ECE', 'ORFE', 'CITP', 'CBE'];
+            if (keepAsIs.includes(name.toUpperCase())) {
+                return name.toUpperCase();
+            }
+
+            // Replace underscores with spaces and capitalize each word
+            return name
+                .replace(/_/g, ' ')
+                .split(' ')
+                .map(word => word.charAt(0).toUpperCase() + word.slice(1).toLowerCase())
+                .join(' ');
+        }
+
+        function updateDepartmentCounts() {
+            // Count events per department from the filtered events
+            const departmentCounts = {};
+            allEvents.forEach(event => {
+                if (event.department) {
+                    departmentCounts[event.department] = (departmentCounts[event.department] || 0) + 1;
+                }
+            });
+
+            // Update department objects with current counts
+            allDepartments.forEach(dept => {
+                dept.event_count = departmentCounts[dept.name] || 0;
+                // Also format the display name
+                dept.displayName = formatDepartmentName(dept.name);
+            });
+
+            // Remove departments with no events
+            allDepartments = allDepartments.filter(dept => dept.event_count > 0);
+
+            // Sort departments by display name
+            allDepartments.sort((a, b) => a.displayName.localeCompare(b.displayName));
         }
 
         function showLoading() {
@@ -466,7 +873,7 @@
                 };
 
                 const span = document.createElement('span');
-                span.textContent = `${dept.name} (${dept.event_count})`;
+                span.textContent = `${dept.displayName || dept.name} (${dept.event_count})`;
 
                 label.appendChild(checkbox);
                 label.appendChild(span);
@@ -506,7 +913,7 @@
 
                 const dateStr = event.start_date ? new Date(event.start_date).toLocaleDateString() : 'TBD';
                 const timeStr = event.time || 'TBD';
-                const deptStr = event.department || 'Unknown';
+                const deptStr = event.department ? formatDepartmentName(event.department) : 'Unknown';
 
                 metaDiv.textContent = `${dateStr} • ${timeStr} • ${deptStr}`;
 
@@ -600,9 +1007,579 @@
             alert('Already showing list view');
         }
 
+        // Calendar view state
+        let currentCalendarDate = new Date();
+        let currentView = 'list'; // 'list' or 'calendar'
+
+        function showListView() {
+            currentView = 'list';
+            document.getElementById('listViewContainer').style.display = 'block';
+            document.getElementById('calendarViewContainer').style.display = 'none';
+            document.getElementById('listViewBtn').classList.add('active');
+            document.getElementById('calendarViewBtn').classList.remove('active');
+        }
+
         function showCalendarView() {
-            alert('Calendar view coming soon!');
+            currentView = 'calendar';
+            document.getElementById('listViewContainer').style.display = 'none';
+            document.getElementById('calendarViewContainer').style.display = 'block';
+            document.getElementById('listViewBtn').classList.remove('active');
+            document.getElementById('calendarViewBtn').classList.add('active');
+            renderCalendar();
+        }
+
+        function renderCalendar() {
+            const calendarContainer = document.getElementById('calendarContainer');
+            const year = currentCalendarDate.getFullYear();
+            const month = currentCalendarDate.getMonth();
+
+            // Generate calendar HTML
+            const calendarHTML = generateCalendarHTML(year, month);
+            calendarContainer.innerHTML = calendarHTML;
+
+            // Set up event listeners for calendar interactions
+            setupCalendarEventListeners();
+        }
+
+        function generateCalendarHTML(year, month) {
+            const monthNames = ['January', 'February', 'March', 'April', 'May', 'June',
+                              'July', 'August', 'September', 'October', 'November', 'December'];
+            const dayNames = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+
+            // Header with navigation
+            let html = `
+                <div class="calendar-header">
+                    <div class="calendar-month-year">${monthNames[month]} ${year}</div>
+                    <div class="calendar-nav">
+                        <button onclick="navigateMonth(-1)">&larr;</button>
+                        <button onclick="navigateMonth(1)">&rarr;</button>
+                    </div>
+                </div>
+
+                <div class="calendar-grid">
+                    ${dayNames.map(day => `<div class="calendar-day-header">${day}</div>`).join('')}
+            `;
+
+            // Get events for this month
+            const monthEvents = getEventsForMonth(year, month);
+
+            // Calculate calendar grid
+            const firstDay = new Date(year, month, 1);
+            const lastDay = new Date(year, month + 1, 0);
+            const startDate = new Date(firstDay);
+            startDate.setDate(startDate.getDate() - firstDay.getDay());
+
+            const endDate = new Date(lastDay);
+            endDate.setDate(endDate.getDate() + (6 - lastDay.getDay()));
+
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+
+            let currentDate = new Date(startDate);
+
+            while (currentDate <= endDate) {
+                const isCurrentMonth = currentDate.getMonth() === month;
+                const isToday = currentDate.toDateString() === today.toDateString();
+                const dateKey = currentDate.toISOString().split('T')[0];
+                const dayEvents = monthEvents[dateKey] || [];
+
+                const dayClass = `calendar-day ${!isCurrentMonth ? 'other-month' : ''} ${isToday ? 'today' : ''}`;
+
+                html += `
+                    <div class="${dayClass}" data-date="${dateKey}">
+                        <div class="calendar-day-number">${currentDate.getDate()}</div>
+                        ${dayEvents.slice(0, 3).map(event => `
+                            <div class="calendar-event" data-event-id="${event.id}" title="${event.title}">
+                                ${event.title.length > 15 ? event.title.substring(0, 15) + '...' : event.title}
+                            </div>
+                        `).join('')}
+                        ${dayEvents.length > 3 ? `<div class="calendar-event-count">+${dayEvents.length - 3}</div>` : ''}
+                    </div>
+                `;
+
+                currentDate.setDate(currentDate.getDate() + 1);
+            }
+
+            html += '</div>';
+            return html;
+        }
+
+        function getEventsForMonth(year, month) {
+            const filteredEvents = getFilteredEvents();
+            const eventsByDate = {};
+
+            filteredEvents.forEach(event => {
+                if (event.start_date) {
+                    const eventDate = new Date(event.start_date);
+                    if (eventDate.getFullYear() === year && eventDate.getMonth() === month) {
+                        const dateKey = event.start_date;
+                        if (!eventsByDate[dateKey]) {
+                            eventsByDate[dateKey] = [];
+                        }
+                        eventsByDate[dateKey].push(event);
+                    }
+                }
+            });
+
+            // Sort events within each day by time
+            Object.keys(eventsByDate).forEach(dateKey => {
+                eventsByDate[dateKey].sort((a, b) => {
+                    const timeA = a.time || '';
+                    const timeB = b.time || '';
+                    return timeA.localeCompare(timeB);
+                });
+            });
+
+            return eventsByDate;
+        }
+
+        function navigateMonth(delta) {
+            currentCalendarDate.setMonth(currentCalendarDate.getMonth() + delta);
+            renderCalendar();
+        }
+
+        function setupCalendarEventListeners() {
+            // Event click handlers
+            document.querySelectorAll('.calendar-event').forEach(eventEl => {
+                eventEl.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    const eventId = this.getAttribute('data-event-id');
+                    showEventPopup(eventId);
+                });
+            });
+
+            // Day click handlers (for showing all events on that day)
+            document.querySelectorAll('.calendar-day').forEach(dayEl => {
+                dayEl.addEventListener('click', function() {
+                    const dateKey = this.getAttribute('data-date');
+                    showDayEventsPopup(dateKey);
+                });
+            });
+        }
+
+        function showEventPopup(eventId) {
+            const event = allEvents.find(e => e.id === eventId);
+            if (!event) return;
+
+            const popupHTML = `
+                <button class="event-popup-close" onclick="closeEventPopup()">&times;</button>
+                <h3 style="margin-top: 0; color: var(--princeton-black);">${event.title}</h3>
+                <div style="margin-bottom: 10px;">
+                    <strong>Date:</strong> ${event.start_date ? new Date(event.start_date).toLocaleDateString() : 'TBD'}<br>
+                    <strong>Time:</strong> ${event.time || 'TBD'}<br>
+                    <strong>Location:</strong> ${event.location || 'TBD'}<br>
+                    <strong>Department:</strong> ${formatDepartmentName(event.department) || 'Unknown'}
+                </div>
+                <div style="margin-bottom: 15px;">
+                    <strong>Description:</strong><br>
+                    ${event.description || 'No description available.'}
+                </div>
+                <a href="${event.source_url}" target="_blank" rel="noopener noreferrer" class="button button-primary" style="font-size: 14px;">
+                    View Event Details
+                </a>
+            `;
+
+            document.getElementById('eventPopupContent').innerHTML = popupHTML;
+            document.getElementById('eventPopup').classList.add('active');
+            document.getElementById('eventPopupOverlay').classList.add('active');
+        }
+
+        function showDayEventsPopup(dateKey) {
+            const dayEvents = getEventsForMonth(
+                currentCalendarDate.getFullYear(),
+                currentCalendarDate.getMonth()
+            )[dateKey] || [];
+
+            if (dayEvents.length === 0) return;
+
+            let popupHTML = `
+                <button class="event-popup-close" onclick="closeEventPopup()">&times;</button>
+                <h3 style="margin-top: 0; color: var(--princeton-black);">
+                    Events for ${new Date(dateKey).toLocaleDateString()}
+                </h3>
+            `;
+
+            dayEvents.forEach(event => {
+                popupHTML += `
+                    <div style="margin-bottom: 15px; padding: 10px; border: 1px solid var(--princeton-border); border-radius: 4px;">
+                        <h4 style="margin: 0 0 5px 0; color: var(--princeton-black); font-size: 16px;">
+                            <a href="${event.source_url}" target="_blank" rel="noopener noreferrer" style="color: var(--princeton-black); text-decoration: none;">
+                                ${event.title}
+                            </a>
+                        </h4>
+                        <div style="font-size: 12px; color: var(--princeton-medium-grey); margin-bottom: 5px;">
+                            ${event.time || 'Time TBD'} • ${formatDepartmentName(event.department) || 'Unknown'}
+                        </div>
+                        <div style="font-size: 14px; margin-bottom: 5px;">
+                            ${event.description ? (event.description.length > 100 ? event.description.substring(0, 100) + '...' : event.description) : 'No description available.'}
+                        </div>
+                        ${event.location ? `<div style="font-style: italic; color: var(--princeton-medium-grey);">📍 ${event.location}</div>` : ''}
+                    </div>
+                `;
+            });
+
+            document.getElementById('eventPopupContent').innerHTML = popupHTML;
+            document.getElementById('eventPopup').classList.add('active');
+            document.getElementById('eventPopupOverlay').classList.add('active');
+        }
+
+        function closeEventPopup() {
+            document.getElementById('eventPopup').classList.remove('active');
+            document.getElementById('eventPopupOverlay').classList.remove('active');
+        }
+
+        // Update calendar when filters change
+        function updateCalendarView() {
+            if (currentView === 'calendar') {
+                renderCalendar();
+            }
+        }
+
+        // Override filterEvents to also update calendar
+        const originalFilterEvents = filterEvents;
+        filterEvents = function() {
+            originalFilterEvents();
+            updateCalendarView();
+        };
+
+        // Export Modal Functions
+        function showExportModal() {
+            populateExportDepartments();
+            document.getElementById('exportModal').classList.add('active');
+            document.getElementById('exportModalOverlay').classList.add('active');
+        }
+
+        function closeExportModal() {
+            document.getElementById('exportModal').classList.remove('active');
+            document.getElementById('exportModalOverlay').classList.remove('active');
+        }
+
+        function populateExportDepartments() {
+            const container = document.getElementById('exportDepartmentContainer');
+            container.innerHTML = '';
+
+            allDepartments.forEach(dept => {
+                const div = document.createElement('div');
+                div.style.marginBottom = '5px';
+
+                const label = document.createElement('label');
+                label.style.display = 'block';
+                label.style.cursor = 'pointer';
+                label.style.fontSize = '13px';
+
+                const checkbox = document.createElement('input');
+                checkbox.type = 'checkbox';
+                checkbox.value = dept.name;
+                checkbox.checked = selectedDepartments.length === 0 || selectedDepartments.includes(dept.name);
+                checkbox.style.marginRight = '6px';
+
+                const span = document.createElement('span');
+                span.textContent = `${dept.displayName || dept.name} (${dept.event_count})`;
+
+                label.appendChild(checkbox);
+                label.appendChild(span);
+                div.appendChild(label);
+                container.appendChild(div);
+            });
+        }
+
+        function selectAllExportDepartments() {
+            const checkboxes = document.querySelectorAll('#exportDepartmentContainer input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = true;
+            });
+        }
+
+        function clearAllExportDepartments() {
+            const checkboxes = document.querySelectorAll('#exportDepartmentContainer input[type="checkbox"]');
+            checkboxes.forEach(checkbox => {
+                checkbox.checked = false;
+            });
+        }
+
+        function getSelectedExportDepartments() {
+            const checkboxes = document.querySelectorAll('#exportDepartmentContainer input[type="checkbox"]:checked');
+            return Array.from(checkboxes).map(checkbox => checkbox.value);
+        }
+
+        function getSelectedDateRange() {
+            const radios = document.querySelectorAll('input[name="dateRange"]:checked');
+            return radios.length > 0 ? radios[0].value : 'next30';
+        }
+
+        function exportCalendar() {
+            const selectedDepartments = getSelectedExportDepartments();
+            const dateRange = getSelectedDateRange();
+
+            if (selectedDepartments.length === 0) {
+                alert('Please select at least one department to export.');
+                return;
+            }
+
+            // Get events for export
+            const eventsToExport = getEventsForExport(selectedDepartments, dateRange);
+
+            if (eventsToExport.length === 0) {
+                alert('No events found for the selected criteria.');
+                return;
+            }
+
+            // Generate ICS content
+            const icsContent = generateICSContent(eventsToExport);
+
+            // Download the file
+            downloadICSFile(icsContent, `princeton_events_${dateRange}_${new Date().toISOString().split('T')[0]}.ics`);
+
+            closeExportModal();
+        }
+
+        function getEventsForExport(selectedDepartments, dateRange) {
+            // Start with all future events
+            let events = [...allEvents];
+
+            // Filter by departments
+            if (selectedDepartments.length > 0) {
+                events = events.filter(event => selectedDepartments.includes(event.department));
+            }
+
+            // Filter by date range
+            const today = new Date();
+            today.setHours(0, 0, 0, 0);
+
+            let endDate;
+            switch (dateRange) {
+                case 'next30':
+                    endDate = new Date(today);
+                    endDate.setDate(today.getDate() + 30);
+                    break;
+                case 'next90':
+                    endDate = new Date(today);
+                    endDate.setDate(today.getDate() + 90);
+                    break;
+                case 'next180':
+                    endDate = new Date(today);
+                    endDate.setDate(today.getDate() + 180);
+                    break;
+                case 'all':
+                default:
+                    endDate = null; // No end date limit
+                    break;
+            }
+
+            if (endDate) {
+                events = events.filter(event => {
+                    const eventDate = new Date(event.start_date);
+                    eventDate.setHours(0, 0, 0, 0);
+                    return eventDate >= today && eventDate <= endDate;
+                });
+            } else {
+                events = events.filter(event => {
+                    const eventDate = new Date(event.start_date);
+                    eventDate.setHours(0, 0, 0, 0);
+                    return eventDate >= today;
+                });
+            }
+
+            return events;
+        }
+
+        function generateICSContent(events) {
+            let icsContent = `BEGIN:VCALENDAR\r\nVERSION:2.0\r\nPRODID:-//Princeton Academic Events//EN\r\nCALSCALE:GREGORIAN\r\n`;
+
+            events.forEach(event => {
+                const eventId = event.id || `event_${Date.now()}_${Math.random()}`;
+                const startDate = formatDateForICS(event.start_date, event.time);
+                let endDate = startDate; // Default to same day
+
+                // If there's an end_date, use it; otherwise assume 1 hour duration for timed events
+                if (event.end_date && event.end_date !== event.start_date) {
+                    endDate = formatDateForICS(event.end_date, '23:59:59');
+                } else if (event.time && event.time.includes('–')) {
+                    // Try to parse time range like "2:00 pm – 4:00 pm"
+                    const timeMatch = event.time.match(/(\d{1,2}:\d{2}\s*(?:am|pm)?)\s*–\s*(\d{1,2}:\d{2}\s*(?:am|pm)?)/i);
+                    if (timeMatch) {
+                        const startTime = parseTime(timeMatch[1]);
+                        const endTime = parseTime(timeMatch[2]);
+                        if (startTime && endTime) {
+                            endDate = formatDateForICS(event.start_date, endTime);
+                        }
+                    } else {
+                        // Default to 1 hour duration
+                        const eventDateTime = new Date(startDate.replace(/[-:]/g, ''));
+                        eventDateTime.setHours(eventDateTime.getHours() + 1);
+                        endDate = formatDateTimeForICS(eventDateTime);
+                    }
+                }
+
+                const description = event.description ? event.description.replace(/\r?\n/g, '\\n') : '';
+                const location = event.location || '';
+                const summary = event.title || 'Princeton Academic Event';
+
+                icsContent += `BEGIN:VEVENT\r\n`;
+                icsContent += `UID:${eventId}@princeton.edu\r\n`;
+                icsContent += `DTSTAMP:${formatDateTimeForICS(new Date())}\r\n`;
+                icsContent += `DTSTART:${startDate}\r\n`;
+                icsContent += `DTEND:${endDate}\r\n`;
+                icsContent += `SUMMARY:${escapeICSText(summary)}\r\n`;
+                if (description) {
+                    icsContent += `DESCRIPTION:${escapeICSText(description)}\r\n`;
+                }
+                if (location) {
+                    icsContent += `LOCATION:${escapeICSText(location)}\r\n`;
+                }
+                if (event.source_url) {
+                    icsContent += `URL:${event.source_url}\r\n`;
+                }
+                icsContent += `END:VEVENT\r\n`;
+            });
+
+            icsContent += `END:VCALENDAR\r\n`;
+            return icsContent;
+        }
+
+        function formatDateForICS(dateStr, timeStr) {
+            const date = new Date(dateStr);
+            if (timeStr && timeStr !== 'TBD') {
+                const time = parseTime(timeStr);
+                if (time) {
+                    const [hours, minutes] = time.split(':').map(Number);
+                    date.setHours(hours, minutes, 0, 0);
+                }
+            } else {
+                // All-day event if no time specified
+                date.setHours(12, 0, 0, 0); // Midday for all-day events
+            }
+            return formatDateTimeForICS(date);
+        }
+
+        function parseTime(timeStr) {
+            if (!timeStr) return null;
+
+            // Handle various time formats
+            const timeRegex = /(\d{1,2}):?(\d{2})?\s*(am|pm)?/i;
+            const match = timeStr.trim().match(timeRegex);
+
+            if (match) {
+                let hours = parseInt(match[1]);
+                const minutes = match[2] ? parseInt(match[2]) : 0;
+                const ampm = match[3] ? match[3].toLowerCase() : null;
+
+                if (ampm === 'pm' && hours < 12) {
+                    hours += 12;
+                } else if (ampm === 'am' && hours === 12) {
+                    hours = 0;
+                }
+
+                return `${hours.toString().padStart(2, '0')}:${minutes.toString().padStart(2, '0')}:00`;
+            }
+
+            return null;
+        }
+
+        function formatDateTimeForICS(date) {
+            const year = date.getFullYear();
+            const month = (date.getMonth() + 1).toString().padStart(2, '0');
+            const day = date.getDate().toString().padStart(2, '0');
+            const hours = date.getHours().toString().padStart(2, '0');
+            const minutes = date.getMinutes().toString().padStart(2, '0');
+            const seconds = date.getSeconds().toString().padStart(2, '0');
+
+            return `${year}${month}${day}T${hours}${minutes}${seconds}`;
+        }
+
+        function escapeICSText(text) {
+            return text
+                .replace(/\\/g, '\\\\')
+                .replace(/;/g, '\\;')
+                .replace(/,/g, '\\,')
+                .replace(/\n/g, '\\n')
+                .replace(/\r/g, '');
+        }
+
+        function downloadICSFile(content, filename) {
+            const blob = new Blob([content], { type: 'text/calendar;charset=utf-8' });
+            const url = URL.createObjectURL(blob);
+
+            const link = document.createElement('a');
+            link.href = url;
+            link.download = filename;
+            link.style.display = 'none';
+
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            URL.revokeObjectURL(url);
         }
     </script>
+
+    <!-- Event Popup Modal -->
+    <div id="eventPopupOverlay" class="event-popup-overlay" onclick="closeEventPopup()"></div>
+    <div id="eventPopup" class="event-popup">
+        <div id="eventPopupContent"></div>
+    </div>
+
+    <!-- Export Modal -->
+    <div id="exportModalOverlay" class="event-popup-overlay" onclick="closeExportModal()"></div>
+    <div id="exportModal" class="event-popup">
+        <div id="exportModalContent">
+            <button class="event-popup-close" onclick="closeExportModal()">&times;</button>
+            <h3 style="margin-top: 0; color: var(--princeton-black);">Export Calendar Events</h3>
+
+            <div style="margin-bottom: 15px;">
+                <strong>Select Departments:</strong>
+                <div id="exportDepartmentContainer" style="margin-top: 8px; max-height: 200px; overflow-y: auto; border: 1px solid var(--princeton-border); padding: 8px;">
+                    <!-- Department checkboxes will be populated here -->
+                </div>
+                <div style="margin-top: 8px;">
+                    <button class="button" onclick="selectAllExportDepartments()" style="font-size: 12px; padding: 4px 8px;">Select All</button>
+                    <button class="button" onclick="clearAllExportDepartments()" style="font-size: 12px; padding: 4px 8px;">Clear All</button>
+                </div>
+            </div>
+
+            <div style="margin-bottom: 15px;">
+                <strong>Date Range:</strong>
+                <div style="margin-top: 8px;">
+                    <label style="display: block; margin-bottom: 5px;">
+                        <input type="radio" name="dateRange" value="next30" checked style="margin-right: 8px;">
+                        Next 30 days
+                    </label>
+                    <label style="display: block; margin-bottom: 5px;">
+                        <input type="radio" name="dateRange" value="next90" style="margin-right: 8px;">
+                        Next 90 days
+                    </label>
+                    <label style="display: block; margin-bottom: 5px;">
+                        <input type="radio" name="dateRange" value="next180" style="margin-right: 8px;">
+                        Next 6 months
+                    </label>
+                    <label style="display: block;">
+                        <input type="radio" name="dateRange" value="all" style="margin-right: 8px;">
+                        All future events
+                    </label>
+                </div>
+            </div>
+
+            <div style="margin-bottom: 20px;">
+                <strong>Export Format:</strong>
+                <div style="margin-top: 8px;">
+                    <label style="display: block;">
+                        <input type="radio" name="exportFormat" value="ics" checked style="margin-right: 8px;">
+                        Calendar (.ics) - Import to Google Calendar, Outlook, Apple Calendar
+                    </label>
+                </div>
+            </div>
+
+            <div style="text-align: center;">
+                <button class="button button-primary" onclick="exportCalendar()" style="font-size: 16px; padding: 10px 20px;">
+                    📥 Download Calendar
+                </button>
+            </div>
+
+            <div style="margin-top: 15px; font-size: 12px; color: var(--princeton-medium-grey);">
+                <strong>Note:</strong> The exported calendar will include events from your selected departments within the chosen date range.
+                You can import the .ics file into most calendar applications.
+            </div>
+        </div>
+    </div>
 </body>
 </html>
