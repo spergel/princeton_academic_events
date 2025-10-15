@@ -1,11 +1,11 @@
 export async function onRequestGet({ request }) {
   try {
-    // For Cloudflare Pages Functions, we can fetch static assets from the same origin
-    const deptData = await fetch('/data/departments.json');
+    // Fetch the meta data from the static asset
+    const metaData = await fetch(new URL('/data/meta.json', request.url));
 
-    if (!deptData.ok) {
+    if (!metaData.ok) {
       return new Response(JSON.stringify({
-        error: 'Departments data not found',
+        error: 'Meta data not found',
         message: 'Data will be available after the next weekly scrape'
       }), {
         status: 404,
@@ -13,7 +13,7 @@ export async function onRequestGet({ request }) {
       });
     }
 
-    const data = await deptData.json();
+    const data = await metaData.json();
 
     return new Response(JSON.stringify(data), {
       headers: {
@@ -23,10 +23,10 @@ export async function onRequestGet({ request }) {
       }
     });
   } catch (error) {
-    console.error('Error serving departments:', error);
+    console.error('Error serving meta:', error);
     return new Response(JSON.stringify({
       error: 'Internal server error',
-      message: 'Unable to fetch departments data'
+      message: 'Unable to fetch meta data'
     }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' }

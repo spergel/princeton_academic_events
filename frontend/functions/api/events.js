@@ -1,11 +1,11 @@
 export async function onRequestGet({ request }) {
   try {
-    // For Cloudflare Pages Functions, we can fetch static assets from the same origin
-    const metaData = await fetch('/data/meta.json');
+    // Fetch the events data from the static asset
+    const eventsResponse = await fetch(new URL('/data/events.json', request.url));
 
-    if (!metaData.ok) {
+    if (!eventsResponse.ok) {
       return new Response(JSON.stringify({
-        error: 'Meta data not found',
+        error: 'Events data not found',
         message: 'Data will be available after the next weekly scrape'
       }), {
         status: 404,
@@ -13,9 +13,9 @@ export async function onRequestGet({ request }) {
       });
     }
 
-    const data = await metaData.json();
+    const eventsData = await eventsResponse.json();
 
-    return new Response(JSON.stringify(data), {
+    return new Response(JSON.stringify(eventsData), {
       headers: {
         'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*',
@@ -23,10 +23,10 @@ export async function onRequestGet({ request }) {
       }
     });
   } catch (error) {
-    console.error('Error serving meta:', error);
+    console.error('Error serving events:', error);
     return new Response(JSON.stringify({
       error: 'Internal server error',
-      message: 'Unable to fetch meta data'
+      message: 'Unable to fetch events data'
     }), {
       status: 500,
       headers: { 'Content-Type': 'application/json' }
