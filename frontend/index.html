@@ -657,8 +657,8 @@
 
                 <!-- List View -->
                 <div id="listViewContainer">
-                    <div id="eventsContainer">
-                        <!-- Events will be loaded here -->
+                <div id="eventsContainer">
+                    <!-- Events will be loaded here -->
                     </div>
                 </div>
 
@@ -740,10 +740,14 @@
                 showLoading();
 
                 // Load events and departments in parallel
+                // Use direct JSON files for local development, API endpoints for production
+                const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
+                const basePath = isLocal ? '/data/' : '/api/';
+
                 const [eventsResponse, departmentsResponse, metaResponse] = await Promise.all([
-                    fetch('/api/events'),
-                    fetch('/api/departments'),
-                    fetch('/api/meta')
+                    fetch(`${basePath}${isLocal ? 'events.json' : 'events'}`),
+                    fetch(`${basePath}${isLocal ? 'departments.json' : 'departments'}`),
+                    fetch(`${basePath}${isLocal ? 'meta.json' : 'meta'}`)
                 ]);
 
                 if (!eventsResponse.ok || !departmentsResponse.ok || !metaResponse.ok) {
