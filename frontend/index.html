@@ -741,9 +741,9 @@
 
                 // Load events and departments in parallel
                 const [eventsResponse, departmentsResponse, metaResponse] = await Promise.all([
-                    fetch('/data/events.json'),
-                    fetch('/data/departments.json'),
-                    fetch('/data/meta.json')
+                    fetch('/api/events'),
+                    fetch('/api/departments'),
+                    fetch('/api/meta')
                 ]);
 
                 if (!eventsResponse.ok || !departmentsResponse.ok || !metaResponse.ok) {

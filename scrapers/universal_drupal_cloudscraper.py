@@ -268,10 +268,15 @@ class UniversalDrupalCloudScraper:
             soup = BeautifulSoup(response.content.decode(response.encoding, errors='replace'), 'html.parser')
             details = {}
 
-            # Extract detailed description
-            description_elem = soup.find('div', class_='field--name-body') or soup.find('div', class_='field--name-field-ps-events-description')
-            if description_elem:
-                details['description'] = description_elem.get_text(strip=True)
+            # Extract detailed description from meta description tag
+            meta_desc = soup.find('meta', attrs={'name': 'description'})
+            if meta_desc and meta_desc.get('content'):
+                details['description'] = meta_desc['content'].strip()
+            else:
+                # Fallback to body content if meta description not found
+                description_elem = soup.find('div', class_='field--name-body') or soup.find('div', class_='field--name-field-ps-events-description')
+                if description_elem:
+                    details['description'] = description_elem.get_text(strip=True)
 
             # Skip speaker extraction - focus on times only
             # Extract speaker information (minimal/simple version)

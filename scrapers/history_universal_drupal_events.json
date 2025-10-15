@@ -2,16 +2,16 @@
   "metadata": {
     "department": "History",
     "total_events": 20,
-    "scraped_at": "2025-10-13T14:55:03.254640",
+    "scraped_at": "2025-10-14T18:27:49.796740",
     "source_url": "https://history.princeton.edu/news-events/events",
     "source": "History Universal Drupal CloudScraper",
     "note": "Scraped from https://history.princeton.edu/news-events/events using universal Drupal content-list-item structure"
   },
   "events": [
     {
-      "id": "history_20251013_Forbidden_Unions_and",
+      "id": "history_20251014_Forbidden_Unions_and",
       "title": "Forbidden Unions and Honored Vows: Catholicism, Indigenous Marital Norms, and Female Authority in Central Mexico during the Sixteenth and Seventeenth Centuries",
-      "description": "",
+      "description": "AbstractAlthough formal political power lay largely in the hands of men, elite Nahua noblewomen in the pre-Hispanic period were able to exercise significant power behind the scenes by drawing on their position as go-betweens in marriage alliances between ruling-class families. During the colonial period, these women's access to traditional forms of",
       "start_date": "2025-10-17",
       "end_date": null,
       "time": "4:30 pm – 6:00 pm",
@@ -30,13 +30,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2023-03/lacw-large.png?itok=RHs_HXkj",
-      "created_at": "2025-10-13T14:54:35.402543",
-      "updated_at": "2025-10-13T14:54:35.402579"
+      "created_at": "2025-10-14T18:27:15.735365",
+      "updated_at": "2025-10-14T18:27:15.735383"
     },
     {
-      "id": "history_20251013_Disha_Ray,_TBA",
+      "id": "history_20251014_Disha_Ray,_TBA",
       "title": "Disha Ray, TBA",
-      "description": "",
+      "description": "The Program Seminar serves to foster scholarly community among the faculty, students, and visiting fellows of the Program. We meet weekly to think and talk together, and this is a considerable pleasure (not to mention intellectually invigorating). Topics of the gathering vary. Often we discuss a pre-circulated work-in-progress, but other conversati",
       "start_date": "2025-10-20",
       "end_date": null,
       "time": "3:00 pm – 4:20 pm",
@@ -55,13 +55,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2023-03/hos-program-seminar-large.png?itok=OJAv05q-",
-      "created_at": "2025-10-13T14:54:36.625305",
-      "updated_at": "2025-10-13T14:54:36.625322"
+      "created_at": "2025-10-14T18:27:17.330615",
+      "updated_at": "2025-10-14T18:27:17.330633"
     },
     {
-      "id": "history_20251013_Joint_GCHW_Workshop:",
+      "id": "history_20251014_Joint_GCHW_Workshop:",
       "title": "Joint GCHW Workshop: Michael Mandelkorn and Meredith Thornburgh",
-      "description": "",
+      "description": "“The Rahaeng Road: Fighting Monsoon Time and Teak Time in the China, Burma, India Theater”Michael MandelkornBurma was colonized by the British largely through the military cooption of commercial infrastructure set up for teak extraction. But by 1939, the British regime in Burma had ceased its reliance on traditional teak transportation networks in",
       "start_date": "2025-10-21",
       "end_date": null,
       "time": "12:00 pm – 1:30 pm",
@@ -80,13 +80,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2024-06/gchw.png?itok=qzXKRrBS",
-      "created_at": "2025-10-13T14:54:37.812898",
-      "updated_at": "2025-10-13T14:54:37.812910"
+      "created_at": "2025-10-14T18:27:18.906884",
+      "updated_at": "2025-10-14T18:27:18.906903"
     },
     {
-      "id": "history_20251013_Shallow_Blue_Empire:",
-      "title": "Shallow Blue Empire: Labor, Science and Environment Across the Indian Ocean Littoral, 1850–1925",
-      "description": "",
+      "id": "history_20251014_Shallow_Blue_Empire:",
+      "title": "Shallow Blue Empire: Labor, Science and Environment Across the Indian Ocean Littoral, 18501925",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2024-25 and 2025-26 is “Truth and Infor",
       "start_date": "2025-10-24",
       "end_date": null,
       "time": "10:15 am – 12:00 pm",
@@ -105,13 +105,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2025-08/Truth%20and%20Information%20Poster_Fall%202025_0.png?h=ab202eb2&itok=BH1inPH1",
-      "created_at": "2025-10-13T14:54:39.114124",
-      "updated_at": "2025-10-13T14:54:39.114138"
+      "created_at": "2025-10-14T18:27:21.149079",
+      "updated_at": "2025-10-14T18:27:21.149095"
     },
     {
-      "id": "history_20251013_Jobs_&_Java",
+      "id": "history_20251014_Jobs_&_Java",
       "title": "Jobs & Java",
-      "description": "",
+      "description": "“Jobs & Java” is an informal skills workshop and support group for graduate students and postdocs in historical fields. Wherever possible we will discuss strategies for approaching the academic and related job markets, using “live” jobs and real application materials, and sharing experiences good and bad.To get the most out of the sessions, feel fr",
       "start_date": "2025-10-24",
       "end_date": null,
       "time": "",
@@ -130,13 +130,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2023-05/jobs-and-java.png?itok=vQHM2n-2",
-      "created_at": "2025-10-13T14:54:40.421799",
-      "updated_at": "2025-10-13T14:54:40.421813"
+      "created_at": "2025-10-14T18:27:22.871674",
+      "updated_at": "2025-10-14T18:27:22.871718"
     },
     {
-      "id": "history_20251013_Confessions_of_a_Jus",
+      "id": "history_20251014_Confessions_of_a_Jus",
       "title": "Confessions of a Justified Madman: Truth, Lies, and the South African War",
-      "description": "",
+      "description": "Pre-Circulated PaperThe pre-circulated paper is available one week prior to the workshop to the Princeton University community via SharePoint. All others should request a copy of the paper by emailing Emmanuel Ennin.To request disability-related accommodations, please email Jackie Wasneski at least a week in advance",
       "start_date": "2025-10-24",
       "end_date": null,
       "time": "1:30 pm – 3:00 pm",
@@ -155,13 +155,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/ahw.png?itok=SQFQSCNj",
-      "created_at": "2025-10-13T14:54:41.695133",
-      "updated_at": "2025-10-13T14:54:41.695157"
+      "created_at": "2025-10-14T18:27:24.307131",
+      "updated_at": "2025-10-14T18:27:24.307162"
     },
     {
-      "id": "history_20251013_Deborah_Rabinovich,_",
+      "id": "history_20251014_Deborah_Rabinovich,_",
       "title": "Deborah Rabinovich, TBA",
-      "description": "",
+      "description": "The Program Seminar serves to foster scholarly community among the faculty, students, and visiting fellows of the Program. We meet weekly to think and talk together, and this is a considerable pleasure (not to mention intellectually invigorating). Topics of the gathering vary. Often we discuss a pre-circulated work-in-progress, but other conversati",
       "start_date": "2025-10-27",
       "end_date": null,
       "time": "3:00 pm – 4:20 pm",
@@ -180,13 +180,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2023-03/hos-program-seminar-large.png?itok=OJAv05q-",
-      "created_at": "2025-10-13T14:54:43.004224",
-      "updated_at": "2025-10-13T14:54:43.004241"
+      "created_at": "2025-10-14T18:27:26.203361",
+      "updated_at": "2025-10-14T18:27:26.203380"
     },
     {
-      "id": "history_20251013_Switzerland_and_Pove",
+      "id": "history_20251014_Switzerland_and_Pove",
       "title": "Switzerland and Poverty: Looking for the Enlightenment Origins of the Social Question",
-      "description": "",
+      "description": "The willingness to put an end to poverty is usually considered a novelty of the 19th century, but it was actually a major Enlightenment theme. This new project aims to investigate the continuities and ruptures in how poverty was conceptualized and addressed in Switzerland during the Sattelzeit (1750-1850), interrogating the legacy of Enlightenment",
       "start_date": "2025-10-28",
       "end_date": null,
       "time": "4:30 pm – 6:00 pm",
@@ -205,13 +205,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/ecs-acronym.png?itok=bq659vis",
-      "created_at": "2025-10-13T14:54:44.219992",
-      "updated_at": "2025-10-13T14:54:44.220008"
+      "created_at": "2025-10-14T18:27:28.031741",
+      "updated_at": "2025-10-14T18:27:28.031762"
     },
     {
-      "id": "history_20251013_Bringing_'Law_and_Or",
-      "title": "Bringing 'Law and Order to the Crude Frontier': The Limits of Territorial Law in the Western Great Lakes, 1823–1830",
-      "description": "",
+      "id": "history_20251014_Bringing_'Law_and_Or",
+      "title": "Bringing 'Law and Order to the Crude Frontier': The Limits of Territorial Law in the Western Great Lakes, 18231830",
+      "description": "AbstractFollowing British capitulation in the War of 1812, the U.S. established a series of forts to consolidate federal authority in the \"Old Northwest,\" but bridging the gap between military occupation and civil legal order would prove to be more of a challenge. This chapter examines the arrival of James Duane Doty in 1823, the man credited with",
       "start_date": "2025-10-30",
       "end_date": null,
       "time": "12:00 pm – 1:30 pm",
@@ -221,7 +221,7 @@
       "meta_category": "arts_humanities",
       "source_url": "https://history.princeton.edu/news-events/events/bringing-law-and-order-crude-frontier-limits-territorial-law-western-great-lakes",
       "source_name": "History Events",
-      "speaker": "The Limits of Territorial Law in the Western Great Lakes, 1823–1830",
+      "speaker": "The Limits of Territorial Law in the Western Great Lakes, 18231830",
       "audience": "",
       "topics": [],
       "departments": [],
@@ -230,13 +230,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/craw.png?itok=MLF2xi_U",
-      "created_at": "2025-10-13T14:54:45.597900",
-      "updated_at": "2025-10-13T14:54:45.597918"
+      "created_at": "2025-10-14T18:27:30.111422",
+      "updated_at": "2025-10-14T18:27:30.111441"
     },
     {
-      "id": "history_20251013_Anya_Bernstein,_\"Ple",
+      "id": "history_20251014_Anya_Bernstein,_\"Ple",
       "title": "Anya Bernstein, \"Pleistocene Park: Engineering Wilderness in a More-than-Human World\"",
-      "description": "",
+      "description": "Pleistocene Park is a large-scale science experiment in Arctic Siberia in the form of a future-oriented rewilding project with the goal of mitigating climate change. The Park’s creators hypothesize that introducing large herbivores into the area will slow the thawing of permafrost. Using the approach of multispecies ethnography, in attending to the",
       "start_date": "2025-10-30",
       "end_date": null,
       "time": "4:30 pm – 6:00 pm",
@@ -255,13 +255,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2023-03/hos-colloquium-large.png?itok=GImlGh3R",
-      "created_at": "2025-10-13T14:54:46.807042",
-      "updated_at": "2025-10-13T14:54:46.807063"
+      "created_at": "2025-10-14T18:27:31.713529",
+      "updated_at": "2025-10-14T18:27:31.713547"
     },
     {
-      "id": "history_20251013_Not_Quite_So_Random:",
+      "id": "history_20251014_Not_Quite_So_Random:",
       "title": "Not Quite So Random: Psychokinesis on Campus",
-      "description": "",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2024-25 and 2025-26 is “Truth and Infor",
       "start_date": "2025-10-31",
       "end_date": null,
       "time": "10:15 am – 12:00 pm",
@@ -280,13 +280,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2025-08/Truth%20and%20Information%20Poster_Fall%202025_0.png?h=ab202eb2&itok=BH1inPH1",
-      "created_at": "2025-10-13T14:54:48.017510",
-      "updated_at": "2025-10-13T14:54:48.017530"
+      "created_at": "2025-10-14T18:27:33.056101",
+      "updated_at": "2025-10-14T18:27:33.056119"
     },
     {
-      "id": "history_20251013_Prospectuses:_Gretch",
+      "id": "history_20251014_Prospectuses:_Gretch",
       "title": "Prospectuses: Gretchen Kepplinger & Andrew Hoyt",
-      "description": "",
+      "description": "The Program Seminar serves to foster scholarly community among the faculty, students, and visiting fellows of the Program. We meet weekly to think and talk together, and this is a considerable pleasure (not to mention intellectually invigorating). Topics of the gathering vary. Often we discuss a pre-circulated work-in-progress, but other conversati",
       "start_date": "2025-11-03",
       "end_date": null,
       "time": "3:00 pm – 4:20 pm",
@@ -305,13 +305,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2023-03/hos-program-seminar-large.png?itok=OJAv05q-",
-      "created_at": "2025-10-13T14:54:49.365328",
-      "updated_at": "2025-10-13T14:54:49.365346"
+      "created_at": "2025-10-14T18:27:34.529416",
+      "updated_at": "2025-10-14T18:27:34.529433"
     },
     {
-      "id": "history_20251013_Theorizing,_Inventin",
-      "title": "Theorizing, Inventing, and Contesting a Place for Development: Appalachia in the War on Poverty, 1965–1973",
-      "description": "",
+      "id": "history_20251014_Theorizing,_Inventin",
+      "title": "Theorizing, Inventing, and Contesting a Place for Development: Appalachia in the War on Poverty, 19651973",
+      "description": "AbstractDoes development need poverty to legitimize and justify itself? The economist John Kenneth Galbraith might scoff at the question; he linked the two tightly in arguing that it was precisely a new attention to the persistence and spread of global poverty that gave rise to the development paradigm’s dominance at midcentury. Galbraith was perha",
       "start_date": "2025-11-04",
       "end_date": null,
       "time": "12:00 pm – 1:30 pm",
@@ -330,13 +330,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/ehw.png?itok=hWFB3nAr",
-      "created_at": "2025-10-13T14:54:50.613399",
-      "updated_at": "2025-10-13T14:54:50.613418"
+      "created_at": "2025-10-14T18:27:36.294473",
+      "updated_at": "2025-10-14T18:27:36.294494"
     },
     {
-      "id": "history_20251013_Labor,_Liberty,_and_",
+      "id": "history_20251014_Labor,_Liberty,_and_",
       "title": "Labor, Liberty, and Living Racial Capitalism: Enslaved Women and Daily Life in an 18th-century French Port City",
-      "description": "",
+      "description": "Racial capitalism was a daily practice for enslaved men and women, who mostly arriving as teenagers to Nantes, France’s largest slave port. Often apprenticed to white artisans and living in their households, enslaved women in particular lived in constant negotiation with residents of all ranks. They engaged in essential productive and reproductive",
       "start_date": "2025-11-06",
       "end_date": null,
       "time": "4:30 pm – 6:00 pm",
@@ -355,13 +355,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2023-03/emhw-large.png?itok=iXEj1P_s",
-      "created_at": "2025-10-13T14:54:51.976846",
-      "updated_at": "2025-10-13T14:54:51.976871"
+      "created_at": "2025-10-14T18:27:38.532261",
+      "updated_at": "2025-10-14T18:27:38.532280"
     },
     {
-      "id": "history_20251013_Trying_Credibility:_",
+      "id": "history_20251014_Trying_Credibility:_",
       "title": "Trying Credibility: The Public and Clerical Sexual Violence in Early Modern France",
-      "description": "",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2024-25 and 2025-26 is “Truth and Infor",
       "start_date": "2025-11-07",
       "end_date": null,
       "time": "10:15 am – 12:00 pm",
@@ -380,13 +380,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2025-08/Truth%20and%20Information%20Poster_Fall%202025_0.png?h=ab202eb2&itok=BH1inPH1",
-      "created_at": "2025-10-13T14:54:53.381613",
-      "updated_at": "2025-10-13T14:54:53.381659"
+      "created_at": "2025-10-14T18:27:40.231194",
+      "updated_at": "2025-10-14T18:27:40.231366"
     },
     {
-      "id": "history_20251013_Jobs_&_Java",
+      "id": "history_20251014_Jobs_&_Java",
       "title": "Jobs & Java",
-      "description": "",
+      "description": "“Jobs & Java” is an informal skills workshop and support group for graduate students and postdocs in historical fields. Wherever possible we will discuss strategies for approaching the academic and related job markets, using “live” jobs and real application materials, and sharing experiences good and bad.To get the most out of the sessions, feel fr",
       "start_date": "2025-11-07",
       "end_date": null,
       "time": "",
@@ -405,13 +405,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2023-05/jobs-and-java.png?itok=vQHM2n-2",
-      "created_at": "2025-10-13T14:54:56.287862",
-      "updated_at": "2025-10-13T14:54:56.287884"
+      "created_at": "2025-10-14T18:27:42.201852",
+      "updated_at": "2025-10-14T18:27:42.201870"
     },
     {
-      "id": "history_20251013_A_Third_Path:_Corpor",
+      "id": "history_20251014_A_Third_Path:_Corpor",
       "title": "A Third Path: Corporatism in Brazil and Portugal",
-      "description": "",
+      "description": "A Third Path delves into the pivotal yet understudied corporatist experiments of Brazil and Portugal during the 1930s. In the aftermath of the Great Depression, these nations sought a \"third path\" between laissez-faire capitalism and communism, expanding government powers to regulate labor and production by integrating economic and social groups in",
       "start_date": "2025-11-07",
       "end_date": null,
       "time": "4:30 pm – 6:00 pm",
@@ -430,13 +430,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2023-03/lacw-large.png?itok=RHs_HXkj",
-      "created_at": "2025-10-13T14:54:57.594320",
-      "updated_at": "2025-10-13T14:54:57.594337"
+      "created_at": "2025-10-14T18:27:43.513766",
+      "updated_at": "2025-10-14T18:27:43.513782"
     },
     {
-      "id": "history_20251013_Joint_MEW_Workshop:_",
+      "id": "history_20251014_Joint_MEW_Workshop:_",
       "title": "Joint MEW Workshop: Diego Benning Wang and Hasan Hameed",
-      "description": "",
+      "description": "‘Lenin Pasha Galloped on His Steed’: Revolution, Nation, and Folklore in Soviet Armenia, 1936–1938Diego Benning WangBetween 1936 and 1938, an orally recorded folk poem by an Ottoman-born Armenian peasant woman named Tsaghki Sepo drew the attention of some of the most important cultural figures of Soviet Armenia and beyond. Even though the poem was",
       "start_date": "2025-11-10",
       "end_date": null,
       "time": "12:00 pm – 1:30 pm",
@@ -455,13 +455,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2025-09/mew%20logo%20large.png?itok=NyzAHHku",
-      "created_at": "2025-10-13T14:54:58.969002",
-      "updated_at": "2025-10-13T14:54:58.969017"
+      "created_at": "2025-10-14T18:27:45.179658",
+      "updated_at": "2025-10-14T18:27:45.179673"
     },
     {
-      "id": "history_20251013_Prospectuses:_Lea_Ei",
+      "id": "history_20251014_Prospectuses:_Lea_Ei",
       "title": "Prospectuses: Lea Eisenstein & Zoe Zimmerman",
-      "description": "",
+      "description": "The Program Seminar serves to foster scholarly community among the faculty, students, and visiting fellows of the Program. We meet weekly to think and talk together, and this is a considerable pleasure (not to mention intellectually invigorating). Topics of the gathering vary. Often we discuss a pre-circulated work-in-progress, but other conversati",
       "start_date": "2025-11-10",
       "end_date": null,
       "time": "3:00 pm – 4:20 pm",
@@ -480,13 +480,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2023-03/hos-program-seminar-large.png?itok=OJAv05q-",
-      "created_at": "2025-10-13T14:55:00.298520",
-      "updated_at": "2025-10-13T14:55:00.298538"
+      "created_at": "2025-10-14T18:27:46.529148",
+      "updated_at": "2025-10-14T18:27:46.529164"
     },
     {
-      "id": "history_20251013_Book_Talk:_Domestic_",
+      "id": "history_20251014_Book_Talk:_Domestic_",
       "title": "Book Talk: Domestic Nationalism: Muslim Women, Health and Modernity in Indonesia",
-      "description": "",
+      "description": "Domestic Nationalism argues that Muslim women in Java and Sumatra, from the late 1910s to the 1950s, were central to Indonesia’s progress as guardians and promoters of health and piety through gendered activities of care work. Women from all walks of life were called upon to fulfill domestic and motherly roles for the production and socialization o",
       "start_date": "2025-11-10",
       "end_date": null,
       "time": "4:30 pm – 6:00 pm",
@@ -505,8 +505,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "https://history.princeton.edu/sites/g/files/toruqf5351/files/styles/4x3_750w_563h/public/2025-09/book_talk_formichi.png?h=ef2e4b0d&itok=eZFdlh4Z",
-      "created_at": "2025-10-13T14:55:01.869875",
-      "updated_at": "2025-10-13T14:55:01.869895"
+      "created_at": "2025-10-14T18:27:48.358011",
+      "updated_at": "2025-10-14T18:27:48.358031"
     }
   ]
 }
