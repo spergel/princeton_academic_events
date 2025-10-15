@@ -62,7 +62,9 @@ class UniversalDrupalCloudScraper:
                 soup = BeautifulSoup(response.content.decode(response.encoding, errors='replace'), 'html.parser')
                 
                 # Find event containers - try multiple selectors for different Drupal versions
-                event_containers = soup.find_all('div', class_='content-list-item') or \
+                event_containers = soup.find_all('div', class_='node--type-event') or \
+                                 soup.find_all('article', class_='node--type-event') or \
+                                 soup.find_all('div', class_='content-list-item') or \
                                  soup.find_all('div', class_='event-item') or \
                                  soup.find_all('article', class_='event') or \
                                  soup.find_all('div', class_='views-row') or \
@@ -133,22 +135,42 @@ class UniversalDrupalCloudScraper:
             'updated_at': datetime.now().isoformat()
         }
         
-        # Extract title and URL
+        # Extract title and URL - try multiple selectors
+        title_link = None
+
+        # Try span.field--name-title first (original selector)
         title_elem = container.find('span', class_='field--name-title')
         if title_elem:
             title_link = title_elem.find('a')
-            if title_link:
-                event['title'] = title_link.get_text(strip=True).encode('ascii', 'ignore').decode('ascii')
-                href = title_link.get('href')
-                if href:
-                    if href.startswith('http'):
-                        event['source_url'] = href
-                    else:
-                        event['source_url'] = self.base_url + href
-                    safe_title = event['title'][:20].replace(' ', '_').encode('ascii', 'ignore').decode('ascii')
-                    event['id'] = f"{self.department_name.lower().replace(' ', '_')}_{datetime.now().strftime('%Y%m%d')}_{safe_title}"
+        else:
+            # Try h3 elements (common in newer Drupal)
+            h3_elem = container.find('h3')
+            if h3_elem:
+                title_link = h3_elem.find('a')
+            else:
+                # Try any link with substantial text
+                all_links = container.find_all('a')
+                for link in all_links:
+                    text = link.get_text(strip=True)
+                    if len(text) > 10 and not text.startswith('http'):  # Avoid URL-only links
+                        title_link = link
+                        break
+
+        if title_link:
+            event['title'] = title_link.get_text(strip=True).encode('ascii', 'ignore').decode('ascii')
+            href = title_link.get('href')
+            if href:
+                if href.startswith('http'):
+                    event['source_url'] = href
+                else:
+                    event['source_url'] = self.base_url + href
+                safe_title = event['title'][:20].replace(' ', '_').encode('ascii', 'ignore').decode('ascii')
+                event['id'] = f"{self.department_name.lower().replace(' ', '_')}_{datetime.now().strftime('%Y%m%d')}_{safe_title}"
         
-        # Extract date from date badge
+        # Extract date - try multiple methods
+        date_extracted = False
+
+        # Method 1: Date badge (original method)
         date_badge = container.find('div', class_='date-badge')
         if date_badge:
             month_elem = date_badge.find('div', class_='month')
@@ -156,9 +178,23 @@ class UniversalDrupalCloudScraper:
             if month_elem and day_elem:
                 month = month_elem.get_text(strip=True)
                 day = day_elem.get_text(strip=True)
-                # Assume current year if not specified
                 current_year = datetime.now().year
                 event['start_date'] = f"{current_year}-{self._month_to_number(month)}-{day.zfill(2)}"
+                date_extracted = True
+
+        # Method 2: Date wrapper with dynamic tokens (politics site style)
+        if not date_extracted:
+            date_wrapper = container.find('div', class_='date-wrapper')
+            if date_wrapper:
+                month_field = date_wrapper.find('div', class_=lambda x: x and 'event-month' in x)
+                day_field = date_wrapper.find('div', class_=lambda x: x and 'event-day' in x)
+
+                if month_field and day_field:
+                    month = month_field.get_text(strip=True)
+                    day = day_field.get_text(strip=True)
+                    current_year = datetime.now().year
+                    event['start_date'] = f"{current_year}-{self._month_to_number(month)}-{day.zfill(2)}"
+                    date_extracted = True
         
         # Extract full date and time information
         date_elem = container.find('div', class_='field--name-field-ps-events-date')
@@ -616,7 +652,7 @@ DEPARTMENT_CONFIGS = {
 def test_department(department_key: str, max_pages: int = 3, fetch_details: bool = True):
     """Test the universal scraper with a specific department"""
     if department_key not in DEPARTMENT_CONFIGS:
-        print(f"❌ Department '{department_key}' not found in configurations")
+        print(f"ERROR: Department '{department_key}' not found in configurations")
         print(f"Available departments: {list(DEPARTMENT_CONFIGS.keys())}")
         return
     

@@ -785,9 +785,9 @@
             const today = new Date();
             today.setHours(0, 0, 0, 0); // Set to start of today
 
-            // Filter out past events and events without dates
+            // Filter out past events (keep events without dates for debugging)
             const futureEvents = events.filter(event => {
-                if (!event.start_date) return false;
+                if (!event.start_date) return true; // Keep events without dates for debugging
                 const eventDate = new Date(event.start_date);
                 eventDate.setHours(0, 0, 0, 0);
                 return eventDate >= today;
