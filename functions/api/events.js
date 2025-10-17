@@ -1,20 +1,7 @@
+import eventsData from '../frontend/data/events.json' assert { type: 'json' };
+
 export async function onRequestGet({ request }) {
   try {
-    // Fetch the events data from the static asset
-    const eventsResponse = await fetch(new URL('/data/events.json', request.url));
-
-    if (!eventsResponse.ok) {
-      return new Response(JSON.stringify({
-        error: 'Events data not found',
-        message: 'Data will be available after the next weekly scrape'
-      }), {
-        status: 404,
-        headers: { 'Content-Type': 'application/json' }
-      });
-    }
-
-    const eventsData = await eventsResponse.json();
-
     return new Response(JSON.stringify(eventsData), {
       headers: {
         'Content-Type': 'application/json',

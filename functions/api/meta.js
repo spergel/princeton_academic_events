@@ -1,21 +1,8 @@
+import metaData from '../frontend/data/meta.json' assert { type: 'json' };
+
 export async function onRequestGet({ request }) {
   try {
-    // Fetch the meta data from the static asset
-    const metaData = await fetch(new URL('/data/meta.json', request.url));
-
-    if (!metaData.ok) {
-      return new Response(JSON.stringify({
-        error: 'Meta data not found',
-        message: 'Data will be available after the next weekly scrape'
-      }), {
-        status: 404,
-        headers: { 'Content-Type': 'application/json' }
-      });
-    }
-
-    const data = await metaData.json();
-
-    return new Response(JSON.stringify(data), {
+    return new Response(JSON.stringify(metaData), {
       headers: {
         'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*',

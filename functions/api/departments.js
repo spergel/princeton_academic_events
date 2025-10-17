@@ -1,21 +1,8 @@
+import departmentsData from '../frontend/data/departments.json' assert { type: 'json' };
+
 export async function onRequestGet({ request }) {
   try {
-    // Fetch the departments data from the static asset
-    const deptData = await fetch(new URL('/data/departments.json', request.url));
-
-    if (!deptData.ok) {
-      return new Response(JSON.stringify({
-        error: 'Departments data not found',
-        message: 'Data will be available after the next weekly scrape'
-      }), {
-        status: 404,
-        headers: { 'Content-Type': 'application/json' }
-      });
-    }
-
-    const data = await deptData.json();
-
-    return new Response(JSON.stringify(data), {
+    return new Response(JSON.stringify(departmentsData), {
       headers: {
         'Content-Type': 'application/json',
         'Access-Control-Allow-Origin': '*',
