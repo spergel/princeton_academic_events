@@ -1,4 +1,4 @@
-import departmentsData from '../frontend/data/departments.json' assert { type: 'json' };
+import departmentsData from '../data/departments.json' assert { type: 'json' };
 
 export async function onRequestGet({ request }) {
   try {

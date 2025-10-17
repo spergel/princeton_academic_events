@@ -49,8 +49,9 @@ jobs:
       run: |
         echo "📁 Preparing static site files..."
         mkdir -p frontend/data
+        mkdir -p functions/data
 
-        # Copy the scraped data
+        # Copy the scraped data to frontend
         cp scrapers/all_princeton_academic_events.json frontend/data/events.json
 
         # Create departments.json from events data
@@ -76,6 +77,12 @@ jobs:
             update_frequency: "Weekly"
           }
         }' scrapers/all_princeton_academic_events.json > frontend/data/meta.json
+
+        # Copy data files to functions directory for API access
+        echo "📋 Copying data files to functions directory..."
+        cp frontend/data/events.json functions/data/
+        cp frontend/data/departments.json functions/data/
+        cp frontend/data/meta.json functions/data/
 
     - name: Deploy to Cloudflare Pages
       uses: cloudflare/pages-action@v1

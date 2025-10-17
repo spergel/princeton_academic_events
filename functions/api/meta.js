@@ -1,4 +1,4 @@
-import metaData from '../frontend/data/meta.json' assert { type: 'json' };
+import metaData from '../data/meta.json' assert { type: 'json' };
 
 export async function onRequestGet({ request }) {
   try {

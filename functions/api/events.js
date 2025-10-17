@@ -1,4 +1,4 @@
-import eventsData from '../frontend/data/events.json' assert { type: 'json' };
+import eventsData from '../data/events.json' assert { type: 'json' };
 
 export async function onRequestGet({ request }) {
   try {
