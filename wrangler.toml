@@ -6,9 +6,6 @@ compatibility_flags = ["nodejs_compat"]
 # Pages Functions configuration
 pages_build_output_dir = "frontend"
 
-# Functions configuration - functions are at root level
-functions = "functions"
-
 # Environment variables
 [vars]
 # Add any environment variables here if needed

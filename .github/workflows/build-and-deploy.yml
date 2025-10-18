@@ -11,7 +11,6 @@ on:
       - 'scrapers/**'
       - 'frontend/**'
       - 'functions/**'
-      - 'scripts/**'
 
 permissions:
   contents: read
@@ -45,18 +44,17 @@ jobs:
         cd scrapers
         python combine_cloudscraper_events.py
 
-    - name: Prepare static site files
+    - name: Prepare API data files
       run: |
-        echo "📁 Preparing static site files..."
-        mkdir -p frontend/data
+        echo "📁 Preparing API data files..."
         mkdir -p functions/data
 
-        # Copy the scraped data to frontend
-        cp scrapers/all_princeton_academic_events.json frontend/data/events.json
+        # Copy the scraped data directly to functions directory
+        cp scrapers/all_princeton_academic_events.json functions/data/events.json
 
         # Create departments.json from events data
         echo "📊 Creating departments data..."
-        jq '[.events | group_by(.department) | map({name: .[0].department, meta_category: .[0].meta_category, event_count: length, is_selected: false}) | sort_by(.name)]' scrapers/all_princeton_academic_events.json > frontend/data/departments.json
+        jq '[.events | group_by(.department) | map({name: .[0].department, meta_category: .[0].meta_category, event_count: length, is_selected: false}) | sort_by(.name)]' scrapers/all_princeton_academic_events.json > functions/data/departments.json
 
         # Create a comprehensive meta file
         echo "📋 Creating meta data..."
@@ -76,13 +74,7 @@ jobs:
             data_source: "Princeton University Department Websites",
             update_frequency: "Weekly"
           }
-        }' scrapers/all_princeton_academic_events.json > frontend/data/meta.json
-
-        # Copy data files to functions directory for API access
-        echo "📋 Copying data files to functions directory..."
-        cp frontend/data/events.json functions/data/
-        cp frontend/data/departments.json functions/data/
-        cp frontend/data/meta.json functions/data/
+        }' scrapers/all_princeton_academic_events.json > functions/data/meta.json
 
     - name: Deploy to Cloudflare Pages
       uses: cloudflare/pages-action@v1
