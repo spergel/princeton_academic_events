@@ -279,4 +279,531 @@ if __name__ == "__main__":
     events = scraper.scrape_physics_events()
     scraper.save_events(events)
 
+        
+
+        # Determine event type and tags
+
+        event['event_type'] = self._determine_event_type(event['title'])
+
+        event['tags'].extend(self._extract_tags(event['title'], event.get('description', '')))
+
+        
+
+        return event
+
+    
+
+    def _parse_datetime(self, datetime_str: str) -> datetime:
+
+        """Parse datetime string from Physics JSON feed"""
+
+        try:
+
+            # Try different datetime formats
+
+            formats = [
+
+                '%Y-%m-%dT%H:%M:%S',
+
+                '%Y-%m-%dT%H:%M:%S.%f',
+
+                '%Y-%m-%d %H:%M:%S',
+
+                '%Y-%m-%d'
+
+            ]
+
+            
+
+            for fmt in formats:
+
+                try:
+
+                    dt = datetime.strptime(datetime_str, fmt)
+
+                    # Convert to Princeton timezone if it's timezone-aware
+
+                    if dt.tzinfo:
+
+                        princeton_tz = pytz.timezone('America/New_York')
+
+                        dt = dt.astimezone(princeton_tz)
+
+                    return dt
+
+                except ValueError:
+
+                    continue
+
+            
+
+            return None
+
+        except Exception:
+
+            return None
+
+    
+
+    def _determine_event_type(self, title: str) -> str:
+
+        """Determine event type based on title"""
+
+        if not title:
+
+            return 'Event'
+
+            
+
+        title_lower = title.lower()
+
+        
+
+        type_keywords = {
+
+            'colloquium': 'Colloquium',
+
+            'seminar': 'Seminar',
+
+            'workshop': 'Workshop',
+
+            'talk': 'Talk',
+
+            'lecture': 'Lecture',
+
+            'conference': 'Conference',
+
+            'panel': 'Panel',
+
+            'discussion': 'Discussion',
+
+            'symposium': 'Symposium',
+
+            'meeting': 'Meeting',
+
+            'exam': 'Exam',
+
+            'office hours': 'Office Hours',
+
+            'lab': 'Lab Session',
+
+            'tutorial': 'Tutorial',
+
+            'recitation': 'Recitation'
+
+        }
+
+        
+
+        for keyword, event_type in type_keywords.items():
+
+            if keyword in title_lower:
+
+                return event_type
+
+        
+
+        return 'Event'
+
+    
+
+    def _extract_tags(self, title: str, description: str) -> List[str]:
+
+        """Extract relevant tags from title and description"""
+
+        text = (title + ' ' + (description or '')).lower()
+
+        tags = []
+
+        
+
+        # Add department-specific tags
+
+        physics_tags = [
+
+            'physics', 'physical', 'mechanics', 'thermodynamics', 'electromagnetism',
+
+            'optics', 'quantum', 'particle', 'nuclear', 'astrophysics', 'cosmology',
+
+            'condensed matter', 'plasma', 'fluid dynamics', 'statistical mechanics',
+
+            'relativity', 'string theory', 'quantum field theory', 'quantum mechanics'
+
+        ]
+
+        
+
+        for tag in physics_tags:
+
+            if tag in text:
+
+                tags.append(tag)
+
+        
+
+        # Add general tags
+
+        general_tags = ['princeton', 'university', 'academic', 'event', 'colloquium', 'seminar']
+
+        for tag in general_tags:
+
+            if tag in text and tag not in tags:
+
+                tags.append(tag)
+
+        
+
+        return tags
+
+    
+
+    def _deduplicate_events(self, events: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+
+        """Remove duplicate events"""
+
+        seen = set()
+
+        unique_events = []
+
+        
+
+        for event in events:
+
+            key = f"{event.get('title', '')}_{event.get('start_date', '')}_{event.get('time', '')}"
+
+            if key not in seen:
+
+                seen.add(key)
+
+                unique_events.append(event)
+
+        
+
+        return unique_events
+
+    
+
+    def save_events(self, events: List[Dict[str, Any]], filename: str = None):
+
+        """Save events to JSON file"""
+
+        if not filename:
+
+            filename = f'{self.department_name.lower()}_json_events.json'
+
+        
+
+        output = {
+
+            'metadata': {
+
+                'department': self.department_name,
+
+                'total_events': len(events),
+
+                'scraped_at': datetime.now().isoformat(),
+
+                'source_url': self.json_url,
+
+                'source': f'{self.department_name} JSON Calendar Feed',
+
+                'note': f'Scraped from {self.json_url}'
+
+            },
+
+            'events': events
+
+        }
+
+        
+
+        with open(filename, 'w', encoding='utf-8') as f:
+
+            json.dump(output, f, indent=2, ensure_ascii=False)
+
+        
+
+        print(f"💾 Saved {len(events)} events to {filename}")
+
+
+
+if __name__ == "__main__":
+
+    scraper = PhysicsJSONScraper()
+
+    events = scraper.scrape_physics_events()
+
+    scraper.save_events(events)
+
+
+
+
+        # Extract additional fields that might be available
+
+        if event_data.get('speaker'):
+
+            event['speaker'] = str(event_data['speaker'])
+
+        
+
+        if event_data.get('category'):
+
+            event['tags'].append(str(event_data['category']))
+
+        
+
+        # Determine event type and tags
+
+        event['event_type'] = self._determine_event_type(event['title'])
+
+        event['tags'].extend(self._extract_tags(event['title'], event.get('description', '')))
+
+        
+
+        return event
+
+    
+
+    def _parse_datetime(self, datetime_str: str) -> datetime:
+
+        """Parse datetime string from Physics JSON feed"""
+
+        try:
+
+            # Try different datetime formats
+
+            formats = [
+
+                '%Y-%m-%dT%H:%M:%S',
+
+                '%Y-%m-%dT%H:%M:%S.%f',
+
+                '%Y-%m-%d %H:%M:%S',
+
+                '%Y-%m-%d'
+
+            ]
+
+            
+
+            for fmt in formats:
+
+                try:
+
+                    dt = datetime.strptime(datetime_str, fmt)
+
+                    # Convert to Princeton timezone if it's timezone-aware
+
+                    if dt.tzinfo:
+
+                        princeton_tz = pytz.timezone('America/New_York')
+
+                        dt = dt.astimezone(princeton_tz)
+
+                    return dt
+
+                except ValueError:
+
+                    continue
+
+            
+
+            return None
+
+        except Exception:
+
+            return None
+
+    
+
+    def _determine_event_type(self, title: str) -> str:
+
+        """Determine event type based on title"""
+
+        if not title:
+
+            return 'Event'
+
+            
+
+        title_lower = title.lower()
+
+        
+
+        type_keywords = {
+
+            'colloquium': 'Colloquium',
+
+            'seminar': 'Seminar',
+
+            'workshop': 'Workshop',
+
+            'talk': 'Talk',
+
+            'lecture': 'Lecture',
+
+            'conference': 'Conference',
+
+            'panel': 'Panel',
+
+            'discussion': 'Discussion',
+
+            'symposium': 'Symposium',
+
+            'meeting': 'Meeting',
+
+            'exam': 'Exam',
+
+            'office hours': 'Office Hours',
+
+            'lab': 'Lab Session',
+
+            'tutorial': 'Tutorial',
+
+            'recitation': 'Recitation'
+
+        }
+
+        
+
+        for keyword, event_type in type_keywords.items():
+
+            if keyword in title_lower:
+
+                return event_type
+
+        
+
+        return 'Event'
+
+    
+
+    def _extract_tags(self, title: str, description: str) -> List[str]:
+
+        """Extract relevant tags from title and description"""
+
+        text = (title + ' ' + (description or '')).lower()
+
+        tags = []
+
+        
+
+        # Add department-specific tags
+
+        physics_tags = [
+
+            'physics', 'physical', 'mechanics', 'thermodynamics', 'electromagnetism',
+
+            'optics', 'quantum', 'particle', 'nuclear', 'astrophysics', 'cosmology',
+
+            'condensed matter', 'plasma', 'fluid dynamics', 'statistical mechanics',
+
+            'relativity', 'string theory', 'quantum field theory', 'quantum mechanics'
+
+        ]
+
+        
+
+        for tag in physics_tags:
+
+            if tag in text:
+
+                tags.append(tag)
+
+        
+
+        # Add general tags
+
+        general_tags = ['princeton', 'university', 'academic', 'event', 'colloquium', 'seminar']
+
+        for tag in general_tags:
+
+            if tag in text and tag not in tags:
+
+                tags.append(tag)
+
+        
+
+        return tags
+
+    
+
+    def _deduplicate_events(self, events: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
+
+        """Remove duplicate events"""
+
+        seen = set()
+
+        unique_events = []
+
+        
+
+        for event in events:
+
+            key = f"{event.get('title', '')}_{event.get('start_date', '')}_{event.get('time', '')}"
+
+            if key not in seen:
+
+                seen.add(key)
+
+                unique_events.append(event)
+
+        
+
+        return unique_events
+
+    
+
+    def save_events(self, events: List[Dict[str, Any]], filename: str = None):
+
+        """Save events to JSON file"""
+
+        if not filename:
+
+            filename = f'{self.department_name.lower()}_json_events.json'
+
+        
+
+        output = {
+
+            'metadata': {
+
+                'department': self.department_name,
+
+                'total_events': len(events),
+
+                'scraped_at': datetime.now().isoformat(),
+
+                'source_url': self.json_url,
+
+                'source': f'{self.department_name} JSON Calendar Feed',
+
+                'note': f'Scraped from {self.json_url}'
+
+            },
+
+            'events': events
+
+        }
+
+        
+
+        with open(filename, 'w', encoding='utf-8') as f:
+
+            json.dump(output, f, indent=2, ensure_ascii=False)
+
+        
+
+        print(f"💾 Saved {len(events)} events to {filename}")
+
+
+
+if __name__ == "__main__":
+
+    scraper = PhysicsJSONScraper()
+
+    events = scraper.scrape_physics_events()
+
+    scraper.save_events(events)
+
 

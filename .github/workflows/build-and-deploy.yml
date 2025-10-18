@@ -1,8 +1,8 @@
-name: Weekly Scrape and Deploy Princeton Academic Events
+name: Weekly Scrape Princeton Academic Events
 
 on:
   schedule:
-    # Run every Sunday at 2 AM UTC (weekly scrape and rebuild)
+    # Run every Sunday at 2 AM UTC (weekly scrape)
     - cron: '0 2 * * 0'
   workflow_dispatch: # Allow manual triggering
   push:
@@ -13,10 +13,10 @@ on:
       - 'functions/**'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  scrape-and-deploy:
+  scrape:
     runs-on: ubuntu-latest
 
     steps:
@@ -76,29 +76,11 @@ jobs:
           }
         }' scrapers/all_princeton_academic_events.json > functions/data/meta.json
 
-    - name: Deploy to Cloudflare Pages
-      uses: cloudflare/pages-action@v1
-      with:
-        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-        accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-        projectName: princeton-academic
-        directory: ./frontend
-        gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-
-  notify:
-    needs: scrape-and-deploy
-    runs-on: ubuntu-latest
-    if: always()
-
-    steps:
-    - name: Notify on success
-      if: needs.scrape-and-deploy.result == 'success'
+    - name: Commit and push updated data
       run: |
-        echo "✅ Princeton Academic Events site built and deployed successfully!"
-        echo "🌐 Site updated with latest events data on Cloudflare Pages"
-
-    - name: Notify on failure
-      if: needs.scrape-and-deploy.result == 'failure'
-      run: |
-        echo "❌ Princeton Academic Events build failed!"
-        echo "🔍 Check the logs for details"
+        echo "📝 Committing updated data files..."
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add functions/data/
+        git commit -m "Update events data from scrapers" || exit 0
+        git push
