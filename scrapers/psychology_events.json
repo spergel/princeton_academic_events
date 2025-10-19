@@ -1,0 +1,11 @@
+{
+  "metadata": {
+    "department": "Psychology",
+    "total_events": 0,
+    "scraped_at": "2025-10-19T09:30:11.882750",
+    "source_url": "https://psychology.princeton.edu/events",
+    "source": "Psychology Department Events",
+    "note": "Scraped from https://psychology.princeton.edu/events"
+  },
+  "events": []
+}

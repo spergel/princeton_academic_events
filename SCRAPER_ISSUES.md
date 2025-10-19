@@ -22,11 +22,11 @@ These domains don't exist or are unreachable:
 ### 3. **Access Forbidden**
 - **Environmental Studies**: `environment.princeton.edu/events` - Returns 403 Forbidden
 - **Sociology**: `sociology.princeton.edu/events` - Returns 403 Forbidden (blocks automated requests)
+- **Psychology**: `psychology.princeton.edu/events` - Returns 403 Forbidden (blocks automated requests)
 
 ## 📊 Scrapers with Zero Events (Need Investigation)
 
-### Working URLs but No Events Found:
-- **Psychology**: `https://psychology.princeton.edu/events` - 0 events  
+### Working URLs but No Events Found:  
 - **Anthropology**: `https://anthropology.princeton.edu/events` - 0 events
 - **History**: `https://history.princeton.edu/news-events/events` - 0 events
 - **English**: `https://english.princeton.edu/events` - 0 events
