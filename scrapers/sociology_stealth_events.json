@@ -1,0 +1,11 @@
+{
+  "metadata": {
+    "department": "Sociology",
+    "total_events": 0,
+    "scraped_at": "2025-10-19T09:31:54.600940",
+    "source_url": "https://sociology.princeton.edu/events",
+    "source": "Sociology Department Events (Stealth)",
+    "note": "Scraped from https://sociology.princeton.edu/events using stealth techniques"
+  },
+  "events": []
+}

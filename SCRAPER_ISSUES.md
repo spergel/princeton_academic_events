@@ -19,10 +19,20 @@ These domains don't exist or are unreachable:
 - **Russian/East European Studies**: `rees.princeton.edu` - Domain not found
 - **Astrophysical Sciences**: `astro.princeton.edu` - Domain not found
 
-### 3. **Access Forbidden**
+### 3. **Access Forbidden (Aggressive Anti-Bot Protection)**
 - **Environmental Studies**: `environment.princeton.edu/events` - Returns 403 Forbidden
-- **Sociology**: `sociology.princeton.edu/events` - Returns 403 Forbidden (blocks automated requests)
-- **Psychology**: `psychology.princeton.edu/events` - Returns 403 Forbidden (blocks automated requests)
+- **Sociology**: `sociology.princeton.edu/events` - Returns 403 Forbidden (blocks ALL automated requests, even with advanced headers)
+- **Psychology**: `psychology.princeton.edu/events` - Returns 403 Forbidden (blocks ALL automated requests, even with advanced headers)
+
+**Note**: These departments have implemented aggressive anti-bot protection that blocks:
+- Standard requests
+- Advanced browser headers
+- Session-based requests
+- Multiple user agents
+- Different URL paths
+- Stealth techniques
+
+**Recommendation**: Contact these departments directly to request API access or alternative data sources.
 
 ## 📊 Scrapers with Zero Events (Need Investigation)
 
