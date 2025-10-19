@@ -1,0 +1,11 @@
+{
+  "metadata": {
+    "department": "History",
+    "total_events": 0,
+    "scraped_at": "2025-10-19T09:34:34.603837",
+    "source_url": "https://history.princeton.edu/news-events/events",
+    "source": "History Department Events",
+    "note": "Scraped from https://history.princeton.edu/news-events/events"
+  },
+  "events": []
+}

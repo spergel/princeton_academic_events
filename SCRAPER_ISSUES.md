@@ -23,6 +23,7 @@ These domains don't exist or are unreachable:
 - **Environmental Studies**: `environment.princeton.edu/events` - Returns 403 Forbidden
 - **Sociology**: `sociology.princeton.edu/events` - Returns 403 Forbidden (blocks ALL automated requests, even with advanced headers)
 - **Psychology**: `psychology.princeton.edu/events` - Returns 403 Forbidden (blocks ALL automated requests, even with advanced headers)
+- **History**: `history.princeton.edu/news-events/events` - Returns 403 Forbidden (blocks automated requests)
 
 **Note**: These departments have implemented aggressive anti-bot protection that blocks:
 - Standard requests
