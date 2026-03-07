@@ -22,20 +22,110 @@ class PhysicsCloudScraper:
             'Connection': 'keep-alive',
             'Upgrade-Insecure-Requests': '1'
         })
-        self.base_url = "https://phy.princeton.edu"
-        self.events_url = "https://phy.princeton.edu/events"
+        self.base_url = "https://physics.princeton.edu"
+        self.events_url = "https://physics.princeton.edu/events"
         self.department_name = "Physics"
         self.meta_category = "sciences_engineering"
         
-    def scrape_physics_events(self) -> List[Dict[str, Any]]:
-        """Scrape events from the Physics department using their FullCalendar widget"""
-        print(f"⚛️ SCRAPING {self.department_name.upper()} EVENTS")
-        print("=" * 60)
-        
-        all_events = []
-        
+    def _try_json_feed(self) -> List[Dict[str, Any]]:
+        """Try the FullCalendar JSON feed endpoint first (avoids Cloudflare HTML blocking)"""
+        import re as _re
+        from datetime import datetime as _dt
+        # Physics uses phy.princeton.edu for the JSON feed (physics.princeton.edu redirects there)
+        json_url = "https://phy.princeton.edu/feeds/events/calendar.json"
+        current_year = _dt.now().year
+        params = {
+            'uuid': '2cea06c3-31b5-478b-b470-477cf35c7a4d',
+            'et': 'node',
+            'ei': '7896',
+            'start': f'{current_year}-01-01T00:00:00',
+            'end': f'{current_year + 1}-12-31T23:59:59',
+            'timeZone': 'America/New_York',
+        }
         try:
-            print(f"🔍 Fetching events from: {self.events_url}")
+            print(f"    Trying JSON feed: {json_url}")
+            resp = self.scraper.get(json_url, params=params, timeout=30)
+            resp.raise_for_status()
+            data = resp.json()
+            if not isinstance(data, list) or len(data) == 0:
+                return []
+            events = []
+            for item in data:
+                title = item.get('title', '').strip()
+                if not title:
+                    continue
+                start_str = item.get('start', '')
+                date_part = start_str[:10] if start_str else ''
+                time_part = ''
+                if 'T' in start_str:
+                    t = start_str[11:16]
+                    hour = int(t[:2])
+                    minute = int(t[3:5])
+                    ampm = 'AM' if hour < 12 else 'PM'
+                    display_hour = hour % 12 or 12
+                    time_part = f'{display_hour}:{minute:02d} {ampm}'
+                end_str = item.get('end', '')
+                end_date = end_str[:10] if end_str else None
+                if 'T' in end_str and date_part == end_date:
+                    t = end_str[11:16]
+                    hour = int(t[:2])
+                    minute = int(t[3:5])
+                    ampm = 'AM' if hour < 12 else 'PM'
+                    display_hour = hour % 12 or 12
+                    end_time_part = f'{display_hour}:{minute:02d} {ampm}'
+                    if time_part:
+                        time_part = f'{time_part} - {end_time_part}'
+                url = item.get('url', '')
+                if url and not url.startswith('http'):
+                    url = 'https://phy.princeton.edu' + url
+                safe_title = _re.sub(r'[^a-zA-Z0-9]', '_', title[:20])
+                events.append({
+                    'id': f"physics_{date_part}_{safe_title}",
+                    'title': title,
+                    'description': item.get('description', '') or '',
+                    'start_date': date_part,
+                    'end_date': end_date,
+                    'time': time_part,
+                    'location': item.get('location', '') or 'Princeton University',
+                    'event_type': self._determine_event_type(title),
+                    'department': self.department_name,
+                    'meta_category': self.meta_category,
+                    'source_url': url or self.events_url,
+                    'source_name': f'{self.department_name} Department Events',
+                    'speaker': '',
+                    'audience': '',
+                    'topics': [],
+                    'departments': [],
+                    'tags': self._extract_tags(title, ''),
+                    'series': self._extract_series_from_title(title),
+                    'image_url': '',
+                    'created_at': _dt.now().isoformat(),
+                    'updated_at': _dt.now().isoformat(),
+                })
+            print(f"    JSON feed: found {len(events)} events")
+            return events
+        except Exception as e:
+            print(f"    JSON feed failed: {e}")
+            return []
+
+    def scrape_physics_events(self) -> List[Dict[str, Any]]:
+        """Scrape events from the Physics department - tries JSON feed first, then HTML"""
+        print(f"SCRAPING {self.department_name.upper()} EVENTS")
+        print("=" * 60)
+
+        # Try JSON feed first (more reliable, avoids Cloudflare HTML protection)
+        json_events = self._try_json_feed()
+        if json_events:
+            unique = self._deduplicate_events(json_events)
+            unique.sort(key=lambda x: x.get('start_date', ''))
+            print(f"Total unique events found (JSON): {len(unique)}")
+            return unique
+
+        print("JSON feed unavailable, falling back to HTML scraper...")
+        all_events = []
+
+        try:
+            print(f"Fetching events from: {self.events_url}")
             
             # First, let's try to get the page with CloudScraper
             response = self.scraper.get(self.events_url, timeout=30)

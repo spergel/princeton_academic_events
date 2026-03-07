@@ -22,12 +22,13 @@ class GeosciencesJSONScraper:
             print(f"🔍 Fetching JSON feed from: {self.json_url}")
             
             # Set up parameters for the JSON request
+            current_year = datetime.now().year
             params = {
                 'uuid': '6b2dd1c5-55dc-4047-a69a-c478e57244ce',
                 'et': 'node',
                 'ei': '2816',
-                'start': '2025-01-01T00:00:00',  # Get events from start of year
-                'end': '2025-12-31T23:59:59',    # Get events until end of year
+                'start': f'{current_year}-01-01T00:00:00',
+                'end': f'{current_year + 1}-12-31T23:59:59',
                 'timeZone': 'America/New_York'
             }
             
