@@ -177,6 +177,5 @@ def combine_all_events(use_browser: bool = True):
     return combined_data
 
 if __name__ == "__main__":
-    # Check for --no-browser flag
-    use_browser = '--no-browser' not in sys.argv
-    combine_all_events(use_browser=use_browser)
+    # Browser scraper disabled - ICS feeds cover all those departments
+    combine_all_events(use_browser=False)
