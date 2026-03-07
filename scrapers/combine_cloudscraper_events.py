@@ -6,6 +6,7 @@ import sys
 from datetime import datetime
 from typing import List, Dict, Any
 from universal_drupal_cloudscraper import UniversalDrupalCloudScraper
+from universal_ics_scraper import scrape_all_ics_departments
 
 # Check if browser scraper is available
 BROWSER_SCRAPER_AVAILABLE = False
@@ -70,6 +71,18 @@ def combine_all_events(use_browser: bool = True):
     successful_scrapers = 0
     total_events = 0
     browser_events = 0
+
+    # Run universal ICS scraper for all departments with ICS feeds
+    print("\n--- UNIVERSAL ICS SCRAPER (25 departments) ---")
+    try:
+        ics_events = scrape_all_ics_departments()
+        if ics_events:
+            all_events.extend(ics_events)
+            successful_scrapers += 1
+            total_events += len(ics_events)
+            print(f"SUCCESS: ICS scraper: {len(ics_events)} events from {len(set(e['department'] for e in ics_events))} departments")
+    except Exception as e:
+        print(f"ERROR: ICS scraper: {e}")
 
     # Run individual scrapers
     print("\n--- INDIVIDUAL SCRAPERS ---")
