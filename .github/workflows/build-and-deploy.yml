@@ -33,6 +33,11 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
 
+    - name: Install Playwright browsers
+      run: |
+        playwright install chromium
+        playwright install-deps chromium
+
     - name: Install jq for JSON processing
       run: |
         sudo apt-get update
@@ -83,4 +88,19 @@ jobs:
         git config --local user.name "GitHub Action"
         git add functions/data/
         git commit -m "Update events data from scrapers" || exit 0
+        git pull --rebase origin master
         git push
+
+    - name: Send weekly newsletter digest
+      if: github.event_name == 'schedule'
+      env:
+        DIGEST_SECRET: ${{ secrets.DIGEST_SECRET }}
+      run: |
+        echo "📧 Sending weekly newsletter digest..."
+        # Wait for Cloudflare Pages deployment to complete
+        sleep 60
+        curl -X POST \
+          -H "Authorization: Bearer $DIGEST_SECRET" \
+          -H "Content-Type: application/json" \
+          -d '{"type": "weekly"}' \
+          https://princeton-academic-events.pages.dev/api/send-digest || echo "Newsletter send skipped (no secret configured)"
