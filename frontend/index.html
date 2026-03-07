@@ -363,10 +363,12 @@
 
         .calendar-grid {
             display: grid;
-            grid-template-columns: repeat(7, 1fr);
+            grid-template-columns: repeat(7, minmax(0, 1fr));
             gap: 1px;
             background-color: var(--princeton-border);
             border: 1px solid var(--princeton-border);
+            width: 100%;
+            overflow: hidden;
         }
 
         .calendar-day-header {
@@ -384,6 +386,8 @@
             padding: 4px;
             position: relative;
             cursor: pointer;
+            overflow: hidden;
+            min-width: 0;
         }
 
         .calendar-day:hover {
@@ -401,7 +405,7 @@
         }
 
         .calendar-day-number {
-            font-size: 14px;
+            font-size: 12px;
             font-weight: bold;
             margin-bottom: 2px;
             color: var(--princeton-dark-grey);
@@ -414,14 +418,16 @@
         .calendar-event {
             background-color: var(--princeton-orange);
             color: var(--princeton-white);
-            font-size: 11px;
-            padding: 2px 4px;
+            font-size: 10px;
+            padding: 1px 3px;
             margin-bottom: 2px;
             border-radius: 2px;
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: nowrap;
             cursor: pointer;
+            display: block;
+            max-width: 100%;
         }
 
         .calendar-event:hover {
@@ -657,8 +663,8 @@
                 <!-- Calendar View -->
                 <div id="calendarViewContainer" style="display: none;">
                     <div class="content-block">
-                        <div class="content-block-body">
-                            <div id="calendarContainer">
+                        <div class="content-block-body" style="overflow: hidden; padding: 8px;">
+                            <div id="calendarContainer" style="width: 100%; overflow: hidden;">
                                 <!-- Calendar will be generated here -->
                             </div>
                         </div>
