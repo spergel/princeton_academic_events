@@ -35,8 +35,8 @@ jobs:
 
     - name: Install Playwright browsers
       run: |
-        playwright install chromium
-        playwright install-deps chromium
+        python -m playwright install chromium
+        python -m playwright install-deps chromium
 
     - name: Install jq for JSON processing
       run: |
@@ -59,7 +59,7 @@ jobs:
 
         # Create departments.json from events data
         echo "📊 Creating departments data..."
-        jq '[.events | group_by(.department) | map({name: .[0].department, meta_category: .[0].meta_category, event_count: length, is_selected: false}) | sort_by(.name)]' scrapers/all_princeton_academic_events.json > functions/data/departments.json
+        jq '.events | group_by(.department) | map({name: .[0].department, meta_category: .[0].meta_category, event_count: length, is_selected: false}) | sort_by(.name)' scrapers/all_princeton_academic_events.json > functions/data/departments.json
 
         # Create a comprehensive meta file
         echo "📋 Creating meta data..."
