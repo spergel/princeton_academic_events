@@ -2,25 +2,25 @@
   {
     "name": "African American Studies",
     "meta_category": "area_studies",
-    "event_count": 18,
+    "event_count": 17,
     "is_selected": false
   },
   {
     "name": "Anthropology",
     "meta_category": "social_sciences",
-    "event_count": 59,
+    "event_count": 60,
     "is_selected": false
   },
   {
     "name": "Art & Archaeology",
     "meta_category": "arts_humanities",
-    "event_count": 59,
+    "event_count": 57,
     "is_selected": false
   },
   {
     "name": "CBE",
     "meta_category": "sciences_engineering",
-    "event_count": 9,
+    "event_count": 11,
     "is_selected": false
   },
   {
@@ -32,13 +32,13 @@
   {
     "name": "CITP",
     "meta_category": "interdisciplinary",
-    "event_count": 30,
+    "event_count": 31,
     "is_selected": false
   },
   {
     "name": "Classics",
     "meta_category": "arts_humanities",
-    "event_count": 9,
+    "event_count": 11,
     "is_selected": false
   },
   {
@@ -56,13 +56,13 @@
   {
     "name": "ECE",
     "meta_category": "sciences_engineering",
-    "event_count": 24,
+    "event_count": 25,
     "is_selected": false
   },
   {
     "name": "EEB",
     "meta_category": "sciences_engineering",
-    "event_count": 11,
+    "event_count": 10,
     "is_selected": false
   },
   {
@@ -80,7 +80,7 @@
   {
     "name": "Gender & Sexuality Studies",
     "meta_category": "interdisciplinary",
-    "event_count": 16,
+    "event_count": 17,
     "is_selected": false
   },
   {
@@ -92,13 +92,13 @@
   {
     "name": "Hellenic Studies",
     "meta_category": "area_studies",
-    "event_count": 22,
+    "event_count": 20,
     "is_selected": false
   },
   {
     "name": "History",
     "meta_category": "arts_humanities",
-    "event_count": 69,
+    "event_count": 67,
     "is_selected": false
   },
   {
@@ -110,7 +110,7 @@
   {
     "name": "Mathematics",
     "meta_category": "sciences_engineering",
-    "event_count": 50,
+    "event_count": 56,
     "is_selected": false
   },
   {
@@ -122,7 +122,7 @@
   {
     "name": "Music",
     "meta_category": "arts_humanities",
-    "event_count": 71,
+    "event_count": 68,
     "is_selected": false
   },
   {
@@ -134,13 +134,13 @@
   {
     "name": "Neuroscience (PNI)",
     "meta_category": "sciences_engineering",
-    "event_count": 13,
+    "event_count": 14,
     "is_selected": false
   },
   {
     "name": "ORFE",
     "meta_category": "sciences_engineering",
-    "event_count": 20,
+    "event_count": 19,
     "is_selected": false
   },
   {
@@ -152,25 +152,25 @@
   {
     "name": "Physics",
     "meta_category": "sciences_engineering",
-    "event_count": 52,
+    "event_count": 56,
     "is_selected": false
   },
   {
     "name": "Psychology",
     "meta_category": "social_sciences",
-    "event_count": 42,
+    "event_count": 39,
     "is_selected": false
   },
   {
     "name": "Religion",
     "meta_category": "arts_humanities",
-    "event_count": 7,
+    "event_count": 8,
     "is_selected": false
   },
   {
     "name": "SPIA",
     "meta_category": "social_sciences",
-    "event_count": 37,
+    "event_count": 38,
     "is_selected": false
   },
   {
@@ -182,13 +182,13 @@
   {
     "name": "Sociology",
     "meta_category": "social_sciences",
-    "event_count": 8,
+    "event_count": 7,
     "is_selected": false
   },
   {
     "name": "UCHV",
     "meta_category": "interdisciplinary",
-    "event_count": 52,
+    "event_count": 46,
     "is_selected": false
   },
   {
