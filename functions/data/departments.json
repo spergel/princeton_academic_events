@@ -2,25 +2,25 @@
   {
     "name": "African American Studies",
     "meta_category": "area_studies",
-    "event_count": 19,
+    "event_count": 23,
     "is_selected": false
   },
   {
     "name": "Anthropology",
     "meta_category": "social_sciences",
-    "event_count": 54,
+    "event_count": 50,
     "is_selected": false
   },
   {
     "name": "Art & Archaeology",
     "meta_category": "arts_humanities",
-    "event_count": 52,
+    "event_count": 60,
     "is_selected": false
   },
   {
     "name": "CBE",
     "meta_category": "sciences_engineering",
-    "event_count": 11,
+    "event_count": 8,
     "is_selected": false
   },
   {
@@ -32,19 +32,19 @@
   {
     "name": "CITP",
     "meta_category": "interdisciplinary",
-    "event_count": 31,
+    "event_count": 29,
     "is_selected": false
   },
   {
     "name": "Classics",
     "meta_category": "arts_humanities",
-    "event_count": 11,
+    "event_count": 10,
     "is_selected": false
   },
   {
     "name": "Comparative Literature",
     "meta_category": "arts_humanities",
-    "event_count": 10,
+    "event_count": 9,
     "is_selected": false
   },
   {
@@ -56,7 +56,7 @@
   {
     "name": "ECE",
     "meta_category": "sciences_engineering",
-    "event_count": 23,
+    "event_count": 18,
     "is_selected": false
   },
   {
@@ -68,37 +68,37 @@
   {
     "name": "Economics",
     "meta_category": "social_sciences",
-    "event_count": 19,
+    "event_count": 20,
     "is_selected": false
   },
   {
     "name": "English",
     "meta_category": "arts_humanities",
-    "event_count": 42,
+    "event_count": 36,
     "is_selected": false
   },
   {
     "name": "Gender & Sexuality Studies",
     "meta_category": "interdisciplinary",
-    "event_count": 18,
+    "event_count": 13,
     "is_selected": false
   },
   {
     "name": "Geosciences",
     "meta_category": "sciences_engineering",
-    "event_count": 23,
+    "event_count": 25,
     "is_selected": false
   },
   {
     "name": "Hellenic Studies",
     "meta_category": "area_studies",
-    "event_count": 20,
+    "event_count": 21,
     "is_selected": false
   },
   {
     "name": "History",
     "meta_category": "arts_humanities",
-    "event_count": 63,
+    "event_count": 57,
     "is_selected": false
   },
   {
@@ -110,7 +110,7 @@
   {
     "name": "Mathematics",
     "meta_category": "sciences_engineering",
-    "event_count": 49,
+    "event_count": 45,
     "is_selected": false
   },
   {
@@ -122,13 +122,13 @@
   {
     "name": "Music",
     "meta_category": "arts_humanities",
-    "event_count": 67,
+    "event_count": 64,
     "is_selected": false
   },
   {
     "name": "Near Eastern Studies",
     "meta_category": "area_studies",
-    "event_count": 24,
+    "event_count": 23,
     "is_selected": false
   },
   {
@@ -140,49 +140,49 @@
   {
     "name": "ORFE",
     "meta_category": "sciences_engineering",
-    "event_count": 18,
+    "event_count": 16,
     "is_selected": false
   },
   {
     "name": "Philosophy",
     "meta_category": "arts_humanities",
-    "event_count": 21,
+    "event_count": 19,
     "is_selected": false
   },
   {
     "name": "Physics",
     "meta_category": "sciences_engineering",
-    "event_count": 57,
+    "event_count": 66,
     "is_selected": false
   },
   {
     "name": "Psychology",
     "meta_category": "social_sciences",
-    "event_count": 37,
+    "event_count": 32,
     "is_selected": false
   },
   {
     "name": "Religion",
     "meta_category": "arts_humanities",
-    "event_count": 8,
+    "event_count": 10,
     "is_selected": false
   },
   {
     "name": "SPIA",
     "meta_category": "social_sciences",
-    "event_count": 38,
+    "event_count": 28,
     "is_selected": false
   },
   {
     "name": "Slavic Languages",
     "meta_category": "arts_humanities",
-    "event_count": 18,
+    "event_count": 16,
     "is_selected": false
   },
   {
     "name": "Sociology",
     "meta_category": "social_sciences",
-    "event_count": 6,
+    "event_count": 5,
     "is_selected": false
   },
   {
@@ -194,7 +194,7 @@
   {
     "name": "politics",
     "meta_category": "social_sciences",
-    "event_count": 20,
+    "event_count": 17,
     "is_selected": false
   }
 ]
