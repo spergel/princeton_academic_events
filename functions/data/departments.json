@@ -2,19 +2,19 @@
   {
     "name": "African American Studies",
     "meta_category": "area_studies",
-    "event_count": 23,
+    "event_count": 32,
     "is_selected": false
   },
   {
     "name": "Anthropology",
     "meta_category": "social_sciences",
-    "event_count": 50,
+    "event_count": 49,
     "is_selected": false
   },
   {
     "name": "Art & Archaeology",
     "meta_category": "arts_humanities",
-    "event_count": 60,
+    "event_count": 64,
     "is_selected": false
   },
   {
@@ -38,31 +38,31 @@
   {
     "name": "Classics",
     "meta_category": "arts_humanities",
-    "event_count": 10,
+    "event_count": 12,
     "is_selected": false
   },
   {
     "name": "Comparative Literature",
     "meta_category": "arts_humanities",
-    "event_count": 9,
+    "event_count": 8,
     "is_selected": false
   },
   {
     "name": "Computer Science",
     "meta_category": "sciences_engineering",
-    "event_count": 7,
+    "event_count": 6,
     "is_selected": false
   },
   {
     "name": "ECE",
     "meta_category": "sciences_engineering",
-    "event_count": 18,
+    "event_count": 17,
     "is_selected": false
   },
   {
     "name": "EEB",
     "meta_category": "sciences_engineering",
-    "event_count": 9,
+    "event_count": 8,
     "is_selected": false
   },
   {
@@ -80,13 +80,13 @@
   {
     "name": "Gender & Sexuality Studies",
     "meta_category": "interdisciplinary",
-    "event_count": 13,
+    "event_count": 15,
     "is_selected": false
   },
   {
     "name": "Geosciences",
     "meta_category": "sciences_engineering",
-    "event_count": 25,
+    "event_count": 26,
     "is_selected": false
   },
   {
@@ -98,37 +98,37 @@
   {
     "name": "History",
     "meta_category": "arts_humanities",
-    "event_count": 57,
+    "event_count": 52,
     "is_selected": false
   },
   {
     "name": "MAE",
     "meta_category": "sciences_engineering",
-    "event_count": 11,
+    "event_count": 10,
     "is_selected": false
   },
   {
     "name": "Mathematics",
     "meta_category": "sciences_engineering",
-    "event_count": 45,
+    "event_count": 41,
     "is_selected": false
   },
   {
     "name": "Molecular Biology",
     "meta_category": "sciences_engineering",
-    "event_count": 8,
+    "event_count": 9,
     "is_selected": false
   },
   {
     "name": "Music",
     "meta_category": "arts_humanities",
-    "event_count": 64,
+    "event_count": 60,
     "is_selected": false
   },
   {
     "name": "Near Eastern Studies",
     "meta_category": "area_studies",
-    "event_count": 23,
+    "event_count": 24,
     "is_selected": false
   },
   {
@@ -152,25 +152,25 @@
   {
     "name": "Physics",
     "meta_category": "sciences_engineering",
-    "event_count": 66,
+    "event_count": 64,
     "is_selected": false
   },
   {
     "name": "Psychology",
     "meta_category": "social_sciences",
-    "event_count": 32,
+    "event_count": 26,
     "is_selected": false
   },
   {
     "name": "Religion",
     "meta_category": "arts_humanities",
-    "event_count": 10,
+    "event_count": 11,
     "is_selected": false
   },
   {
     "name": "SPIA",
     "meta_category": "social_sciences",
-    "event_count": 28,
+    "event_count": 24,
     "is_selected": false
   },
   {
@@ -182,19 +182,19 @@
   {
     "name": "Sociology",
     "meta_category": "social_sciences",
-    "event_count": 5,
+    "event_count": 4,
     "is_selected": false
   },
   {
     "name": "UCHV",
     "meta_category": "interdisciplinary",
-    "event_count": 40,
+    "event_count": 41,
     "is_selected": false
   },
   {
     "name": "politics",
     "meta_category": "social_sciences",
-    "event_count": 17,
+    "event_count": 14,
     "is_selected": false
   }
 ]
