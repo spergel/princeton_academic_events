@@ -14,7 +14,7 @@
   {
     "name": "Art & Archaeology",
     "meta_category": "arts_humanities",
-    "event_count": 24,
+    "event_count": 23,
     "is_selected": false
   },
   {
@@ -50,13 +50,13 @@
   {
     "name": "ECE",
     "meta_category": "sciences_engineering",
-    "event_count": 10,
+    "event_count": 8,
     "is_selected": false
   },
   {
     "name": "English",
     "meta_category": "arts_humanities",
-    "event_count": 5,
+    "event_count": 3,
     "is_selected": false
   },
   {
@@ -68,7 +68,7 @@
   {
     "name": "Hellenic Studies",
     "meta_category": "area_studies",
-    "event_count": 5,
+    "event_count": 4,
     "is_selected": false
   },
   {
@@ -84,12 +84,6 @@
     "is_selected": false
   },
   {
-    "name": "Mathematics",
-    "meta_category": "sciences_engineering",
-    "event_count": 1,
-    "is_selected": false
-  },
-  {
     "name": "Molecular Biology",
     "meta_category": "sciences_engineering",
     "event_count": 3,
@@ -98,7 +92,7 @@
   {
     "name": "Music",
     "meta_category": "arts_humanities",
-    "event_count": 2,
+    "event_count": 1,
     "is_selected": false
   },
   {
@@ -122,19 +116,19 @@
   {
     "name": "Philosophy",
     "meta_category": "arts_humanities",
-    "event_count": 2,
+    "event_count": 3,
     "is_selected": false
   },
   {
     "name": "Physics",
     "meta_category": "sciences_engineering",
-    "event_count": 89,
+    "event_count": 91,
     "is_selected": false
   },
   {
     "name": "Psychology",
     "meta_category": "social_sciences",
-    "event_count": 5,
+    "event_count": 4,
     "is_selected": false
   },
   {
@@ -152,7 +146,7 @@
   {
     "name": "UCHV",
     "meta_category": "interdisciplinary",
-    "event_count": 6,
+    "event_count": 3,
     "is_selected": false
   },
   {

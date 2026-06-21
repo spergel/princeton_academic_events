@@ -5,12 +5,12 @@
     "version": "1.0.0"
   },
   "stats": {
-    "total_events": 311,
-    "total_departments": 27,
-    "last_updated": "2026-06-14T06:24:59Z"
+    "total_events": 302,
+    "total_departments": 26,
+    "last_updated": "2026-06-21T06:42:21Z"
   },
   "build_info": {
-    "build_date": "2026-06-14T06:24:59Z",
+    "build_date": "2026-06-21T06:42:21Z",
     "data_source": "Princeton University Department Websites",
     "update_frequency": "Weekly"
   }
