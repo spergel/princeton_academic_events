@@ -1,32 +1,26 @@
 [
   {
-    "name": "African American Studies",
-    "meta_category": "area_studies",
-    "event_count": 1,
-    "is_selected": false
-  },
-  {
     "name": "Anthropology",
     "meta_category": "social_sciences",
-    "event_count": 6,
+    "event_count": 5,
     "is_selected": false
   },
   {
     "name": "Art & Archaeology",
     "meta_category": "arts_humanities",
-    "event_count": 21,
+    "event_count": 20,
     "is_selected": false
   },
   {
     "name": "CBE",
     "meta_category": "sciences_engineering",
-    "event_count": 1,
+    "event_count": 2,
     "is_selected": false
   },
   {
     "name": "CITP",
     "meta_category": "interdisciplinary",
-    "event_count": 9,
+    "event_count": 8,
     "is_selected": false
   },
   {
@@ -44,13 +38,13 @@
   {
     "name": "ECE",
     "meta_category": "sciences_engineering",
-    "event_count": 7,
+    "event_count": 5,
     "is_selected": false
   },
   {
     "name": "English",
     "meta_category": "arts_humanities",
-    "event_count": 2,
+    "event_count": 3,
     "is_selected": false
   },
   {
@@ -68,7 +62,7 @@
   {
     "name": "History",
     "meta_category": "arts_humanities",
-    "event_count": 11,
+    "event_count": 9,
     "is_selected": false
   },
   {
@@ -80,13 +74,7 @@
   {
     "name": "Mathematics",
     "meta_category": "sciences_engineering",
-    "event_count": 2,
-    "is_selected": false
-  },
-  {
-    "name": "Music",
-    "meta_category": "arts_humanities",
-    "event_count": 1,
+    "event_count": 4,
     "is_selected": false
   },
   {
@@ -98,25 +86,25 @@
   {
     "name": "Neuroscience (PNI)",
     "meta_category": "sciences_engineering",
-    "event_count": 20,
+    "event_count": 21,
     "is_selected": false
   },
   {
     "name": "Philosophy",
     "meta_category": "arts_humanities",
-    "event_count": 21,
+    "event_count": 23,
     "is_selected": false
   },
   {
     "name": "Physics",
     "meta_category": "sciences_engineering",
-    "event_count": 91,
+    "event_count": 95,
     "is_selected": false
   },
   {
     "name": "Psychology",
     "meta_category": "social_sciences",
-    "event_count": 2,
+    "event_count": 3,
     "is_selected": false
   },
   {
@@ -126,15 +114,21 @@
     "is_selected": false
   },
   {
+    "name": "Slavic Languages",
+    "meta_category": "arts_humanities",
+    "event_count": 3,
+    "is_selected": false
+  },
+  {
     "name": "Sociology",
     "meta_category": "social_sciences",
-    "event_count": 7,
+    "event_count": 15,
     "is_selected": false
   },
   {
     "name": "UCHV",
     "meta_category": "interdisciplinary",
-    "event_count": 15,
+    "event_count": 16,
     "is_selected": false
   },
   {
