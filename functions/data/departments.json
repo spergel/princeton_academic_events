@@ -14,37 +14,31 @@
   {
     "name": "CBE",
     "meta_category": "sciences_engineering",
-    "event_count": 2,
+    "event_count": 1,
     "is_selected": false
   },
   {
     "name": "CITP",
     "meta_category": "interdisciplinary",
-    "event_count": 8,
-    "is_selected": false
-  },
-  {
-    "name": "Classics",
-    "meta_category": "arts_humanities",
-    "event_count": 1,
+    "event_count": 7,
     "is_selected": false
   },
   {
     "name": "Comparative Literature",
     "meta_category": "arts_humanities",
-    "event_count": 2,
+    "event_count": 3,
     "is_selected": false
   },
   {
     "name": "ECE",
     "meta_category": "sciences_engineering",
-    "event_count": 5,
+    "event_count": 6,
     "is_selected": false
   },
   {
     "name": "English",
     "meta_category": "arts_humanities",
-    "event_count": 3,
+    "event_count": 4,
     "is_selected": false
   },
   {
@@ -62,7 +56,7 @@
   {
     "name": "History",
     "meta_category": "arts_humanities",
-    "event_count": 9,
+    "event_count": 36,
     "is_selected": false
   },
   {
@@ -74,7 +68,7 @@
   {
     "name": "Mathematics",
     "meta_category": "sciences_engineering",
-    "event_count": 4,
+    "event_count": 6,
     "is_selected": false
   },
   {
@@ -98,19 +92,19 @@
   {
     "name": "Physics",
     "meta_category": "sciences_engineering",
-    "event_count": 95,
+    "event_count": 96,
     "is_selected": false
   },
   {
     "name": "Psychology",
     "meta_category": "social_sciences",
-    "event_count": 3,
+    "event_count": 1,
     "is_selected": false
   },
   {
     "name": "Religion",
     "meta_category": "arts_humanities",
-    "event_count": 2,
+    "event_count": 1,
     "is_selected": false
   },
   {
@@ -122,7 +116,7 @@
   {
     "name": "Sociology",
     "meta_category": "social_sciences",
-    "event_count": 15,
+    "event_count": 14,
     "is_selected": false
   },
   {

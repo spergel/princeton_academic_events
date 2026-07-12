@@ -1,9 +1,9 @@
 {
   "metadata": {
-    "total_events": 326,
+    "total_events": 352,
     "successful_scrapers": 6,
     "total_scrapers": 24,
-    "combined_at": "2026-07-05T05:54:41.917970",
+    "combined_at": "2026-07-12T05:15:42.218742",
     "individual_scrapers_used": 7,
     "universal_drupal_departments_used": 1,
     "browser_scraped_events": 0
@@ -31,8 +31,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:28.971861",
-      "updated_at": "2026-07-05T05:54:28.971885"
+      "created_at": "2026-07-12T05:15:25.653943",
+      "updated_at": "2026-07-12T05:15:25.653950"
     },
     {
       "id": "ics_anthropology_ps_events:9476:delta:0",
@@ -56,8 +56,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:28.971935",
-      "updated_at": "2026-07-05T05:54:28.971937"
+      "created_at": "2026-07-12T05:15:25.654007",
+      "updated_at": "2026-07-12T05:15:25.654009"
     },
     {
       "id": "ics_anthropology_ps_events:9531:delta:0",
@@ -81,8 +81,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:28.971974",
-      "updated_at": "2026-07-05T05:54:28.971975"
+      "created_at": "2026-07-12T05:15:25.654052",
+      "updated_at": "2026-07-12T05:15:25.654053"
     },
     {
       "id": "ics_anthropology_ps_events:9386:delta:0",
@@ -106,8 +106,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:28.972014",
-      "updated_at": "2026-07-05T05:54:28.972015"
+      "created_at": "2026-07-12T05:15:25.654097",
+      "updated_at": "2026-07-12T05:15:25.654098"
     },
     {
       "id": "ics_anthropology_ps_events:9386:delta:1",
@@ -131,8 +131,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:28.972047",
-      "updated_at": "2026-07-05T05:54:28.972048"
+      "created_at": "2026-07-12T05:15:25.654136",
+      "updated_at": "2026-07-12T05:15:25.654137"
     },
     {
       "id": "ics_english_ps_events:14306:delta:0",
@@ -156,13 +156,13 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:29.440446",
-      "updated_at": "2026-07-05T05:54:29.440455"
+      "created_at": "2026-07-12T05:15:26.103024",
+      "updated_at": "2026-07-12T05:15:26.103031"
     },
     {
       "id": "ics_english_ps_events:14536:delta:0",
       "title": "Final Public Oral Exam: Eliana Rozinov",
-      "description": "&nbsp;“Riddles of Women” resituates Sigmund Freud’s “great question” — what does a woman want? — through a series of mythical, modernist, and psychoanalytic works. The project reverses Freud’s claim that women themselves are riddles by arguing that women — real and imagined — &nbsp;are essential for deciphering enigmas of the psyche that his thirty years of",
+      "description": "&nbsp;“Riddles of Women” resituates Sigmund Freud’s “great question” — what does a woman want? — through a series of mythical, modernist, and psychoanalytic works. The project reverses Freud’s claim that women themselves are riddles by arguing that women—real and imagined—are essential for deciphering enigmas of the psyche that his thirty years of research",
       "start_date": "2026-07-28",
       "end_date": "2026-07-28",
       "time": "12:00 PM - 1:30 PM",
@@ -181,8 +181,33 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:29.440517",
-      "updated_at": "2026-07-05T05:54:29.440518"
+      "created_at": "2026-07-12T05:15:26.103088",
+      "updated_at": "2026-07-12T05:15:26.103089"
+    },
+    {
+      "id": "ics_english_ps_events:14566:delta:0",
+      "title": "Vicky Osterweil in conversation with Bill Gleason: 'The Extended Universe: How Disney Killed the Movies and Took Over the World'",
+      "description": "",
+      "start_date": "2026-09-09",
+      "end_date": "2026-09-09",
+      "time": "6:00 PM - 7:30 PM",
+      "location": "Labyrinth Books",
+      "event_type": "Event",
+      "department": "English",
+      "meta_category": "arts_humanities",
+      "source_url": "https://english.princeton.edu/events/vicky-osterweil-conversation-bill-gleason-extended-universe-how-disney-killed-movies-and",
+      "source_name": "English Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:26.103132",
+      "updated_at": "2026-07-12T05:15:26.103133"
     },
     {
       "id": "ics_english_ps_events:14451:delta:0",
@@ -206,22 +231,22 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:29.440560",
-      "updated_at": "2026-07-05T05:54:29.440561"
+      "created_at": "2026-07-12T05:15:26.103163",
+      "updated_at": "2026-07-12T05:15:26.103164"
     },
     {
-      "id": "ics_classics_ps_events:7756:delta:0",
-      "title": "Ekphrasis: Humans and the Natural Environment",
-      "description": "Ekphrasis when applied to contemporary literature is typically used to refer to the description of an artistic object or artefact within a poem or other piece of writing. Ekphrasis in ancient Greek and Latin literature attracts a much broader field of reference. Where it is defined by the rhetoricians, it is referred to as the ability for a piece of literature to make vivid or manifest that which is not there. In our first workshop we will explore the interconnections between ancient and modern ekphrasis and how ekphrasis can provide a model for extending interactive and cooperative",
-      "start_date": "2026-06-04",
-      "end_date": "2026-06-06",
-      "time": "",
-      "location": "Room 1066E, Unter den Linden 6, 10099 Berlin",
-      "event_type": "Workshop",
-      "department": "Classics",
+      "id": "ics_comparative_lit_ps_events:4716:delta:0",
+      "title": "Shelley Frisch in conversation with Michael Wood – A Labyrinth & Library Collaboration",
+      "description": "LABYRINTH BOOKS PRESS RELEASES* * * *Hannah Arendt: A&nbsp;Life of the MindShelley Frisch is joined in conversation with Michael Wood about her translation of Thomas Meyer’s definitive, long-awaited, and revelatory intellectual biography of Hannah Arendt, one of the greatest philosophers of the twentieth century.Drawing on newly discovered archival materials and previously overlooked documents—from both Germany, where Hannah Arendt was born to a Jewish",
+      "start_date": "2026-09-30",
+      "end_date": "2026-09-30",
+      "time": "6:00 PM - 9:00 PM",
+      "location": "Labyrinth Books, 122 Nassau Street",
+      "event_type": "Event",
+      "department": "Comparative Literature",
       "meta_category": "arts_humanities",
-      "source_url": "https://classics.princeton.edu/events/2026/ekphrasis-humans-and-natural-environment",
-      "source_name": "Classics Events",
+      "source_url": "https://complit.princeton.edu/events/shelley-frisch-conversation-michael-wood-%E2%80%93-labyrinth-library-collaboration",
+      "source_name": "Comparative Literature Events",
       "speaker": "",
       "audience": "",
       "topics": [],
@@ -231,8 +256,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:29.800106",
-      "updated_at": "2026-07-05T05:54:29.800114"
+      "created_at": "2026-07-12T05:15:27.063925",
+      "updated_at": "2026-07-12T05:15:27.063933"
     },
     {
       "id": "ics_comparative_lit_ps_events:4701:delta:0",
@@ -256,8 +281,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:30.156534",
-      "updated_at": "2026-07-05T05:54:30.156543"
+      "created_at": "2026-07-12T05:15:27.063977",
+      "updated_at": "2026-07-12T05:15:27.063978"
     },
     {
       "id": "ics_comparative_lit_ps_events:4701:delta:1",
@@ -281,8 +306,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:30.156578",
-      "updated_at": "2026-07-05T05:54:30.156579"
+      "created_at": "2026-07-12T05:15:27.064014",
+      "updated_at": "2026-07-12T05:15:27.064016"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9396:delta:0",
@@ -306,8 +331,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267319",
-      "updated_at": "2026-07-05T05:54:31.267328"
+      "created_at": "2026-07-12T05:15:28.186346",
+      "updated_at": "2026-07-12T05:15:28.186353"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9461:delta:0",
@@ -331,21 +356,21 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267386",
-      "updated_at": "2026-07-05T05:54:31.267387"
+      "created_at": "2026-07-12T05:15:28.186400",
+      "updated_at": "2026-07-12T05:15:28.186401"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9496:delta:0",
-      "title": "The Mystery of the Midas Monument",
-      "description": "",
+      "title": "The Midas Monument: Behind the Facade",
+      "description": "A landmark of Phrygian archaeology, the rock-carved facade in the highlands of western central Anatolia known as the Midas Monument has been thought to be the tomb of King Midas, or a tribute to the greatness of his kingship at the end of the eighth century BCE, or a hero shrine to the memory of King Midas and his deified mother in the sixth century BCE. Supporting this last interpretation, this lecture explores the meaning of Midas and his patron deity, the Phrygian Mother of the Gods, as they were viewed by the kings of Lydia, successors to the kingdom of Midas.Suggested readings:",
       "start_date": "2026-09-14",
       "end_date": "2026-09-14",
       "time": "4:30 PM - 6:00 PM",
       "location": "Location TBA",
-      "event_type": "Event",
+      "event_type": "Lecture",
       "department": "Art & Archaeology",
       "meta_category": "arts_humanities",
-      "source_url": "https://artandarchaeology.princeton.edu/whats/events/mystery-midas-monument",
+      "source_url": "https://artandarchaeology.princeton.edu/whats/events/midas-monument-behind-facade",
       "source_name": "Art & Archaeology Events",
       "speaker": "",
       "audience": "",
@@ -356,8 +381,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267425",
-      "updated_at": "2026-07-05T05:54:31.267426"
+      "created_at": "2026-07-12T05:15:28.186432",
+      "updated_at": "2026-07-12T05:15:28.186434"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9031:delta:0",
@@ -381,8 +406,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267455",
-      "updated_at": "2026-07-05T05:54:31.267456"
+      "created_at": "2026-07-12T05:15:28.186461",
+      "updated_at": "2026-07-12T05:15:28.186462"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9631:delta:0",
@@ -406,8 +431,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267484",
-      "updated_at": "2026-07-05T05:54:31.267485"
+      "created_at": "2026-07-12T05:15:28.186491",
+      "updated_at": "2026-07-12T05:15:28.186492"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9641:delta:0",
@@ -431,8 +456,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267516",
-      "updated_at": "2026-07-05T05:54:31.267517"
+      "created_at": "2026-07-12T05:15:28.186520",
+      "updated_at": "2026-07-12T05:15:28.186521"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9466:delta:0",
@@ -456,8 +481,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267560",
-      "updated_at": "2026-07-05T05:54:31.267561"
+      "created_at": "2026-07-12T05:15:28.186573",
+      "updated_at": "2026-07-12T05:15:28.186574"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9466:delta:1",
@@ -481,8 +506,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267587",
-      "updated_at": "2026-07-05T05:54:31.267588"
+      "created_at": "2026-07-12T05:15:28.186599",
+      "updated_at": "2026-07-12T05:15:28.186600"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9036:delta:0",
@@ -506,8 +531,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267617",
-      "updated_at": "2026-07-05T05:54:31.267618"
+      "created_at": "2026-07-12T05:15:28.186632",
+      "updated_at": "2026-07-12T05:15:28.186633"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9401:delta:0",
@@ -531,8 +556,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267647",
-      "updated_at": "2026-07-05T05:54:31.267648"
+      "created_at": "2026-07-12T05:15:28.186659",
+      "updated_at": "2026-07-12T05:15:28.186660"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9406:delta:0",
@@ -556,8 +581,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267675",
-      "updated_at": "2026-07-05T05:54:31.267676"
+      "created_at": "2026-07-12T05:15:28.186684",
+      "updated_at": "2026-07-12T05:15:28.186685"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9761:delta:0",
@@ -581,8 +606,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267706",
-      "updated_at": "2026-07-05T05:54:31.267707"
+      "created_at": "2026-07-12T05:15:28.186714",
+      "updated_at": "2026-07-12T05:15:28.186715"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9041:delta:0",
@@ -606,8 +631,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267734",
-      "updated_at": "2026-07-05T05:54:31.267735"
+      "created_at": "2026-07-12T05:15:28.186740",
+      "updated_at": "2026-07-12T05:15:28.186741"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9066:delta:0",
@@ -631,8 +656,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267762",
-      "updated_at": "2026-07-05T05:54:31.267763"
+      "created_at": "2026-07-12T05:15:28.186768",
+      "updated_at": "2026-07-12T05:15:28.186770"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9046:delta:0",
@@ -656,8 +681,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267790",
-      "updated_at": "2026-07-05T05:54:31.267791"
+      "created_at": "2026-07-12T05:15:28.186796",
+      "updated_at": "2026-07-12T05:15:28.186797"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9051:delta:0",
@@ -681,8 +706,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267818",
-      "updated_at": "2026-07-05T05:54:31.267819"
+      "created_at": "2026-07-12T05:15:28.186822",
+      "updated_at": "2026-07-12T05:15:28.186823"
     },
     {
       "id": "ics_art___archaeolo_ps_events:8956:delta:0",
@@ -706,8 +731,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267846",
-      "updated_at": "2026-07-05T05:54:31.267847"
+      "created_at": "2026-07-12T05:15:28.186848",
+      "updated_at": "2026-07-12T05:15:28.186849"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9501:delta:0",
@@ -731,8 +756,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267888",
-      "updated_at": "2026-07-05T05:54:31.267889"
+      "created_at": "2026-07-12T05:15:28.186875",
+      "updated_at": "2026-07-12T05:15:28.186876"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9056:delta:0",
@@ -756,8 +781,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267916",
-      "updated_at": "2026-07-05T05:54:31.267917"
+      "created_at": "2026-07-12T05:15:28.186902",
+      "updated_at": "2026-07-12T05:15:28.186903"
     },
     {
       "id": "ics_art___archaeolo_ps_events:9486:delta:0",
@@ -781,33 +806,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.267943",
-      "updated_at": "2026-07-05T05:54:31.267944"
-    },
-    {
-      "id": "ics_religion_ps_events:9351:delta:0",
-      "title": "Reinventing the Study of Chinese Religions",
-      "description": "Stephen F. Teiser, D. T. Suzuki Professor in Buddhist Studies and Professor of Religion, received his Ph.D. from Princeton in 1986 and joined the faculty there in 1988. His first book, The Ghost Festival in Medieval China in 1988, won the ACLS Committee on History of Religions for best first book in the field. Since then, he has been a central figure in the global study of Chinese religion frequently collaborating with scholars in Asia and Europe. His scholarship has ranged in subject and method from sociologically informed philological studies of canonical Buddhist and",
-      "start_date": "2026-06-09",
-      "end_date": "2026-06-10",
-      "time": "4:30 PM",
-      "location": "Princeton University",
-      "event_type": "Event",
-      "department": "Religion",
-      "meta_category": "arts_humanities",
-      "source_url": "https://religion.princeton.edu/events/2026/reinventing-study-chinese-religions",
-      "source_name": "Religion Events",
-      "speaker": "",
-      "audience": "",
-      "topics": [],
-      "departments": [],
-      "tags": [],
-      "series": "",
-      "speaker_affiliation": "",
-      "speaker_url": "",
-      "image_url": "",
-      "created_at": "2026-07-05T05:54:31.608738",
-      "updated_at": "2026-07-05T05:54:31.608746"
+      "created_at": "2026-07-12T05:15:28.186929",
+      "updated_at": "2026-07-12T05:15:28.186930"
     },
     {
       "id": "ics_religion_ps_events:9281:delta:0",
@@ -831,8 +831,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.608783",
-      "updated_at": "2026-07-05T05:54:31.608784"
+      "created_at": "2026-07-12T05:15:28.765260",
+      "updated_at": "2026-07-12T05:15:28.765267"
     },
     {
       "id": "ics_slavic_language_ps_events:1921:delta:0",
@@ -856,8 +856,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.850828",
-      "updated_at": "2026-07-05T05:54:31.850838"
+      "created_at": "2026-07-12T05:15:29.280852",
+      "updated_at": "2026-07-12T05:15:29.280859"
     },
     {
       "id": "ics_slavic_language_ps_events:1926:delta:0",
@@ -881,8 +881,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.850885",
-      "updated_at": "2026-07-05T05:54:31.850887"
+      "created_at": "2026-07-12T05:15:29.280891",
+      "updated_at": "2026-07-12T05:15:29.280892"
     },
     {
       "id": "ics_slavic_language_ps_events:1931:delta:0",
@@ -906,8 +906,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:31.850916",
-      "updated_at": "2026-07-05T05:54:31.850918"
+      "created_at": "2026-07-12T05:15:29.280920",
+      "updated_at": "2026-07-12T05:15:29.280921"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5431:delta:0",
@@ -931,8 +931,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630224",
-      "updated_at": "2026-07-05T05:54:32.630233"
+      "created_at": "2026-07-12T05:15:30.115904",
+      "updated_at": "2026-07-12T05:15:30.115911"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5621:delta:0",
@@ -956,8 +956,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630273",
-      "updated_at": "2026-07-05T05:54:32.630274"
+      "created_at": "2026-07-12T05:15:30.115960",
+      "updated_at": "2026-07-12T05:15:30.115961"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5166:delta:0",
@@ -981,8 +981,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630305",
-      "updated_at": "2026-07-05T05:54:32.630306"
+      "created_at": "2026-07-12T05:15:30.115990",
+      "updated_at": "2026-07-12T05:15:30.115992"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5436:delta:0",
@@ -1006,8 +1006,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630337",
-      "updated_at": "2026-07-05T05:54:32.630338"
+      "created_at": "2026-07-12T05:15:30.116022",
+      "updated_at": "2026-07-12T05:15:30.116023"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5541:delta:0",
@@ -1031,8 +1031,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630367",
-      "updated_at": "2026-07-05T05:54:32.630368"
+      "created_at": "2026-07-12T05:15:30.116050",
+      "updated_at": "2026-07-12T05:15:30.116051"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5441:delta:0",
@@ -1056,8 +1056,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630397",
-      "updated_at": "2026-07-05T05:54:32.630398"
+      "created_at": "2026-07-12T05:15:30.116076",
+      "updated_at": "2026-07-12T05:15:30.116077"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5446:delta:0",
@@ -1081,8 +1081,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630430",
-      "updated_at": "2026-07-05T05:54:32.630431"
+      "created_at": "2026-07-12T05:15:30.116105",
+      "updated_at": "2026-07-12T05:15:30.116106"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5451:delta:0",
@@ -1106,8 +1106,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630458",
-      "updated_at": "2026-07-05T05:54:32.630459"
+      "created_at": "2026-07-12T05:15:30.116131",
+      "updated_at": "2026-07-12T05:15:30.116132"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5456:delta:0",
@@ -1131,8 +1131,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630485",
-      "updated_at": "2026-07-05T05:54:32.630486"
+      "created_at": "2026-07-12T05:15:30.116156",
+      "updated_at": "2026-07-12T05:15:30.116157"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5461:delta:0",
@@ -1156,8 +1156,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630512",
-      "updated_at": "2026-07-05T05:54:32.630513"
+      "created_at": "2026-07-12T05:15:30.116182",
+      "updated_at": "2026-07-12T05:15:30.116183"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5466:delta:0",
@@ -1181,8 +1181,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630540",
-      "updated_at": "2026-07-05T05:54:32.630541"
+      "created_at": "2026-07-12T05:15:30.116207",
+      "updated_at": "2026-07-12T05:15:30.116208"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5471:delta:0",
@@ -1206,8 +1206,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630568",
-      "updated_at": "2026-07-05T05:54:32.630569"
+      "created_at": "2026-07-12T05:15:30.116233",
+      "updated_at": "2026-07-12T05:15:30.116234"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5476:delta:0",
@@ -1231,8 +1231,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630595",
-      "updated_at": "2026-07-05T05:54:32.630596"
+      "created_at": "2026-07-12T05:15:30.116258",
+      "updated_at": "2026-07-12T05:15:30.116259"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5481:delta:0",
@@ -1256,8 +1256,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630623",
-      "updated_at": "2026-07-05T05:54:32.630624"
+      "created_at": "2026-07-12T05:15:30.116285",
+      "updated_at": "2026-07-12T05:15:30.116286"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5491:delta:0",
@@ -1281,8 +1281,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630654",
-      "updated_at": "2026-07-05T05:54:32.630655"
+      "created_at": "2026-07-12T05:15:30.116311",
+      "updated_at": "2026-07-12T05:15:30.116312"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5496:delta:0",
@@ -1306,8 +1306,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630682",
-      "updated_at": "2026-07-05T05:54:32.630683"
+      "created_at": "2026-07-12T05:15:30.116337",
+      "updated_at": "2026-07-12T05:15:30.116338"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5501:delta:0",
@@ -1331,8 +1331,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630709",
-      "updated_at": "2026-07-05T05:54:32.630710"
+      "created_at": "2026-07-12T05:15:30.116362",
+      "updated_at": "2026-07-12T05:15:30.116363"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5506:delta:0",
@@ -1356,8 +1356,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630736",
-      "updated_at": "2026-07-05T05:54:32.630737"
+      "created_at": "2026-07-12T05:15:30.116388",
+      "updated_at": "2026-07-12T05:15:30.116389"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5601:delta:0",
@@ -1381,8 +1381,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630768",
-      "updated_at": "2026-07-05T05:54:32.630769"
+      "created_at": "2026-07-12T05:15:30.116420",
+      "updated_at": "2026-07-12T05:15:30.116421"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5511:delta:0",
@@ -1406,8 +1406,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630795",
-      "updated_at": "2026-07-05T05:54:32.630796"
+      "created_at": "2026-07-12T05:15:30.116447",
+      "updated_at": "2026-07-12T05:15:30.116448"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5516:delta:0",
@@ -1431,8 +1431,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630822",
-      "updated_at": "2026-07-05T05:54:32.630823"
+      "created_at": "2026-07-12T05:15:30.116472",
+      "updated_at": "2026-07-12T05:15:30.116473"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5606:delta:0",
@@ -1456,8 +1456,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630852",
-      "updated_at": "2026-07-05T05:54:32.630852"
+      "created_at": "2026-07-12T05:15:30.116498",
+      "updated_at": "2026-07-12T05:15:30.116499"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5521:delta:0",
@@ -1481,8 +1481,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630897",
-      "updated_at": "2026-07-05T05:54:32.630898"
+      "created_at": "2026-07-12T05:15:30.116523",
+      "updated_at": "2026-07-12T05:15:30.116524"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5526:delta:0",
@@ -1506,8 +1506,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630926",
-      "updated_at": "2026-07-05T05:54:32.630927"
+      "created_at": "2026-07-12T05:15:30.116560",
+      "updated_at": "2026-07-12T05:15:30.116561"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5611:delta:0",
@@ -1531,8 +1531,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630954",
-      "updated_at": "2026-07-05T05:54:32.630955"
+      "created_at": "2026-07-12T05:15:30.116587",
+      "updated_at": "2026-07-12T05:15:30.116588"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5531:delta:0",
@@ -1556,8 +1556,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.630981",
-      "updated_at": "2026-07-05T05:54:32.630982"
+      "created_at": "2026-07-12T05:15:30.116612",
+      "updated_at": "2026-07-12T05:15:30.116613"
     },
     {
       "id": "ics_near_eastern_st_ps_events:5536:delta:0",
@@ -1581,8 +1581,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.631009",
-      "updated_at": "2026-07-05T05:54:32.631010"
+      "created_at": "2026-07-12T05:15:30.116637",
+      "updated_at": "2026-07-12T05:15:30.116638"
     },
     {
       "id": "ics_hellenic_studie_ps_events:26916:delta:0",
@@ -1606,8 +1606,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.906543",
-      "updated_at": "2026-07-05T05:54:32.906552"
+      "created_at": "2026-07-12T05:15:30.717046",
+      "updated_at": "2026-07-12T05:15:30.717054"
     },
     {
       "id": "ics_hellenic_studie_ps_events:26911:delta:0",
@@ -1631,8 +1631,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.906605",
-      "updated_at": "2026-07-05T05:54:32.906607"
+      "created_at": "2026-07-12T05:15:30.717107",
+      "updated_at": "2026-07-12T05:15:30.717108"
     },
     {
       "id": "ics_hellenic_studie_ps_events:26921:delta:0",
@@ -1656,8 +1656,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.906641",
-      "updated_at": "2026-07-05T05:54:32.906642"
+      "created_at": "2026-07-12T05:15:30.717145",
+      "updated_at": "2026-07-12T05:15:30.717146"
     },
     {
       "id": "ics_hellenic_studie_ps_events:26946:delta:0",
@@ -1681,33 +1681,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:32.906679",
-      "updated_at": "2026-07-05T05:54:32.906680"
-    },
-    {
-      "id": "ics_cbe_ps_events:5121:delta:0",
-      "title": "Mechanical Microenvironment and Signaling Dynamics in Lung Epithelial Culture Models",
-      "description": "The lung is a vital organ with diverse epithelial cells performing specialized functions in the airway and alveolar regions. These cells reside within a microenvironment defined by a unique combination of extracellular matrix components, mechanical properties, and lung-resident stromal cells, all of which collectively guide epithelial behavior. The use of culture models is crucial for understanding lung development, regeneration, and disease, especially given the limitations of animal models in recapitulating human lung biology. However, for culture models to produce meaningful,",
-      "start_date": "2026-06-09",
-      "end_date": "2026-06-09",
-      "time": "10:00 AM - 11:30 AM",
-      "location": "A210 E-Quad",
-      "event_type": "Event",
-      "department": "CBE",
-      "meta_category": "sciences_engineering",
-      "source_url": "https://cbe.princeton.edu/events/mechanical-microenvironment-and-signaling-dynamics-lung-epithelial-culture-models",
-      "source_name": "CBE Events",
-      "speaker": "",
-      "audience": "",
-      "topics": [],
-      "departments": [],
-      "tags": [],
-      "series": "",
-      "speaker_affiliation": "",
-      "speaker_url": "",
-      "image_url": "",
-      "created_at": "2026-07-05T05:54:33.677665",
-      "updated_at": "2026-07-05T05:54:33.677674"
+      "created_at": "2026-07-12T05:15:30.717188",
+      "updated_at": "2026-07-12T05:15:30.717189"
     },
     {
       "id": "ics_cbe_ps_events:5221:delta:0",
@@ -1731,33 +1706,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:33.677719",
-      "updated_at": "2026-07-05T05:54:33.677720"
-    },
-    {
-      "id": "ics_ece_ps_events:10541:delta:0",
-      "title": "Charge Transfer States and Polarons in Organic Donor-Acceptor Diodes: Generation, Recombination, and Their Interplay",
-      "description": "Organic solar cells and organic photodetectors combine mechanical flexibility, solution processability, and spectral tunability from the visible to the near infrared, yet their performance remains limited by large voltage losses and parasitic dark currents compared with inorganic counterparts. In donor-acceptor (D-A) heterojunction diodes, nonradiative recombination via charge transfer (CT) states broadened by energetic disorder is a key origin of voltage loss, but reliable approaches for quantifying CT state disorder are not yet well-recognized in the community. In parallel, intrinsic dark",
-      "start_date": "2026-06-08",
-      "end_date": "2026-06-08",
-      "time": "1:30 PM - 2:30 PM",
-      "location": "EQUAD B327",
-      "event_type": "Performance",
-      "department": "ECE",
-      "meta_category": "sciences_engineering",
-      "source_url": "https://ece.princeton.edu/events/charge-transfer-states-and-polarons-organic-donor-acceptor-diodes-generation-recombination",
-      "source_name": "ECE Events",
-      "speaker": "",
-      "audience": "",
-      "topics": [],
-      "departments": [],
-      "tags": [],
-      "series": "",
-      "speaker_affiliation": "",
-      "speaker_url": "",
-      "image_url": "",
-      "created_at": "2026-07-05T05:54:34.113958",
-      "updated_at": "2026-07-05T05:54:34.113968"
+      "created_at": "2026-07-12T05:15:31.617671",
+      "updated_at": "2026-07-12T05:15:31.617679"
     },
     {
       "id": "ics_ece_ps_events:10576:delta:0",
@@ -1781,8 +1731,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:34.114016",
-      "updated_at": "2026-07-05T05:54:34.114017"
+      "created_at": "2026-07-12T05:15:32.109341",
+      "updated_at": "2026-07-12T05:15:32.109348"
     },
     {
       "id": "ics_ece_ps_events:10586:delta:0",
@@ -1806,8 +1756,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:34.114056",
-      "updated_at": "2026-07-05T05:54:34.114057"
+      "created_at": "2026-07-12T05:15:32.109391",
+      "updated_at": "2026-07-12T05:15:32.109393"
     },
     {
       "id": "ics_ece_ps_events:10596:delta:0",
@@ -1831,8 +1781,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:34.114093",
-      "updated_at": "2026-07-05T05:54:34.114094"
+      "created_at": "2026-07-12T05:15:32.109430",
+      "updated_at": "2026-07-12T05:15:32.109431"
     },
     {
       "id": "ics_ece_ps_events:10591:delta:0",
@@ -1856,8 +1806,58 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:34.114138",
-      "updated_at": "2026-07-05T05:54:34.114139"
+      "created_at": "2026-07-12T05:15:32.109471",
+      "updated_at": "2026-07-12T05:15:32.109472"
+    },
+    {
+      "id": "ics_ece_ps_events:10606:delta:0",
+      "title": "Beyond Rigid Band Alignment: Electronic Structure, Passivation, Renormalization, and Charge Transfer at Optoelectronic Interfaces",
+      "description": "&nbsp;Interfaces are crucial in modern optoelectronic devices, controlling charge transfer, recombination, energy alignment, and stability. However, their electronic structure often differs from predictions based on isolated materials, which this thesis investigates in several technologically relevant interfaces of different dimensions.The first part of this work focuses on sputtered nickel oxide (NiOx) hole-transport layers for halide perovskite solar cells. An ultrathin nickel nitride (NiyN) interlayer is introduced between",
+      "start_date": "2026-07-16",
+      "end_date": "2026-07-16",
+      "time": "11:00 AM - 1:00 PM",
+      "location": "EQUAD D221",
+      "event_type": "Event",
+      "department": "ECE",
+      "meta_category": "sciences_engineering",
+      "source_url": "https://ece.princeton.edu/events/beyond-rigid-band-alignment-electronic-structure-passivation-renormalization-and-charge",
+      "source_name": "ECE Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:32.109510",
+      "updated_at": "2026-07-12T05:15:32.109511"
+    },
+    {
+      "id": "ics_ece_ps_events:10671:delta:0",
+      "title": "Advancing Quantum Materials Discovery via van der Waals Nanoreactors and Embodied AI Experimentalist",
+      "description": "&nbsp;Two-dimensional (2D) materials provide a rich platform for discovering emergent quantum phenomena, such as high-temperature superconductivity and topological phases of matter. However, high-quality single crystals synthesis and the labor-intensive, iterative nature of device fabrication and characterization limit the pace of material discovery. We address these limitations from the synthesis, fabrication, and measurement fronts.We first introduce van der Waals (vdW) nanoreactors as a novel synthesis platform for creating",
+      "start_date": "2026-07-29",
+      "end_date": "2026-07-29",
+      "time": "2:00 PM - 4:00 PM",
+      "location": "EQUAD B205",
+      "event_type": "Event",
+      "department": "ECE",
+      "meta_category": "sciences_engineering",
+      "source_url": "https://ece.princeton.edu/events/advancing-quantum-materials-discovery-van-der-waals-nanoreactors-and-embodied-ai",
+      "source_name": "ECE Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:32.109556",
+      "updated_at": "2026-07-12T05:15:32.109557"
     },
     {
       "id": "ics_mae_ps_events:4536:delta:0",
@@ -1881,33 +1881,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.335990",
-      "updated_at": "2026-07-05T05:54:35.336000"
-    },
-    {
-      "id": "ics_citp_ps_events:4611:delta:0",
-      "title": "Holding the Line: Authentication, Verification, and the Fight for Facts in the AI Age",
-      "description": "CITP and NYU Journalism are hosting a closed-door workshop that will bring together technologists and reporters to map out the (coming) challenges to information integrity and propose possible solutions. We will have two short panel discussions in the morning and then dive deep into workshops to lay out the likely challenges and come up with possible solutions.&nbsp;Our goal is to have journalists and technologists work together to identify the threats to information integrity, propose possible solutions, and start working together to produce a public report.Attendance is",
-      "start_date": "2026-06-05",
-      "end_date": "2026-06-05",
-      "time": "9:00 AM - 7:00 PM",
-      "location": "Princeton University",
-      "event_type": "Workshop",
-      "department": "CITP",
-      "meta_category": "interdisciplinary",
-      "source_url": "https://citp.princeton.edu/events/2026/holding-line-authentication-verification-and-fight-facts-ai-age",
-      "source_name": "CITP Events",
-      "speaker": "",
-      "audience": "",
-      "topics": [],
-      "departments": [],
-      "tags": [],
-      "series": "",
-      "speaker_affiliation": "",
-      "speaker_url": "",
-      "image_url": "",
-      "created_at": "2026-07-05T05:54:35.514229",
-      "updated_at": "2026-07-05T05:54:35.514238"
+      "created_at": "2026-07-12T05:15:33.819048",
+      "updated_at": "2026-07-12T05:15:33.819055"
     },
     {
       "id": "ics_citp_ps_events:4596:delta:0",
@@ -1931,8 +1906,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.514282",
-      "updated_at": "2026-07-05T05:54:35.514283"
+      "created_at": "2026-07-12T05:15:34.039095",
+      "updated_at": "2026-07-12T05:15:34.039102"
     },
     {
       "id": "ics_citp_ps_events:4826:delta:0",
@@ -1956,8 +1931,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.514323",
-      "updated_at": "2026-07-05T05:54:35.514324"
+      "created_at": "2026-07-12T05:15:34.039144",
+      "updated_at": "2026-07-12T05:15:34.039145"
     },
     {
       "id": "ics_citp_ps_events:4756:delta:0",
@@ -1981,8 +1956,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.514356",
-      "updated_at": "2026-07-05T05:54:35.514357"
+      "created_at": "2026-07-12T05:15:34.039175",
+      "updated_at": "2026-07-12T05:15:34.039177"
     },
     {
       "id": "ics_citp_ps_events:4696:delta:0",
@@ -2006,8 +1981,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.514386",
-      "updated_at": "2026-07-05T05:54:35.514387"
+      "created_at": "2026-07-12T05:15:34.039205",
+      "updated_at": "2026-07-12T05:15:34.039206"
     },
     {
       "id": "ics_citp_ps_events:3976:delta:0",
@@ -2031,8 +2006,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.514421",
-      "updated_at": "2026-07-05T05:54:35.514422"
+      "created_at": "2026-07-12T05:15:34.039240",
+      "updated_at": "2026-07-12T05:15:34.039241"
     },
     {
       "id": "ics_citp_ps_events:4686:delta:0",
@@ -2056,8 +2031,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.514452",
-      "updated_at": "2026-07-05T05:54:35.514453"
+      "created_at": "2026-07-12T05:15:34.039269",
+      "updated_at": "2026-07-12T05:15:34.039270"
     },
     {
       "id": "ics_citp_ps_events:4656:delta:0",
@@ -2081,33 +2056,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.514487",
-      "updated_at": "2026-07-05T05:54:35.514487"
-    },
-    {
-      "id": "ics_sociology_ps_events:5081:delta:0",
-      "title": "Final Public Oral Examination",
-      "description": "Where the Other Half Lives: &nbsp;A Comprehensive Profile of Immigrant Housing Outcomes in the 21st Century",
-      "start_date": "2026-06-11",
-      "end_date": "2026-06-11",
-      "time": "1:30 PM - 3:30 PM",
-      "location": "165 Wallace Hall",
-      "event_type": "Event",
-      "department": "Sociology",
-      "meta_category": "social_sciences",
-      "source_url": "https://sociology.princeton.edu/events/final-public-oral-examination",
-      "source_name": "Sociology Events",
-      "speaker": "",
-      "audience": "",
-      "topics": [],
-      "departments": [],
-      "tags": [],
-      "series": "",
-      "speaker_affiliation": "",
-      "speaker_url": "",
-      "image_url": "",
-      "created_at": "2026-07-05T05:54:35.851813",
-      "updated_at": "2026-07-05T05:54:35.851822"
+      "created_at": "2026-07-12T05:15:34.039304",
+      "updated_at": "2026-07-12T05:15:34.039305"
     },
     {
       "id": "ics_sociology_ps_events:5086:delta:0",
@@ -2131,8 +2081,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.851858",
-      "updated_at": "2026-07-05T05:54:35.851859"
+      "created_at": "2026-07-12T05:15:34.621592",
+      "updated_at": "2026-07-12T05:15:34.621607"
     },
     {
       "id": "ics_sociology_ps_events:5091:delta:0",
@@ -2156,8 +2106,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.851906",
-      "updated_at": "2026-07-05T05:54:35.851907"
+      "created_at": "2026-07-12T05:15:34.621646",
+      "updated_at": "2026-07-12T05:15:34.621648"
     },
     {
       "id": "ics_sociology_ps_events:5096:delta:0",
@@ -2181,8 +2131,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.851937",
-      "updated_at": "2026-07-05T05:54:35.851938"
+      "created_at": "2026-07-12T05:15:34.621676",
+      "updated_at": "2026-07-12T05:15:34.621677"
     },
     {
       "id": "ics_sociology_ps_events:5136:delta:0",
@@ -2206,8 +2156,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.851965",
-      "updated_at": "2026-07-05T05:54:35.851966"
+      "created_at": "2026-07-12T05:15:34.621703",
+      "updated_at": "2026-07-12T05:15:34.621704"
     },
     {
       "id": "ics_sociology_ps_events:5101:delta:0",
@@ -2231,8 +2181,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.851993",
-      "updated_at": "2026-07-05T05:54:35.851994"
+      "created_at": "2026-07-12T05:15:34.621730",
+      "updated_at": "2026-07-12T05:15:34.621731"
     },
     {
       "id": "ics_sociology_ps_events:5106:delta:0",
@@ -2256,8 +2206,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.852021",
-      "updated_at": "2026-07-05T05:54:35.852022"
+      "created_at": "2026-07-12T05:15:34.621756",
+      "updated_at": "2026-07-12T05:15:34.621757"
     },
     {
       "id": "ics_sociology_ps_events:5111:delta:0",
@@ -2281,8 +2231,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.852049",
-      "updated_at": "2026-07-05T05:54:35.852050"
+      "created_at": "2026-07-12T05:15:34.621782",
+      "updated_at": "2026-07-12T05:15:34.621783"
     },
     {
       "id": "ics_sociology_ps_events:4731:delta:0",
@@ -2306,8 +2256,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.852077",
-      "updated_at": "2026-07-05T05:54:35.852078"
+      "created_at": "2026-07-12T05:15:34.621808",
+      "updated_at": "2026-07-12T05:15:34.621809"
     },
     {
       "id": "ics_sociology_ps_events:4736:delta:0",
@@ -2331,8 +2281,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.852107",
-      "updated_at": "2026-07-05T05:54:35.852108"
+      "created_at": "2026-07-12T05:15:34.621834",
+      "updated_at": "2026-07-12T05:15:34.621835"
     },
     {
       "id": "ics_sociology_ps_events:5076:delta:0",
@@ -2356,8 +2306,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.852134",
-      "updated_at": "2026-07-05T05:54:35.852135"
+      "created_at": "2026-07-12T05:15:34.621860",
+      "updated_at": "2026-07-12T05:15:34.621861"
     },
     {
       "id": "ics_sociology_ps_events:4741:delta:0",
@@ -2381,8 +2331,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.852160",
-      "updated_at": "2026-07-05T05:54:35.852161"
+      "created_at": "2026-07-12T05:15:34.621901",
+      "updated_at": "2026-07-12T05:15:34.621902"
     },
     {
       "id": "ics_sociology_ps_events:4746:delta:0",
@@ -2406,8 +2356,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.852205",
-      "updated_at": "2026-07-05T05:54:35.852206"
+      "created_at": "2026-07-12T05:15:34.621946",
+      "updated_at": "2026-07-12T05:15:34.621947"
     },
     {
       "id": "ics_sociology_ps_events:4751:delta:0",
@@ -2431,8 +2381,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.852242",
-      "updated_at": "2026-07-05T05:54:35.852243"
+      "created_at": "2026-07-12T05:15:34.621981",
+      "updated_at": "2026-07-12T05:15:34.621982"
     },
     {
       "id": "ics_sociology_ps_events:4756:delta:0",
@@ -2456,58 +2406,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:35.852273",
-      "updated_at": "2026-07-05T05:54:35.852274"
-    },
-    {
-      "id": "ics_psychology_ps_events:13481:delta:0",
-      "title": "14th International Conference on Construction Grammar",
-      "description": "Join us for the 14th International Conference on Construction Grammar (ICCG14)!&nbsp;Taking place from June 4th to 6th, ICCG14&nbsp;will focus on both usage-based analyses and empirical methods and feature an exceptional lineup of invited speakers. Additional details are available on the event flyer, and you can check out the program here.&nbsp;Registration ends June 1 and&nbsp;is free for Princeton affiliates using the code “Princeton\", so",
-      "start_date": "2026-06-04",
-      "end_date": "2026-06-07",
-      "time": "",
-      "location": "A32 Princeton Neuroscience Institute & 101 Peretsman Scully Hall",
-      "event_type": "Conference",
-      "department": "Psychology",
-      "meta_category": "social_sciences",
-      "source_url": "https://psychology.princeton.edu/news-events/2026/14th-international-conference-construction-grammar",
-      "source_name": "Psychology Events",
-      "speaker": "",
-      "audience": "",
-      "topics": [],
-      "departments": [],
-      "tags": [],
-      "series": "",
-      "speaker_affiliation": "",
-      "speaker_url": "",
-      "image_url": "",
-      "created_at": "2026-07-05T05:54:36.204274",
-      "updated_at": "2026-07-05T05:54:36.204283"
-    },
-    {
-      "id": "ics_psychology_ps_events:13491:delta:0",
-      "title": "Raja Marjieh's Final Public Oral Exam",
-      "description": "",
-      "start_date": "2026-06-08",
-      "end_date": "2026-06-08",
-      "time": "10:30 AM - 12:00 PM",
-      "location": "101 Peretsman Scully Hall",
-      "event_type": "Event",
-      "department": "Psychology",
-      "meta_category": "social_sciences",
-      "source_url": "https://psychology.princeton.edu/news-events/2026/raja-marjiehs-final-public-oral-exam",
-      "source_name": "Psychology Events",
-      "speaker": "",
-      "audience": "",
-      "topics": [],
-      "departments": [],
-      "tags": [],
-      "series": "",
-      "speaker_affiliation": "",
-      "speaker_url": "",
-      "image_url": "",
-      "created_at": "2026-07-05T05:54:36.204342",
-      "updated_at": "2026-07-05T05:54:36.204343"
+      "created_at": "2026-07-12T05:15:34.622011",
+      "updated_at": "2026-07-12T05:15:34.622012"
     },
     {
       "id": "ics_psychology_ps_events:13836:delta:0",
@@ -2531,8 +2431,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.204377",
-      "updated_at": "2026-07-05T05:54:36.204378"
+      "created_at": "2026-07-12T05:15:35.155719",
+      "updated_at": "2026-07-12T05:15:35.155727"
     },
     {
       "id": "ics_history_ps_events:24286:delta:0",
@@ -2556,8 +2456,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.581396",
-      "updated_at": "2026-07-05T05:54:36.581405"
+      "created_at": "2026-07-12T05:15:35.996884",
+      "updated_at": "2026-07-12T05:15:35.996892"
     },
     {
       "id": "ics_history_ps_events:24411:delta:0",
@@ -2581,8 +2481,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.581445",
-      "updated_at": "2026-07-05T05:54:36.581446"
+      "created_at": "2026-07-12T05:15:35.996931",
+      "updated_at": "2026-07-12T05:15:35.996932"
     },
     {
       "id": "ics_history_ps_events:24416:delta:0",
@@ -2606,8 +2506,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.581483",
-      "updated_at": "2026-07-05T05:54:36.581484"
+      "created_at": "2026-07-12T05:15:35.996969",
+      "updated_at": "2026-07-12T05:15:35.996970"
     },
     {
       "id": "ics_history_ps_events:23761:delta:0",
@@ -2631,8 +2531,108 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.581529",
-      "updated_at": "2026-07-05T05:54:36.581531"
+      "created_at": "2026-07-12T05:15:35.997013",
+      "updated_at": "2026-07-12T05:15:35.997014"
+    },
+    {
+      "id": "ics_history_ps_events:24701:delta:0",
+      "title": "Final Public Oral Exam: Anna Speyart",
+      "description": "Committee:Matthew L. Jones, co-adviserCarolyn Y. Yerkes, co-adviserAnthony GraftonPaula Findlen, Stanford UniversityFrancesca Trivellato, Institute for Advanced StudyAbstract:Early modern Europeans recognized and investigated cold as a resource. Though they had no way to “produce” cold, sixteenth- and seventeenth-century communities invested in workarounds that expanded their access to freezing and cooling potential. Appreciating the convenience of frozen refrigerants, they harnessed winter cold by harvesting ice or snow and storing them in ice",
+      "start_date": "2026-07-17",
+      "end_date": "2026-07-17",
+      "time": "10:30 AM - 12:30 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Event",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/final-public-oral-exam-anna-speyart",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997055",
+      "updated_at": "2026-07-12T05:15:35.997056"
+    },
+    {
+      "id": "ics_history_ps_events:24571:delta:0",
+      "title": "Recording Stories of the North American Middle Ages",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2026-09-04",
+      "end_date": "2026-09-04",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/recording-stories-north-american-middle-ages",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997086",
+      "updated_at": "2026-07-12T05:15:35.997087"
+    },
+    {
+      "id": "ics_history_ps_events:24581:delta:0",
+      "title": "The Persistence of Poverty",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2026-09-11",
+      "end_date": "2026-09-11",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/persistence-poverty",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997118",
+      "updated_at": "2026-07-12T05:15:35.997119"
+    },
+    {
+      "id": "ics_history_ps_events:24586:delta:0",
+      "title": "\"Nothing from the Fathers but labor\": Indigenous Land Reclamation and the Dissolution of the California Missions, 1828–1854",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2026-09-18",
+      "end_date": "2026-09-18",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/nothing-fathers-labor-indigenous-land-reclamation-and-dissolution-california",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997150",
+      "updated_at": "2026-07-12T05:15:35.997151"
     },
     {
       "id": "ics_history_ps_events:24236:delta:0",
@@ -2656,8 +2656,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.581569",
-      "updated_at": "2026-07-05T05:54:36.581570"
+      "created_at": "2026-07-12T05:15:35.997186",
+      "updated_at": "2026-07-12T05:15:35.997187"
     },
     {
       "id": "ics_history_ps_events:24421:delta:0",
@@ -2681,8 +2681,83 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.581601",
-      "updated_at": "2026-07-05T05:54:36.581602"
+      "created_at": "2026-07-12T05:15:35.997217",
+      "updated_at": "2026-07-12T05:15:35.997218"
+    },
+    {
+      "id": "ics_history_ps_events:24591:delta:0",
+      "title": "Just Prices vs. Just Wages in Late Medieval and Early Modern Scholastic Thought",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2026-09-25",
+      "end_date": "2026-09-25",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/just-prices-vs-just-wages-late-medieval-and-early-modern-scholastic-thought",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997249",
+      "updated_at": "2026-07-12T05:15:35.997250"
+    },
+    {
+      "id": "ics_history_ps_events:24596:delta:0",
+      "title": "Borscht Versus Burgers",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2026-10-02",
+      "end_date": "2026-10-02",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/borscht-versus-burgers",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997279",
+      "updated_at": "2026-07-12T05:15:35.997280"
+    },
+    {
+      "id": "ics_history_ps_events:24601:delta:0",
+      "title": "Monarchical Entitlements: The Propertied and New Regimes in Haiti, Mexico, and Brazil",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2026-10-09",
+      "end_date": "2026-10-09",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/monarchical-entitlements-propertied-and-new-regimes-haiti-mexico-and-brazil",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997308",
+      "updated_at": "2026-07-12T05:15:35.997309"
     },
     {
       "id": "ics_history_ps_events:24426:delta:0",
@@ -2706,8 +2781,308 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.581631",
-      "updated_at": "2026-07-05T05:54:36.581632"
+      "created_at": "2026-07-12T05:15:35.997336",
+      "updated_at": "2026-07-12T05:15:35.997337"
+    },
+    {
+      "id": "ics_history_ps_events:24606:delta:0",
+      "title": "The Intellectual Property Defense Industry and the Policing of Information, 1880–2030",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2026-10-30",
+      "end_date": "2026-10-30",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/intellectual-property-defense-industry-and-policing-information-1880%E2%80%932030",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997366",
+      "updated_at": "2026-07-12T05:15:35.997367"
+    },
+    {
+      "id": "ics_history_ps_events:24611:delta:0",
+      "title": "Studying Racism and Rural Poverty Across Borders: The Curious Career of Frank Tannenbaum",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2026-11-06",
+      "end_date": "2026-11-06",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/studying-racism-and-rural-poverty-across-borders-curious-career-frank-tannenbaum",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997397",
+      "updated_at": "2026-07-12T05:15:35.997398"
+    },
+    {
+      "id": "ics_history_ps_events:24616:delta:0",
+      "title": "The Merchant-State Alliance: Capital and Tax in Medieval Egypt",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2026-11-13",
+      "end_date": "2026-11-13",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/merchant-state-alliance-capital-and-tax-medieval-egypt",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997427",
+      "updated_at": "2026-07-12T05:15:35.997428"
+    },
+    {
+      "id": "ics_history_ps_events:24621:delta:0",
+      "title": "Guiding Spirits to the Pure Land: The Ritualist, the Funerary Inventory, and the Art of Effigy Dissolution in Medieval China",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2026-11-20",
+      "end_date": "2026-11-20",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/guiding-spirits-pure-land-ritualist-funerary-inventory-and-art-effigy",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997457",
+      "updated_at": "2026-07-12T05:15:35.997458"
+    },
+    {
+      "id": "ics_history_ps_events:24626:delta:0",
+      "title": "Lead with What You Stole",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2026-12-04",
+      "end_date": "2026-12-04",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/lead-what-you-stole",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997486",
+      "updated_at": "2026-07-12T05:15:35.997487"
+    },
+    {
+      "id": "ics_history_ps_events:24631:delta:0",
+      "title": "Invisible Attachments: Global Finance, Developmentalism and Subjectivity in South Asia",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2026-12-11",
+      "end_date": "2026-12-11",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/invisible-attachments-global-finance-developmentalism-and-subjectivity-south",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997516",
+      "updated_at": "2026-07-12T05:15:35.997517"
+    },
+    {
+      "id": "ics_history_ps_events:24576:delta:0",
+      "title": "Water, Dispossession, and the Colonial Production of Disease in Japanese Taiwan",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2027-01-29",
+      "end_date": "2027-01-29",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/water-dispossession-and-colonial-production-disease-japanese-taiwan",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997557",
+      "updated_at": "2026-07-12T05:15:35.997558"
+    },
+    {
+      "id": "ics_history_ps_events:24636:delta:0",
+      "title": "Sarah Ifft Decker - Title TBD",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2027-02-05",
+      "end_date": "2027-02-05",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/sarah-ifft-decker-title-tbd",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997587",
+      "updated_at": "2026-07-12T05:15:35.997588"
+    },
+    {
+      "id": "ics_history_ps_events:24641:delta:0",
+      "title": "From the Promise of Welfare to the Fight Against Poverty: A Local/Global Intellectual History of the Social Question in Uruguay (1943–2010)",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2027-02-12",
+      "end_date": "2027-02-12",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/promise-welfare-fight-against-poverty-localglobal-intellectual-history-social",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997619",
+      "updated_at": "2026-07-12T05:15:35.997620"
+    },
+    {
+      "id": "ics_history_ps_events:24646:delta:0",
+      "title": "Archives of the Otherwise: A Messianic Approach to Property in Sudan",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2027-02-19",
+      "end_date": "2027-02-19",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/archives-otherwise-messianic-approach-property-sudan",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997649",
+      "updated_at": "2026-07-12T05:15:35.997650"
+    },
+    {
+      "id": "ics_history_ps_events:24651:delta:0",
+      "title": "The Politics of Exposure and the Radicalism of Occupational Health in the 1970s",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2027-02-26",
+      "end_date": "2027-02-26",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/politics-exposure-and-radicalism-occupational-health-1970s",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997680",
+      "updated_at": "2026-07-12T05:15:35.997681"
+    },
+    {
+      "id": "ics_history_ps_events:24656:delta:0",
+      "title": "Emilio Kourí - Title TBD",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2027-03-19",
+      "end_date": "2027-03-19",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/emilio-kour%C3%AD-title-tbd",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997710",
+      "updated_at": "2026-07-12T05:15:35.997711"
     },
     {
       "id": "ics_history_ps_events:24336:delta:0",
@@ -2731,8 +3106,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.581665",
-      "updated_at": "2026-07-05T05:54:36.581666"
+      "created_at": "2026-07-12T05:15:35.997742",
+      "updated_at": "2026-07-12T05:15:35.997743"
     },
     {
       "id": "ics_history_ps_events:24336:delta:1",
@@ -2756,22 +3131,22 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.581697",
-      "updated_at": "2026-07-05T05:54:36.581698"
+      "created_at": "2026-07-12T05:15:35.997776",
+      "updated_at": "2026-07-12T05:15:35.997777"
     },
     {
-      "id": "ics_neuroscience__p_ps_events:4516:delta:0",
-      "title": "Write Winning NIH F & K-Series Grant Proposals",
-      "description": "Join us on Thursday, June 11, 2026, for an all-day grant proposal writing seminar led by John Robertson, Ph.D., the Managing Member of Grant Writers' Seminars &amp; Workshops.Seminar begins at 8:30 am. Check-in, light fare, and coffee starts at 8 am.&nbsp;This seminar company requires each attendee to purchase a copy of The Grant Application Writer's Workbook. We will be using the NIH version. The January 2025 edition has been updated to comply with the recently updated FORMS-I general and program-specific instructions for NIH grant applications due on or after",
-      "start_date": "2026-06-11",
-      "end_date": "2026-06-11",
-      "time": "8:00 AM - 5:00 PM",
-      "location": "PNI A32",
+      "id": "ics_history_ps_events:24661:delta:0",
+      "title": "Anne O’Donnell - Title TBD",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2027-03-26",
+      "end_date": "2027-03-26",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
       "event_type": "Seminar",
-      "department": "Neuroscience (PNI)",
-      "meta_category": "sciences_engineering",
-      "source_url": "https://pni.princeton.edu/events/2026/write-winning-nih-f-k-series-grant-proposals",
-      "source_name": "Neuroscience (PNI) Events",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/anne-o%E2%80%99donnell-title-tbd",
+      "source_name": "History Events",
       "speaker": "",
       "audience": "",
       "topics": [],
@@ -2781,8 +3156,183 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888477",
-      "updated_at": "2026-07-05T05:54:36.888487"
+      "created_at": "2026-07-12T05:15:35.997807",
+      "updated_at": "2026-07-12T05:15:35.997808"
+    },
+    {
+      "id": "ics_history_ps_events:24666:delta:0",
+      "title": "Copyright and the Denial of Indigenous Sovereignty",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2027-04-02",
+      "end_date": "2027-04-02",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/copyright-and-denial-indigenous-sovereignty",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997838",
+      "updated_at": "2026-07-12T05:15:35.997839"
+    },
+    {
+      "id": "ics_history_ps_events:24671:delta:0",
+      "title": "Matthew Desmond - Title TBD",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2027-04-09",
+      "end_date": "2027-04-09",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/matthew-desmond-title-tbd",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997867",
+      "updated_at": "2026-07-12T05:15:35.997868"
+    },
+    {
+      "id": "ics_history_ps_events:24676:delta:0",
+      "title": "Henry Clements - Title TBD",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2027-04-16",
+      "end_date": "2027-04-16",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/henry-clements-title-tbd",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997897",
+      "updated_at": "2026-07-12T05:15:35.997898"
+    },
+    {
+      "id": "ics_history_ps_events:24681:delta:0",
+      "title": "Rafe Blaufard - Title TBD",
+      "description": "The Shelby Cullom Davis Center Seminars present weekly programming on a variety of topics related to the Center's current theme. Visiting Fellows from academic institutions near and far help to create a rich understanding of the topic from diverse yet overlapping perspectives. The theme for the academic years 2026–27 and 2027–28 is “Property and Poverty.”The seminar starts with a brief comment by an invited commentator, and a response from the author, after which the floor is open for questions from attendees.Printed copies of the paper are available one week before the",
+      "start_date": "2027-04-23",
+      "end_date": "2027-04-23",
+      "time": "10:15 AM - 12:00 PM",
+      "location": "211 Dickinson Hall",
+      "event_type": "Seminar",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/rafe-blaufard-title-tbd",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997925",
+      "updated_at": "2026-07-12T05:15:35.997926"
+    },
+    {
+      "id": "ics_history_ps_events:24686:delta:0",
+      "title": "Lawrence Stone Lecture: Part 1",
+      "description": "Part one of a three-part lecture series. This series is co-sponsored by the Shelby Cullom Davis Center for Historical Studies and Princeton University Press.The 2027 Lawrence Stone Lectures are as follows:Tuesday, April 27: Part One: Title TBDWednesday, April 28: Part Two: Title TBDThursday, April 29: Part Three: Title TBDA reception will follow the final lecture on April 29, 2027, at 6pm in",
+      "start_date": "2027-04-27",
+      "end_date": "2027-04-27",
+      "time": "4:30 PM - 6:00 PM",
+      "location": "East Pyne Building - 010",
+      "event_type": "Lecture",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/lawrence-stone-lecture-part-1",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997951",
+      "updated_at": "2026-07-12T05:15:35.997952"
+    },
+    {
+      "id": "ics_history_ps_events:24691:delta:0",
+      "title": "Lawrence Stone Lecture: Part 2",
+      "description": "Part two of a three-part lecture series. This series is co-sponsored by the Shelby Cullom Davis Center for Historical Studies and Princeton University Press.The 2027 Lawrence Stone Lectures are as follows:Tuesday, April 27: Part One: Title TBDWednesday, April 28: Part Two: Title TBDThursday, April 29: Part Three: Title TBDA reception will follow the final lecture on April 29, 2027, at 6pm in",
+      "start_date": "2027-04-28",
+      "end_date": "2027-04-28",
+      "time": "4:30 PM - 6:00 PM",
+      "location": "East Pyne Building - 010",
+      "event_type": "Lecture",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/lawrence-stone-lecture-part-2",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.997976",
+      "updated_at": "2026-07-12T05:15:35.997977"
+    },
+    {
+      "id": "ics_history_ps_events:24696:delta:0",
+      "title": "Lawrence Stone Lecture: Part 3",
+      "description": "Part three of a three-part lecture series. This series is co-sponsored by the Shelby Cullom Davis Center for Historical Studies and Princeton University Press.The 2027 Lawrence Stone Lectures are as follows:Tuesday, April 27: Part One: Title TBDWednesday, April 28: Part Two: Title TBDThursday, April 29: Part Three: Title TBDA reception will follow the final lecture on April 29, 2027, at 6pm in",
+      "start_date": "2027-04-29",
+      "end_date": "2027-04-29",
+      "time": "4:30 PM - 6:00 PM",
+      "location": "East Pyne Building - 010",
+      "event_type": "Lecture",
+      "department": "History",
+      "meta_category": "arts_humanities",
+      "source_url": "https://history.princeton.edu/news-events/events/lawrence-stone-lecture-part-3",
+      "source_name": "History Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:35.998003",
+      "updated_at": "2026-07-12T05:15:35.998004"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4716:delta:0",
@@ -2806,17 +3356,17 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888529",
-      "updated_at": "2026-07-05T05:54:36.888530"
+      "created_at": "2026-07-12T05:15:36.446367",
+      "updated_at": "2026-07-12T05:15:36.446373"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4736:delta:0",
       "title": "Postdoc Grants, Fellowships, and Other Funding Sources",
-      "description": "Panelists TBALearn about different grant opportunities from fellow PNI postdocs, timelines to consider (when to start preparing materials, for example), and some tips n’ tricks on best practices for writing a competitive proposal.Light refreshments provided.",
+      "description": "EventLearn about different grant opportunities from fellow PNI postdocs, timelines to consider (when to start preparing materials, for example), and some tips n’ tricks on best practices for writing a competitive proposal.Light refreshments provided.PanelistsLindsay Becker — Postdoc in Cliff Brangwynne's lab (Bioengineering), Lindsay is a recipient of the",
       "start_date": "2026-07-15",
       "end_date": "2026-07-15",
       "time": "3:30 PM - 4:30 PM",
-      "location": "PSH 101",
+      "location": "PSH 101 or Zoom",
       "event_type": "Panel",
       "department": "Neuroscience (PNI)",
       "meta_category": "sciences_engineering",
@@ -2831,8 +3381,33 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888565",
-      "updated_at": "2026-07-05T05:54:36.888566"
+      "created_at": "2026-07-12T05:15:36.446417",
+      "updated_at": "2026-07-12T05:15:36.446418"
+    },
+    {
+      "id": "ics_neuroscience__p_ps_events:4766:delta:0",
+      "title": "PNI Summer Research Showcase",
+      "description": "Join the PNI community for our annual summer poster session showcasing the work of undergraduate neuroscience researchers. Enjoy brunch, connect with colleagues, and learn about the exciting science taking place across the institute. All are welcome!",
+      "start_date": "2026-07-30",
+      "end_date": "2026-07-30",
+      "time": "10:00 AM - 12:00 PM",
+      "location": "PNI 1st Floor Lobby",
+      "event_type": "Event",
+      "department": "Neuroscience (PNI)",
+      "meta_category": "sciences_engineering",
+      "source_url": "https://pni.princeton.edu/events/2026/pni-summer-research-showcase",
+      "source_name": "Neuroscience (PNI) Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "speaker_affiliation": "",
+      "speaker_url": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:36.446455",
+      "updated_at": "2026-07-12T05:15:36.446457"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4721:delta:0",
@@ -2856,8 +3431,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888597",
-      "updated_at": "2026-07-05T05:54:36.888597"
+      "created_at": "2026-07-12T05:15:36.446491",
+      "updated_at": "2026-07-12T05:15:36.446493"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4601:delta:0",
@@ -2881,8 +3456,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888630",
-      "updated_at": "2026-07-05T05:54:36.888631"
+      "created_at": "2026-07-12T05:15:36.446551",
+      "updated_at": "2026-07-12T05:15:36.446553"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4606:delta:0",
@@ -2906,8 +3481,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888661",
-      "updated_at": "2026-07-05T05:54:36.888662"
+      "created_at": "2026-07-12T05:15:36.446592",
+      "updated_at": "2026-07-12T05:15:36.446593"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4611:delta:0",
@@ -2931,8 +3506,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888690",
-      "updated_at": "2026-07-05T05:54:36.888691"
+      "created_at": "2026-07-12T05:15:36.446622",
+      "updated_at": "2026-07-12T05:15:36.446623"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4616:delta:0",
@@ -2956,8 +3531,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888724",
-      "updated_at": "2026-07-05T05:54:36.888724"
+      "created_at": "2026-07-12T05:15:36.446651",
+      "updated_at": "2026-07-12T05:15:36.446652"
     },
     {
       "id": "ics_neuroscience__p_ps_events:3456:delta:0",
@@ -2981,8 +3556,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888752",
-      "updated_at": "2026-07-05T05:54:36.888753"
+      "created_at": "2026-07-12T05:15:36.446678",
+      "updated_at": "2026-07-12T05:15:36.446679"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4621:delta:0",
@@ -3006,8 +3581,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888781",
-      "updated_at": "2026-07-05T05:54:36.888782"
+      "created_at": "2026-07-12T05:15:36.446705",
+      "updated_at": "2026-07-12T05:15:36.446706"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4626:delta:0",
@@ -3031,8 +3606,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888809",
-      "updated_at": "2026-07-05T05:54:36.888810"
+      "created_at": "2026-07-12T05:15:36.446732",
+      "updated_at": "2026-07-12T05:15:36.446733"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4631:delta:0",
@@ -3056,8 +3631,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888836",
-      "updated_at": "2026-07-05T05:54:36.888837"
+      "created_at": "2026-07-12T05:15:36.446763",
+      "updated_at": "2026-07-12T05:15:36.446764"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4636:delta:0",
@@ -3081,8 +3656,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888878",
-      "updated_at": "2026-07-05T05:54:36.888880"
+      "created_at": "2026-07-12T05:15:36.446801",
+      "updated_at": "2026-07-12T05:15:36.446803"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4641:delta:0",
@@ -3106,8 +3681,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888908",
-      "updated_at": "2026-07-05T05:54:36.888909"
+      "created_at": "2026-07-12T05:15:36.446837",
+      "updated_at": "2026-07-12T05:15:36.446838"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4646:delta:0",
@@ -3131,8 +3706,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888936",
-      "updated_at": "2026-07-05T05:54:36.888937"
+      "created_at": "2026-07-12T05:15:36.446871",
+      "updated_at": "2026-07-12T05:15:36.446872"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4651:delta:0",
@@ -3156,8 +3731,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888964",
-      "updated_at": "2026-07-05T05:54:36.888965"
+      "created_at": "2026-07-12T05:15:36.446904",
+      "updated_at": "2026-07-12T05:15:36.446905"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4656:delta:0",
@@ -3181,8 +3756,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.888993",
-      "updated_at": "2026-07-05T05:54:36.888994"
+      "created_at": "2026-07-12T05:15:36.446938",
+      "updated_at": "2026-07-12T05:15:36.446939"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4661:delta:0",
@@ -3206,8 +3781,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.889022",
-      "updated_at": "2026-07-05T05:54:36.889023"
+      "created_at": "2026-07-12T05:15:36.446972",
+      "updated_at": "2026-07-12T05:15:36.446974"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4666:delta:0",
@@ -3231,8 +3806,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.889050",
-      "updated_at": "2026-07-05T05:54:36.889051"
+      "created_at": "2026-07-12T05:15:36.447008",
+      "updated_at": "2026-07-12T05:15:36.447009"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4671:delta:0",
@@ -3256,8 +3831,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.889077",
-      "updated_at": "2026-07-05T05:54:36.889078"
+      "created_at": "2026-07-12T05:15:36.447035",
+      "updated_at": "2026-07-12T05:15:36.447036"
     },
     {
       "id": "ics_neuroscience__p_ps_events:4676:delta:0",
@@ -3281,8 +3856,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:36.889104",
-      "updated_at": "2026-07-05T05:54:36.889105"
+      "created_at": "2026-07-12T05:15:36.447061",
+      "updated_at": "2026-07-12T05:15:36.447062"
     },
     {
       "id": "ics_uchv_ps_events:13196:delta:0",
@@ -3306,8 +3881,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.290812",
-      "updated_at": "2026-07-05T05:54:37.290821"
+      "created_at": "2026-07-12T05:15:36.836299",
+      "updated_at": "2026-07-12T05:15:36.836307"
     },
     {
       "id": "ics_uchv_ps_events:13271:delta:0",
@@ -3331,8 +3906,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.290861",
-      "updated_at": "2026-07-05T05:54:37.290862"
+      "created_at": "2026-07-12T05:15:36.836351",
+      "updated_at": "2026-07-12T05:15:36.836352"
     },
     {
       "id": "ics_uchv_ps_events:13211:delta:0",
@@ -3356,8 +3931,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.290907",
-      "updated_at": "2026-07-05T05:54:37.290908"
+      "created_at": "2026-07-12T05:15:36.836386",
+      "updated_at": "2026-07-12T05:15:36.836387"
     },
     {
       "id": "ics_uchv_ps_events:13216:delta:0",
@@ -3381,8 +3956,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.290938",
-      "updated_at": "2026-07-05T05:54:37.290939"
+      "created_at": "2026-07-12T05:15:36.836419",
+      "updated_at": "2026-07-12T05:15:36.836421"
     },
     {
       "id": "ics_uchv_ps_events:13236:delta:0",
@@ -3406,8 +3981,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.290968",
-      "updated_at": "2026-07-05T05:54:37.290969"
+      "created_at": "2026-07-12T05:15:36.836455",
+      "updated_at": "2026-07-12T05:15:36.836456"
     },
     {
       "id": "ics_uchv_ps_events:13261:delta:0",
@@ -3431,8 +4006,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.291000",
-      "updated_at": "2026-07-05T05:54:37.291001"
+      "created_at": "2026-07-12T05:15:36.836489",
+      "updated_at": "2026-07-12T05:15:36.836491"
     },
     {
       "id": "ics_uchv_ps_events:13241:delta:0",
@@ -3456,8 +4031,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.291030",
-      "updated_at": "2026-07-05T05:54:37.291031"
+      "created_at": "2026-07-12T05:15:36.836524",
+      "updated_at": "2026-07-12T05:15:36.836525"
     },
     {
       "id": "ics_uchv_ps_events:13246:delta:0",
@@ -3481,8 +4056,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.291059",
-      "updated_at": "2026-07-05T05:54:37.291060"
+      "created_at": "2026-07-12T05:15:36.836569",
+      "updated_at": "2026-07-12T05:15:36.836571"
     },
     {
       "id": "ics_uchv_ps_events:13221:delta:0",
@@ -3506,8 +4081,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.291086",
-      "updated_at": "2026-07-05T05:54:37.291087"
+      "created_at": "2026-07-12T05:15:36.836603",
+      "updated_at": "2026-07-12T05:15:36.836604"
     },
     {
       "id": "ics_uchv_ps_events:13251:delta:0",
@@ -3531,8 +4106,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.291115",
-      "updated_at": "2026-07-05T05:54:37.291115"
+      "created_at": "2026-07-12T05:15:36.836637",
+      "updated_at": "2026-07-12T05:15:36.836638"
     },
     {
       "id": "ics_uchv_ps_events:12531:delta:0",
@@ -3556,8 +4131,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.291144",
-      "updated_at": "2026-07-05T05:54:37.291145"
+      "created_at": "2026-07-12T05:15:36.836672",
+      "updated_at": "2026-07-12T05:15:36.836673"
     },
     {
       "id": "ics_uchv_ps_events:12531:delta:1",
@@ -3581,8 +4156,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.291172",
-      "updated_at": "2026-07-05T05:54:37.291173"
+      "created_at": "2026-07-12T05:15:36.836705",
+      "updated_at": "2026-07-12T05:15:36.836706"
     },
     {
       "id": "ics_uchv_ps_events:13226:delta:0",
@@ -3606,8 +4181,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.291204",
-      "updated_at": "2026-07-05T05:54:37.291205"
+      "created_at": "2026-07-12T05:15:36.836737",
+      "updated_at": "2026-07-12T05:15:36.836738"
     },
     {
       "id": "ics_uchv_ps_events:13266:delta:0",
@@ -3631,8 +4206,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.291232",
-      "updated_at": "2026-07-05T05:54:37.291233"
+      "created_at": "2026-07-12T05:15:36.836769",
+      "updated_at": "2026-07-12T05:15:36.836770"
     },
     {
       "id": "ics_uchv_ps_events:13256:delta:0",
@@ -3656,8 +4231,8 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.291259",
-      "updated_at": "2026-07-05T05:54:37.291260"
+      "created_at": "2026-07-12T05:15:36.836801",
+      "updated_at": "2026-07-12T05:15:36.836802"
     },
     {
       "id": "ics_uchv_ps_events:13231:delta:0",
@@ -3681,11 +4256,34 @@
       "speaker_affiliation": "",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.291285",
-      "updated_at": "2026-07-05T05:54:37.291286"
+      "created_at": "2026-07-12T05:15:36.836833",
+      "updated_at": "2026-07-12T05:15:36.836834"
     },
     {
-      "id": "mathematics_20260705_TBA",
+      "id": "mathematics_20260712_ICM_Satellite_Meetin",
+      "title": "ICM Satellite Meeting: New Methods in Evolution Partial Differential Equations",
+      "description": "",
+      "start_date": "2026-07-20",
+      "end_date": "2026-07-22",
+      "time": "09:00 AM",
+      "location": "Fine Hall 110",
+      "event_type": "Meeting",
+      "department": "Mathematics",
+      "meta_category": "sciences_engineering",
+      "source_url": "https://www.math.princeton.edu/events",
+      "source_name": "Mathematics Department Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [
+        "differential equations"
+      ],
+      "created_at": "2026-07-12T05:15:37.173346",
+      "updated_at": "2026-07-12T05:15:37.173354"
+    },
+    {
+      "id": "mathematics_20260712_TBA",
       "title": "TBA",
       "description": "",
       "start_date": "2026-09-24",
@@ -3702,11 +4300,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:37.372781",
-      "updated_at": "2026-07-05T05:54:37.372782"
+      "created_at": "2026-07-12T05:15:37.173528",
+      "updated_at": "2026-07-12T05:15:37.173529"
     },
     {
-      "id": "mathematics_20260705_TBA",
+      "id": "mathematics_20260712_TBA",
       "title": "TBA",
       "description": "",
       "start_date": "2026-10-01",
@@ -3723,11 +4321,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:37.372728",
-      "updated_at": "2026-07-05T05:54:37.372729"
+      "created_at": "2026-07-12T05:15:37.173474",
+      "updated_at": "2026-07-12T05:15:37.173476"
     },
     {
-      "id": "mathematics_20260705_TBA",
+      "id": "mathematics_20260712_TBA",
       "title": "TBA",
       "description": "",
       "start_date": "2026-10-29",
@@ -3744,11 +4342,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:37.372756",
-      "updated_at": "2026-07-05T05:54:37.372757"
+      "created_at": "2026-07-12T05:15:37.173501",
+      "updated_at": "2026-07-12T05:15:37.173503"
     },
     {
-      "id": "mathematics_20260705_TBA",
+      "id": "mathematics_20260712_TBA",
       "title": "TBA",
       "description": "",
       "start_date": "2026-11-12",
@@ -3765,11 +4363,32 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:37.372658",
-      "updated_at": "2026-07-05T05:54:37.372667"
+      "created_at": "2026-07-12T05:15:37.173447",
+      "updated_at": "2026-07-12T05:15:37.173448"
     },
     {
-      "id": "philosophy_20260705_Princeton-Michigan_N",
+      "id": "mathematics_20260712_TBA",
+      "title": "TBA",
+      "description": "",
+      "start_date": "2026-11-19",
+      "end_date": "2026-11-19",
+      "time": "01:00 PM - 02:00 PM",
+      "location": "Princeton University",
+      "event_type": "Event",
+      "department": "Mathematics",
+      "meta_category": "sciences_engineering",
+      "source_url": "https://www.math.princeton.edu/events",
+      "source_name": "Mathematics Department Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "created_at": "2026-07-12T05:15:37.173414",
+      "updated_at": "2026-07-12T05:15:37.173416"
+    },
+    {
+      "id": "philosophy_20260712_Princeton-Michigan_N",
       "title": "Princeton-Michigan Normativity Workshop",
       "description": "",
       "start_date": "2026-09-19",
@@ -3788,11 +4407,11 @@
       "tags": [
         "princeton"
       ],
-      "created_at": "2026-07-05T05:54:37.610498",
-      "updated_at": "2026-07-05T05:54:37.610507"
+      "created_at": "2026-07-12T05:15:37.581657",
+      "updated_at": "2026-07-12T05:15:37.581665"
     },
     {
-      "id": "philosophy_20260705_Princeton-Michigan_N",
+      "id": "philosophy_20260712_Princeton-Michigan_N",
       "title": "Princeton-Michigan Normativity Workshop",
       "description": "",
       "start_date": "2026-09-20",
@@ -3811,11 +4430,11 @@
       "tags": [
         "princeton"
       ],
-      "created_at": "2026-07-05T05:54:37.610567",
-      "updated_at": "2026-07-05T05:54:37.610569"
+      "created_at": "2026-07-12T05:15:37.581715",
+      "updated_at": "2026-07-12T05:15:37.581716"
     },
     {
-      "id": "philosophy_20260705_Friday_Colloquium",
+      "id": "philosophy_20260712_Friday_Colloquium",
       "title": "Friday Colloquium",
       "description": "",
       "start_date": "2026-09-25",
@@ -3836,11 +4455,11 @@
         "params=Parameters({}))",
         "colloquium"
       ],
-      "created_at": "2026-07-05T05:54:37.610597",
-      "updated_at": "2026-07-05T05:54:37.610598"
+      "created_at": "2026-07-12T05:15:37.581741",
+      "updated_at": "2026-07-12T05:15:37.581742"
     },
     {
-      "id": "philosophy_20260705_Friday_Colloquium",
+      "id": "philosophy_20260712_Friday_Colloquium",
       "title": "Friday Colloquium",
       "description": "",
       "start_date": "2026-10-02",
@@ -3861,11 +4480,11 @@
         "params=Parameters({}))",
         "colloquium"
       ],
-      "created_at": "2026-07-05T05:54:37.610692",
-      "updated_at": "2026-07-05T05:54:37.610693"
+      "created_at": "2026-07-12T05:15:37.581821",
+      "updated_at": "2026-07-12T05:15:37.581822"
     },
     {
-      "id": "philosophy_20260705_Motion_and_Soul_in_A",
+      "id": "philosophy_20260712_Motion_and_Soul_in_A",
       "title": "Motion and Soul in Ancient Philosophy Conference",
       "description": "More details to follow. &nbsp;Please check back.&nbsp;",
       "start_date": "2026-10-31",
@@ -3885,11 +4504,11 @@
         "philosophy",
         "ancient philosophy"
       ],
-      "created_at": "2026-07-05T05:54:37.610743",
-      "updated_at": "2026-07-05T05:54:37.610744"
+      "created_at": "2026-07-12T05:15:37.581869",
+      "updated_at": "2026-07-12T05:15:37.581870"
     },
     {
-      "id": "philosophy_20260705_Motion_and_Soul_in_A",
+      "id": "philosophy_20260712_Motion_and_Soul_in_A",
       "title": "Motion and Soul in Ancient Philosophy Conference",
       "description": "",
       "start_date": "2026-11-01",
@@ -3909,11 +4528,11 @@
         "philosophy",
         "ancient philosophy"
       ],
-      "created_at": "2026-07-05T05:54:37.610771",
-      "updated_at": "2026-07-05T05:54:37.610771"
+      "created_at": "2026-07-12T05:15:37.581896",
+      "updated_at": "2026-07-12T05:15:37.581897"
     },
     {
-      "id": "philosophy_20260705_A_Standard_of_Judgme",
+      "id": "philosophy_20260712_A_Standard_of_Judgme",
       "title": "A Standard of Judgment: A Conference in Honor of Michael Smith",
       "description": "",
       "start_date": "2026-11-06",
@@ -3930,11 +4549,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:37.610797",
-      "updated_at": "2026-07-05T05:54:37.610798"
+      "created_at": "2026-07-12T05:15:37.581922",
+      "updated_at": "2026-07-12T05:15:37.581923"
     },
     {
-      "id": "philosophy_20260705_A_Standard_of_Judgme",
+      "id": "philosophy_20260712_A_Standard_of_Judgme",
       "title": "A Standard of Judgment: A Conference in Honor of Michael Smith",
       "description": "",
       "start_date": "2026-11-07",
@@ -3951,11 +4570,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:37.610839",
-      "updated_at": "2026-07-05T05:54:37.610840"
+      "created_at": "2026-07-12T05:15:37.581963",
+      "updated_at": "2026-07-12T05:15:37.581965"
     },
     {
-      "id": "philosophy_20260705_A_Standard_of_Judgme",
+      "id": "philosophy_20260712_A_Standard_of_Judgme",
       "title": "A Standard of Judgment: A Conference in Honor of Michael Smith",
       "description": "",
       "start_date": "2026-11-08",
@@ -3972,11 +4591,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:37.610899",
-      "updated_at": "2026-07-05T05:54:37.610901"
+      "created_at": "2026-07-12T05:15:37.582005",
+      "updated_at": "2026-07-12T05:15:37.582006"
     },
     {
-      "id": "philosophy_20260705_Special_Lecture_Seri",
+      "id": "philosophy_20260712_Special_Lecture_Seri",
       "title": "Special Lecture Series",
       "description": "",
       "start_date": "2026-11-18",
@@ -3993,11 +4612,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:37.610940",
-      "updated_at": "2026-07-05T05:54:37.610941"
+      "created_at": "2026-07-12T05:15:37.582041",
+      "updated_at": "2026-07-12T05:15:37.582043"
     },
     {
-      "id": "philosophy_20260705_Special_Lecture_Seri",
+      "id": "philosophy_20260712_Special_Lecture_Seri",
       "title": "Special Lecture Series",
       "description": "",
       "start_date": "2026-11-19",
@@ -4014,11 +4633,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:37.610976",
-      "updated_at": "2026-07-05T05:54:37.610977"
+      "created_at": "2026-07-12T05:15:37.582081",
+      "updated_at": "2026-07-12T05:15:37.582082"
     },
     {
-      "id": "philosophy_20260705_Special_Lecture_Seri",
+      "id": "philosophy_20260712_Special_Lecture_Seri",
       "title": "Special Lecture Series",
       "description": "",
       "start_date": "2026-11-20",
@@ -4035,11 +4654,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:37.611014",
-      "updated_at": "2026-07-05T05:54:37.611015"
+      "created_at": "2026-07-12T05:15:37.582114",
+      "updated_at": "2026-07-12T05:15:37.582115"
     },
     {
-      "id": "philosophy_20260705_Classical_Philosophy",
+      "id": "philosophy_20260712_Classical_Philosophy",
       "title": "Classical Philosophy Conference",
       "description": "",
       "start_date": "2026-12-12",
@@ -4060,11 +4679,11 @@
         "params=Parameters({}))",
         "philosophy"
       ],
-      "created_at": "2026-07-05T05:54:37.611050",
-      "updated_at": "2026-07-05T05:54:37.611051"
+      "created_at": "2026-07-12T05:15:37.582146",
+      "updated_at": "2026-07-12T05:15:37.582148"
     },
     {
-      "id": "philosophy_20260705_Classical_Philosophy",
+      "id": "philosophy_20260712_Classical_Philosophy",
       "title": "Classical Philosophy Conference",
       "description": "",
       "start_date": "2026-12-13",
@@ -4083,11 +4702,11 @@
       "tags": [
         "philosophy"
       ],
-      "created_at": "2026-07-05T05:54:37.611081",
-      "updated_at": "2026-07-05T05:54:37.611082"
+      "created_at": "2026-07-12T05:15:37.582176",
+      "updated_at": "2026-07-12T05:15:37.582177"
     },
     {
-      "id": "philosophy_20260705_Friday_Colloquium",
+      "id": "philosophy_20260712_Friday_Colloquium",
       "title": "Friday Colloquium",
       "description": "",
       "start_date": "2027-02-12",
@@ -4108,11 +4727,11 @@
         "params=Parameters({}))",
         "colloquium"
       ],
-      "created_at": "2026-07-05T05:54:37.611102",
-      "updated_at": "2026-07-05T05:54:37.611103"
+      "created_at": "2026-07-12T05:15:37.582197",
+      "updated_at": "2026-07-12T05:15:37.582198"
     },
     {
-      "id": "philosophy_20260705_Friday_Colloquium",
+      "id": "philosophy_20260712_Friday_Colloquium",
       "title": "Friday Colloquium",
       "description": "",
       "start_date": "2027-03-19",
@@ -4133,11 +4752,11 @@
         "params=Parameters({}))",
         "colloquium"
       ],
-      "created_at": "2026-07-05T05:54:37.611143",
-      "updated_at": "2026-07-05T05:54:37.611144"
+      "created_at": "2026-07-12T05:15:37.582237",
+      "updated_at": "2026-07-12T05:15:37.582238"
     },
     {
-      "id": "philosophy_20260705_Metaphysics_Workshop",
+      "id": "philosophy_20260712_Metaphysics_Workshop",
       "title": "Metaphysics Workshop",
       "description": "",
       "start_date": "2027-04-17",
@@ -4156,11 +4775,11 @@
       "tags": [
         "metaphysics"
       ],
-      "created_at": "2026-07-05T05:54:37.611182",
-      "updated_at": "2026-07-05T05:54:37.611183"
+      "created_at": "2026-07-12T05:15:37.582276",
+      "updated_at": "2026-07-12T05:15:37.582277"
     },
     {
-      "id": "philosophy_20260705_Metaphysics_Workshop",
+      "id": "philosophy_20260712_Metaphysics_Workshop",
       "title": "Metaphysics Workshop",
       "description": "",
       "start_date": "2027-04-18",
@@ -4179,11 +4798,11 @@
       "tags": [
         "metaphysics"
       ],
-      "created_at": "2026-07-05T05:54:37.611204",
-      "updated_at": "2026-07-05T05:54:37.611205"
+      "created_at": "2026-07-12T05:15:37.582297",
+      "updated_at": "2026-07-12T05:15:37.582298"
     },
     {
-      "id": "philosophy_20260705_Princeton-Rutgers_Se",
+      "id": "philosophy_20260712_Princeton-Rutgers_Se",
       "title": "Princeton-Rutgers Semantics Workshop",
       "description": "",
       "start_date": "2027-04-23",
@@ -4202,11 +4821,11 @@
       "tags": [
         "princeton"
       ],
-      "created_at": "2026-07-05T05:54:37.611225",
-      "updated_at": "2026-07-05T05:54:37.611226"
+      "created_at": "2026-07-12T05:15:37.582319",
+      "updated_at": "2026-07-12T05:15:37.582320"
     },
     {
-      "id": "philosophy_20260705_Princeton_-_Rutgers_",
+      "id": "philosophy_20260712_Princeton_-_Rutgers_",
       "title": "Princeton - Rutgers Semantics Workshop",
       "description": "",
       "start_date": "2027-04-24",
@@ -4225,11 +4844,11 @@
       "tags": [
         "princeton"
       ],
-      "created_at": "2026-07-05T05:54:37.611261",
-      "updated_at": "2026-07-05T05:54:37.611262"
+      "created_at": "2026-07-12T05:15:37.582355",
+      "updated_at": "2026-07-12T05:15:37.582357"
     },
     {
-      "id": "philosophy_20260705_Princeton-Rutgers_Se",
+      "id": "philosophy_20260712_Princeton-Rutgers_Se",
       "title": "Princeton-Rutgers Semantics Workshop",
       "description": "",
       "start_date": "2027-04-25",
@@ -4248,11 +4867,11 @@
       "tags": [
         "princeton"
       ],
-      "created_at": "2026-07-05T05:54:37.611295",
-      "updated_at": "2026-07-05T05:54:37.611296"
+      "created_at": "2026-07-12T05:15:37.582393",
+      "updated_at": "2026-07-12T05:15:37.582394"
     },
     {
-      "id": "philosophy_20260705_Princeton_-_New_York",
+      "id": "philosophy_20260712_Princeton_-_New_York",
       "title": "Princeton - New York University Normativity Workshop",
       "description": "",
       "start_date": "2027-05-01",
@@ -4272,11 +4891,11 @@
         "princeton",
         "university"
       ],
-      "created_at": "2026-07-05T05:54:37.611332",
-      "updated_at": "2026-07-05T05:54:37.611333"
+      "created_at": "2026-07-12T05:15:37.582426",
+      "updated_at": "2026-07-12T05:15:37.582427"
     },
     {
-      "id": "philosophy_20260705_Princeton_-_New_York",
+      "id": "philosophy_20260712_Princeton_-_New_York",
       "title": "Princeton - New York University Normativity Workshop",
       "description": "",
       "start_date": "2027-05-02",
@@ -4296,8 +4915,8 @@
         "princeton",
         "university"
       ],
-      "created_at": "2026-07-05T05:54:37.611367",
-      "updated_at": "2026-07-05T05:54:37.611368"
+      "created_at": "2026-07-12T05:15:37.582461",
+      "updated_at": "2026-07-12T05:15:37.582462"
     },
     {
       "id": "physics_2026-01-23_HET_Seminar____quot_",
@@ -4321,8 +4940,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983034",
-      "updated_at": "2026-07-05T05:54:37.983047"
+      "created_at": "2026-07-12T05:15:38.179233",
+      "updated_at": "2026-07-12T05:15:38.179242"
     },
     {
       "id": "physics_2026-01-30_Condensed_Matter_Sem",
@@ -4346,8 +4965,8 @@
       ],
       "series": "Condensed Matter Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983069",
-      "updated_at": "2026-07-05T05:54:37.983070"
+      "created_at": "2026-07-12T05:15:38.179267",
+      "updated_at": "2026-07-12T05:15:38.179269"
     },
     {
       "id": "physics_2026-02-02_CPBF_Seminar__Learni",
@@ -4371,8 +4990,8 @@
       ],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983187",
-      "updated_at": "2026-07-05T05:54:37.983188"
+      "created_at": "2026-07-12T05:15:38.179403",
+      "updated_at": "2026-07-12T05:15:38.179405"
     },
     {
       "id": "physics_2026-02-02_PGI_Seminar____quot_",
@@ -4394,8 +5013,8 @@
       "tags": [],
       "series": "PGI Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983207",
-      "updated_at": "2026-07-05T05:54:37.983208"
+      "created_at": "2026-07-12T05:15:38.179429",
+      "updated_at": "2026-07-12T05:15:38.179430"
     },
     {
       "id": "physics_2026-02-02_HET_Seminar____quot_",
@@ -4419,8 +5038,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983224",
-      "updated_at": "2026-07-05T05:54:37.983225"
+      "created_at": "2026-07-12T05:15:38.179449",
+      "updated_at": "2026-07-12T05:15:38.179450"
     },
     {
       "id": "physics_2026-02-03_Mathematical_Physics",
@@ -4445,8 +5064,8 @@
       ],
       "series": "Mathematical Physics Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983245",
-      "updated_at": "2026-07-05T05:54:37.983246"
+      "created_at": "2026-07-12T05:15:38.179472",
+      "updated_at": "2026-07-12T05:15:38.179474"
     },
     {
       "id": "physics_2026-02-09_PGI_Seminar____quot_",
@@ -4468,8 +5087,8 @@
       "tags": [],
       "series": "PGI Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983260",
-      "updated_at": "2026-07-05T05:54:37.983261"
+      "created_at": "2026-07-12T05:15:38.179492",
+      "updated_at": "2026-07-12T05:15:38.179493"
     },
     {
       "id": "physics_2026-02-09_CPBF_Seminar_Series_",
@@ -4494,8 +5113,8 @@
       ],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983290",
-      "updated_at": "2026-07-05T05:54:37.983292"
+      "created_at": "2026-07-12T05:15:38.179527",
+      "updated_at": "2026-07-12T05:15:38.179530"
     },
     {
       "id": "physics_2026-02-09_IAS_High_Energy_Theo",
@@ -4519,8 +5138,8 @@
       ],
       "series": "IAS High Energy Theory Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983307",
-      "updated_at": "2026-07-05T05:54:37.983308"
+      "created_at": "2026-07-12T05:15:38.179564",
+      "updated_at": "2026-07-12T05:15:38.179566"
     },
     {
       "id": "physics_2026-02-10_Dark_Cosmos_Seminar_",
@@ -4542,8 +5161,8 @@
       "tags": [],
       "series": "Dark Cosmos Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983324",
-      "updated_at": "2026-07-05T05:54:37.983325"
+      "created_at": "2026-07-12T05:15:38.179586",
+      "updated_at": "2026-07-12T05:15:38.179588"
     },
     {
       "id": "physics_2026-02-11_Quantum_seminar____q",
@@ -4567,8 +5186,8 @@
       ],
       "series": "Quantum seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983338",
-      "updated_at": "2026-07-05T05:54:37.983339"
+      "created_at": "2026-07-12T05:15:38.179605",
+      "updated_at": "2026-07-12T05:15:38.179606"
     },
     {
       "id": "physics_2026-02-12_Quantum_seminar____q",
@@ -4592,8 +5211,8 @@
       ],
       "series": "Quantum seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983352",
-      "updated_at": "2026-07-05T05:54:37.983352"
+      "created_at": "2026-07-12T05:15:38.179623",
+      "updated_at": "2026-07-12T05:15:38.179625"
     },
     {
       "id": "physics_2026-02-12_Hamilton_Colloquium_",
@@ -4615,8 +5234,8 @@
       "tags": [],
       "series": "Hamilton Colloquium Series",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983366",
-      "updated_at": "2026-07-05T05:54:37.983367"
+      "created_at": "2026-07-12T05:15:38.179641",
+      "updated_at": "2026-07-12T05:15:38.179643"
     },
     {
       "id": "physics_2026-02-13_IAS_High_Energy_Theo",
@@ -4640,8 +5259,8 @@
       ],
       "series": "IAS High Energy Theory Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983379",
-      "updated_at": "2026-07-05T05:54:37.983380"
+      "created_at": "2026-07-12T05:15:38.179657",
+      "updated_at": "2026-07-12T05:15:38.179659"
     },
     {
       "id": "physics_2026-02-16_CPBF_Seminar__quot_M",
@@ -4666,8 +5285,8 @@
       ],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983413",
-      "updated_at": "2026-07-05T05:54:37.983414"
+      "created_at": "2026-07-12T05:15:38.179686",
+      "updated_at": "2026-07-12T05:15:38.179687"
     },
     {
       "id": "physics_2026-02-16_PGI_Seminar____quot_",
@@ -4689,8 +5308,8 @@
       "tags": [],
       "series": "PGI Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983425",
-      "updated_at": "2026-07-05T05:54:37.983426"
+      "created_at": "2026-07-12T05:15:38.179702",
+      "updated_at": "2026-07-12T05:15:38.179704"
     },
     {
       "id": "physics_2026-02-16_Quantum_seminar____q",
@@ -4715,8 +5334,8 @@
       ],
       "series": "Quantum seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983437",
-      "updated_at": "2026-07-05T05:54:37.983438"
+      "created_at": "2026-07-12T05:15:38.179719",
+      "updated_at": "2026-07-12T05:15:38.179720"
     },
     {
       "id": "physics_2026-02-17_Condensed_Matter_Sem",
@@ -4741,8 +5360,8 @@
       ],
       "series": "Condensed Matter Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983453",
-      "updated_at": "2026-07-05T05:54:37.983454"
+      "created_at": "2026-07-12T05:15:38.179739",
+      "updated_at": "2026-07-12T05:15:38.179740"
     },
     {
       "id": "physics_2026-02-20_HET_Seminar____quot_",
@@ -4766,8 +5385,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983465",
-      "updated_at": "2026-07-05T05:54:37.983466"
+      "created_at": "2026-07-12T05:15:38.179755",
+      "updated_at": "2026-07-12T05:15:38.179757"
     },
     {
       "id": "physics_2026-02-23_CPBF_Seminar_Series_",
@@ -4791,8 +5410,8 @@
       ],
       "series": "CPBF Seminar Series ⏐How to Take Over the World",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983484",
-      "updated_at": "2026-07-05T05:54:37.983485"
+      "created_at": "2026-07-12T05:15:38.179780",
+      "updated_at": "2026-07-12T05:15:38.179782"
     },
     {
       "id": "physics_2026-02-23_PGI_Seminar____quot_",
@@ -4814,8 +5433,8 @@
       "tags": [],
       "series": "PGI Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983496",
-      "updated_at": "2026-07-05T05:54:37.983497"
+      "created_at": "2026-07-12T05:15:38.179796",
+      "updated_at": "2026-07-12T05:15:38.179798"
     },
     {
       "id": "physics_2026-02-24_Mathematical_Physics",
@@ -4841,8 +5460,8 @@
       ],
       "series": "Mathematical Physics Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983509",
-      "updated_at": "2026-07-05T05:54:37.983510"
+      "created_at": "2026-07-12T05:15:38.179814",
+      "updated_at": "2026-07-12T05:15:38.179815"
     },
     {
       "id": "physics_2026-02-25_IAS_High_Energy_Theo",
@@ -4866,8 +5485,8 @@
       ],
       "series": "IAS High Energy Theory Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983520",
-      "updated_at": "2026-07-05T05:54:37.983521"
+      "created_at": "2026-07-12T05:15:38.179834",
+      "updated_at": "2026-07-12T05:15:38.179836"
     },
     {
       "id": "physics_2026-02-27_HET_Seminar____quot_",
@@ -4891,8 +5510,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983531",
-      "updated_at": "2026-07-05T05:54:37.983532"
+      "created_at": "2026-07-12T05:15:38.179849",
+      "updated_at": "2026-07-12T05:15:38.179851"
     },
     {
       "id": "physics_2026-03-02_PGI_Seminar____quot_",
@@ -4916,8 +5535,8 @@
       ],
       "series": "PGI Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983545",
-      "updated_at": "2026-07-05T05:54:37.983546"
+      "created_at": "2026-07-12T05:15:38.179867",
+      "updated_at": "2026-07-12T05:15:38.179868"
     },
     {
       "id": "physics_2026-03-09_IAS_High_Energy_Theo",
@@ -4941,8 +5560,8 @@
       ],
       "series": "IAS High Energy Theory Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983557",
-      "updated_at": "2026-07-05T05:54:37.983558"
+      "created_at": "2026-07-12T05:15:38.179883",
+      "updated_at": "2026-07-12T05:15:38.179885"
     },
     {
       "id": "physics_2026-03-10_Dark_Cosmos_Seminar_",
@@ -4964,8 +5583,8 @@
       "tags": [],
       "series": "Dark Cosmos Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983570",
-      "updated_at": "2026-07-05T05:54:37.983571"
+      "created_at": "2026-07-12T05:15:38.179901",
+      "updated_at": "2026-07-12T05:15:38.179902"
     },
     {
       "id": "physics_2026-03-11_HEP_Seminar____quot_",
@@ -4987,8 +5606,8 @@
       "tags": [],
       "series": "HEP Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983583",
-      "updated_at": "2026-07-05T05:54:37.983584"
+      "created_at": "2026-07-12T05:15:38.179917",
+      "updated_at": "2026-07-12T05:15:38.179919"
     },
     {
       "id": "physics_2026-03-13_IAS_High_Energy_Theo",
@@ -5012,8 +5631,8 @@
       ],
       "series": "IAS High Energy Theory Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983594",
-      "updated_at": "2026-07-05T05:54:37.983595"
+      "created_at": "2026-07-12T05:15:38.179932",
+      "updated_at": "2026-07-12T05:15:38.179934"
     },
     {
       "id": "physics_2026-03-16_PGI_Seminar____quot_",
@@ -5035,8 +5654,8 @@
       "tags": [],
       "series": "PGI Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983604",
-      "updated_at": "2026-07-05T05:54:37.983605"
+      "created_at": "2026-07-12T05:15:38.179946",
+      "updated_at": "2026-07-12T05:15:38.179948"
     },
     {
       "id": "physics_2026-03-17_Mathematical_Physics",
@@ -5061,8 +5680,8 @@
       ],
       "series": "Mathematical Physics Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983616",
-      "updated_at": "2026-07-05T05:54:37.983617"
+      "created_at": "2026-07-12T05:15:38.179962",
+      "updated_at": "2026-07-12T05:15:38.179963"
     },
     {
       "id": "physics_2026-03-20_HET_Seminar____quot_",
@@ -5086,8 +5705,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983627",
-      "updated_at": "2026-07-05T05:54:37.983628"
+      "created_at": "2026-07-12T05:15:38.179978",
+      "updated_at": "2026-07-12T05:15:38.179979"
     },
     {
       "id": "physics_2026-03-23_PGI_Seminar____quot_",
@@ -5109,8 +5728,8 @@
       "tags": [],
       "series": "PGI Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983639",
-      "updated_at": "2026-07-05T05:54:37.983640"
+      "created_at": "2026-07-12T05:15:38.179996",
+      "updated_at": "2026-07-12T05:15:38.179998"
     },
     {
       "id": "physics_2026-03-23_CPBF_Seminar_Buildin",
@@ -5134,8 +5753,8 @@
       ],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983659",
-      "updated_at": "2026-07-05T05:54:37.983660"
+      "created_at": "2026-07-12T05:15:38.180024",
+      "updated_at": "2026-07-12T05:15:38.180026"
     },
     {
       "id": "physics_2026-03-23_IAS_High_Energy_Theo",
@@ -5159,8 +5778,8 @@
       ],
       "series": "IAS High Energy Theory Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983670",
-      "updated_at": "2026-07-05T05:54:37.983671"
+      "created_at": "2026-07-12T05:15:38.180039",
+      "updated_at": "2026-07-12T05:15:38.180041"
     },
     {
       "id": "physics_2026-03-24_Condensed_Matter_Sem",
@@ -5185,8 +5804,8 @@
       ],
       "series": "Condensed Matter Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983682",
-      "updated_at": "2026-07-05T05:54:37.983683"
+      "created_at": "2026-07-12T05:15:38.180055",
+      "updated_at": "2026-07-12T05:15:38.180057"
     },
     {
       "id": "physics_2026-03-24_Special_Seminar____L",
@@ -5210,8 +5829,8 @@
       ],
       "series": "Special Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983697",
-      "updated_at": "2026-07-05T05:54:37.983698"
+      "created_at": "2026-07-12T05:15:38.180075",
+      "updated_at": "2026-07-12T05:15:38.180076"
     },
     {
       "id": "physics_2026-03-24_Dark_Cosmos_Seminar_",
@@ -5233,8 +5852,8 @@
       "tags": [],
       "series": "Dark Cosmos Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983711",
-      "updated_at": "2026-07-05T05:54:37.983712"
+      "created_at": "2026-07-12T05:15:38.180093",
+      "updated_at": "2026-07-12T05:15:38.180094"
     },
     {
       "id": "physics_2026-03-25_Special_Seminar____M",
@@ -5258,8 +5877,8 @@
       ],
       "series": "Special Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983725",
-      "updated_at": "2026-07-05T05:54:37.983726"
+      "created_at": "2026-07-12T05:15:38.180112",
+      "updated_at": "2026-07-12T05:15:38.180114"
     },
     {
       "id": "physics_2026-03-27_HET_Seminar____quot_",
@@ -5283,8 +5902,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983737",
-      "updated_at": "2026-07-05T05:54:37.983737"
+      "created_at": "2026-07-12T05:15:38.180128",
+      "updated_at": "2026-07-12T05:15:38.180130"
     },
     {
       "id": "physics_2026-03-30_CPBF_Seminar_How_to_",
@@ -5308,8 +5927,8 @@
       ],
       "series": "CPBF Seminar⏐How to Take Over the World",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983755",
-      "updated_at": "2026-07-05T05:54:37.983756"
+      "created_at": "2026-07-12T05:15:38.180151",
+      "updated_at": "2026-07-12T05:15:38.180153"
     },
     {
       "id": "physics_2026-03-30_PGI_Seminar____quot_",
@@ -5331,8 +5950,8 @@
       "tags": [],
       "series": "PGI Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983766",
-      "updated_at": "2026-07-05T05:54:37.983767"
+      "created_at": "2026-07-12T05:15:38.180167",
+      "updated_at": "2026-07-12T05:15:38.180168"
     },
     {
       "id": "physics_2026-03-30_HET_Seminar____quot_",
@@ -5357,8 +5976,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983778",
-      "updated_at": "2026-07-05T05:54:37.983778"
+      "created_at": "2026-07-12T05:15:38.180190",
+      "updated_at": "2026-07-12T05:15:38.180191"
     },
     {
       "id": "physics_2026-03-31_Condensed_Matter_Sem",
@@ -5382,8 +6001,8 @@
       ],
       "series": "Condensed Matter Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983792",
-      "updated_at": "2026-07-05T05:54:37.983792"
+      "created_at": "2026-07-12T05:15:38.180207",
+      "updated_at": "2026-07-12T05:15:38.180208"
     },
     {
       "id": "physics_2026-04-06_CPBF_Seminar_Advanci",
@@ -5407,8 +6026,8 @@
       ],
       "series": "CPBF Seminar⏐Advancing 3D Imaging for Biology",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983808",
-      "updated_at": "2026-07-05T05:54:37.983809"
+      "created_at": "2026-07-12T05:15:38.180226",
+      "updated_at": "2026-07-12T05:15:38.180227"
     },
     {
       "id": "physics_2026-04-06_PGI_Seminar____quot_",
@@ -5432,8 +6051,8 @@
       ],
       "series": "PGI Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983820",
-      "updated_at": "2026-07-05T05:54:37.983821"
+      "created_at": "2026-07-12T05:15:38.180240",
+      "updated_at": "2026-07-12T05:15:38.180241"
     },
     {
       "id": "physics_2026-04-06_IAS_Joint_School_of_",
@@ -5457,8 +6076,8 @@
       ],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983838",
-      "updated_at": "2026-07-05T05:54:37.983839"
+      "created_at": "2026-07-12T05:15:38.180260",
+      "updated_at": "2026-07-12T05:15:38.180261"
     },
     {
       "id": "physics_2026-04-07_HET_Seminar____quot_",
@@ -5482,8 +6101,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983850",
-      "updated_at": "2026-07-05T05:54:37.983850"
+      "created_at": "2026-07-12T05:15:38.180274",
+      "updated_at": "2026-07-12T05:15:38.180275"
     },
     {
       "id": "physics_2026-04-07_Dark_Cosmos_Seminar_",
@@ -5507,8 +6126,8 @@
       ],
       "series": "Dark Cosmos Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983876",
-      "updated_at": "2026-07-05T05:54:37.983877"
+      "created_at": "2026-07-12T05:15:38.180290",
+      "updated_at": "2026-07-12T05:15:38.180291"
     },
     {
       "id": "physics_2026-04-07_Mathematical_Physics",
@@ -5533,8 +6152,8 @@
       ],
       "series": "Mathematical Physics Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983888",
-      "updated_at": "2026-07-05T05:54:37.983889"
+      "created_at": "2026-07-12T05:15:38.180304",
+      "updated_at": "2026-07-12T05:15:38.180305"
     },
     {
       "id": "physics_2026-04-09_Hamilton_Colloquium_",
@@ -5556,8 +6175,8 @@
       "tags": [],
       "series": "Hamilton Colloquium Series",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983899",
-      "updated_at": "2026-07-05T05:54:37.983900"
+      "created_at": "2026-07-12T05:15:38.180317",
+      "updated_at": "2026-07-12T05:15:38.180318"
     },
     {
       "id": "physics_2026-04-10_HET_Seminar____quot_",
@@ -5581,8 +6200,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983910",
-      "updated_at": "2026-07-05T05:54:37.983911"
+      "created_at": "2026-07-12T05:15:38.180331",
+      "updated_at": "2026-07-12T05:15:38.180332"
     },
     {
       "id": "physics_2026-04-13_CPBF_Seminar_Circuit",
@@ -5606,8 +6225,8 @@
       ],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983927",
-      "updated_at": "2026-07-05T05:54:37.983928"
+      "created_at": "2026-07-12T05:15:38.180351",
+      "updated_at": "2026-07-12T05:15:38.180352"
     },
     {
       "id": "physics_2026-04-13_PGI_Seminar____quot_",
@@ -5629,8 +6248,8 @@
       "tags": [],
       "series": "PGI Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983939",
-      "updated_at": "2026-07-05T05:54:37.983940"
+      "created_at": "2026-07-12T05:15:38.180365",
+      "updated_at": "2026-07-12T05:15:38.180366"
     },
     {
       "id": "physics_2026-04-14_Dark_Cosmos_Seminar_",
@@ -5652,8 +6271,8 @@
       "tags": [],
       "series": "Dark Cosmos Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983953",
-      "updated_at": "2026-07-05T05:54:37.983954"
+      "created_at": "2026-07-12T05:15:38.180381",
+      "updated_at": "2026-07-12T05:15:38.180382"
     },
     {
       "id": "physics_2026-04-14_PCTS_Lecture____quot",
@@ -5677,8 +6296,8 @@
       ],
       "series": "PCTS Lecture",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983964",
-      "updated_at": "2026-07-05T05:54:37.983965"
+      "created_at": "2026-07-12T05:15:38.180395",
+      "updated_at": "2026-07-12T05:15:38.180396"
     },
     {
       "id": "physics_2026-04-15_Donald_R__Hamilton_L",
@@ -5702,8 +6321,8 @@
       ],
       "series": "Donald R. Hamilton Lecture",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983977",
-      "updated_at": "2026-07-05T05:54:37.983978"
+      "created_at": "2026-07-12T05:15:38.180410",
+      "updated_at": "2026-07-12T05:15:38.180411"
     },
     {
       "id": "physics_2026-04-16_Final_Public_Oral_Ex",
@@ -5725,8 +6344,8 @@
       "tags": [],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.983992",
-      "updated_at": "2026-07-05T05:54:37.983993"
+      "created_at": "2026-07-12T05:15:38.180428",
+      "updated_at": "2026-07-12T05:15:38.180429"
     },
     {
       "id": "physics_2026-04-16_Dark_Cosmos_Seminar_",
@@ -5748,8 +6367,8 @@
       "tags": [],
       "series": "Dark Cosmos Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984004",
-      "updated_at": "2026-07-05T05:54:37.984005"
+      "created_at": "2026-07-12T05:15:38.180441",
+      "updated_at": "2026-07-12T05:15:38.180442"
     },
     {
       "id": "physics_2026-04-20_CPBF_Seminar_Program",
@@ -5773,8 +6392,8 @@
       ],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984019",
-      "updated_at": "2026-07-05T05:54:37.984020"
+      "created_at": "2026-07-12T05:15:38.180472",
+      "updated_at": "2026-07-12T05:15:38.180474"
     },
     {
       "id": "physics_2026-04-20_PGI_Seminar____quot_",
@@ -5796,8 +6415,8 @@
       "tags": [],
       "series": "PGI Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984031",
-      "updated_at": "2026-07-05T05:54:37.984032"
+      "created_at": "2026-07-12T05:15:38.180487",
+      "updated_at": "2026-07-12T05:15:38.180488"
     },
     {
       "id": "physics_2026-04-20_IAS_High_Energy_Theo",
@@ -5821,8 +6440,8 @@
       ],
       "series": "IAS High Energy Theory Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984042",
-      "updated_at": "2026-07-05T05:54:37.984042"
+      "created_at": "2026-07-12T05:15:38.180499",
+      "updated_at": "2026-07-12T05:15:38.180501"
     },
     {
       "id": "physics_2026-04-21_Mathematical_Physics",
@@ -5847,8 +6466,8 @@
       ],
       "series": "Mathematical Physics Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984053",
-      "updated_at": "2026-07-05T05:54:37.984054"
+      "created_at": "2026-07-12T05:15:38.180513",
+      "updated_at": "2026-07-12T05:15:38.180515"
     },
     {
       "id": "physics_2026-04-27_PGI_Seminar____quot_",
@@ -5870,8 +6489,8 @@
       "tags": [],
       "series": "PGI Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984064",
-      "updated_at": "2026-07-05T05:54:37.984064"
+      "created_at": "2026-07-12T05:15:38.180526",
+      "updated_at": "2026-07-12T05:15:38.180528"
     },
     {
       "id": "physics_2026-04-27_HET_Seminar____quot_",
@@ -5895,8 +6514,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984078",
-      "updated_at": "2026-07-05T05:54:37.984079"
+      "created_at": "2026-07-12T05:15:38.180552",
+      "updated_at": "2026-07-12T05:15:38.180554"
     },
     {
       "id": "physics_2026-04-28_Mathematical_Physics",
@@ -5921,8 +6540,8 @@
       ],
       "series": "Mathematical Physics Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984090",
-      "updated_at": "2026-07-05T05:54:37.984091"
+      "created_at": "2026-07-12T05:15:38.180567",
+      "updated_at": "2026-07-12T05:15:38.180568"
     },
     {
       "id": "physics_2026-05-01_Final_Public_Oral_Ex",
@@ -5944,8 +6563,8 @@
       "tags": [],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984104",
-      "updated_at": "2026-07-05T05:54:37.984105"
+      "created_at": "2026-07-12T05:15:38.180585",
+      "updated_at": "2026-07-12T05:15:38.180586"
     },
     {
       "id": "physics_2026-05-01_HET_Seminar____quot_",
@@ -5969,8 +6588,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984116",
-      "updated_at": "2026-07-05T05:54:37.984116"
+      "created_at": "2026-07-12T05:15:38.180598",
+      "updated_at": "2026-07-12T05:15:38.180599"
     },
     {
       "id": "physics_2026-05-01_Final_Public_Oral_Ex",
@@ -5992,8 +6611,8 @@
       "tags": [],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984129",
-      "updated_at": "2026-07-05T05:54:37.984130"
+      "created_at": "2026-07-12T05:15:38.180615",
+      "updated_at": "2026-07-12T05:15:38.180616"
     },
     {
       "id": "physics_2026-05-04_Final_Public_Oral_Ex",
@@ -6015,8 +6634,8 @@
       "tags": [],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984144",
-      "updated_at": "2026-07-05T05:54:37.984145"
+      "created_at": "2026-07-12T05:15:38.180632",
+      "updated_at": "2026-07-12T05:15:38.180633"
     },
     {
       "id": "physics_2026-05-04_Final_Public_Oral_Ex",
@@ -6038,8 +6657,8 @@
       "tags": [],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984157",
-      "updated_at": "2026-07-05T05:54:37.984158"
+      "created_at": "2026-07-12T05:15:38.180648",
+      "updated_at": "2026-07-12T05:15:38.180649"
     },
     {
       "id": "physics_2026-05-04_PGI_Seminar____quot_",
@@ -6061,8 +6680,8 @@
       "tags": [],
       "series": "PGI Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984170",
-      "updated_at": "2026-07-05T05:54:37.984171"
+      "created_at": "2026-07-12T05:15:38.180664",
+      "updated_at": "2026-07-12T05:15:38.180665"
     },
     {
       "id": "physics_2026-05-04_Final_Public_Oral_Ex",
@@ -6084,8 +6703,8 @@
       "tags": [],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984183",
-      "updated_at": "2026-07-05T05:54:37.984184"
+      "created_at": "2026-07-12T05:15:38.180680",
+      "updated_at": "2026-07-12T05:15:38.180681"
     },
     {
       "id": "physics_2026-05-04_HET_Seminar____quot_",
@@ -6109,8 +6728,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984194",
-      "updated_at": "2026-07-05T05:54:37.984195"
+      "created_at": "2026-07-12T05:15:38.180693",
+      "updated_at": "2026-07-12T05:15:38.180694"
     },
     {
       "id": "physics_2026-05-06_Final_Public_Oral_Ex",
@@ -6132,8 +6751,8 @@
       "tags": [],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984207",
-      "updated_at": "2026-07-05T05:54:37.984208"
+      "created_at": "2026-07-12T05:15:38.180709",
+      "updated_at": "2026-07-12T05:15:38.180710"
     },
     {
       "id": "physics_2026-05-08_IAS_High_Energy_Theo",
@@ -6159,8 +6778,8 @@
       ],
       "series": "IAS High Energy Theory Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984219",
-      "updated_at": "2026-07-05T05:54:37.984220"
+      "created_at": "2026-07-12T05:15:38.180722",
+      "updated_at": "2026-07-12T05:15:38.180723"
     },
     {
       "id": "physics_2026-05-08_Special_Seminar___Op",
@@ -6185,8 +6804,8 @@
       ],
       "series": "Special Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984230",
-      "updated_at": "2026-07-05T05:54:37.984231"
+      "created_at": "2026-07-12T05:15:38.180736",
+      "updated_at": "2026-07-12T05:15:38.180737"
     },
     {
       "id": "physics_2026-05-15_HET_Seminar____quot_",
@@ -6210,8 +6829,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984242",
-      "updated_at": "2026-07-05T05:54:37.984242"
+      "created_at": "2026-07-12T05:15:38.180750",
+      "updated_at": "2026-07-12T05:15:38.180751"
     },
     {
       "id": "physics_2026-05-19_Final_Public_Oral_Ex",
@@ -6233,8 +6852,8 @@
       "tags": [],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984255",
-      "updated_at": "2026-07-05T05:54:37.984255"
+      "created_at": "2026-07-12T05:15:38.180766",
+      "updated_at": "2026-07-12T05:15:38.180767"
     },
     {
       "id": "physics_2026-05-20_Special_Condensed_Ma",
@@ -6259,8 +6878,8 @@
       ],
       "series": "Special Condensed Matter Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984269",
-      "updated_at": "2026-07-05T05:54:37.984270"
+      "created_at": "2026-07-12T05:15:38.180783",
+      "updated_at": "2026-07-12T05:15:38.180784"
     },
     {
       "id": "physics_2026-05-26_HET_Seminar____quot_",
@@ -6284,8 +6903,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984280",
-      "updated_at": "2026-07-05T05:54:37.984281"
+      "created_at": "2026-07-12T05:15:38.180797",
+      "updated_at": "2026-07-12T05:15:38.180798"
     },
     {
       "id": "physics_2026-05-27_HET_Seminar____quot_",
@@ -6309,8 +6928,8 @@
       ],
       "series": "HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984291",
-      "updated_at": "2026-07-05T05:54:37.984292"
+      "created_at": "2026-07-12T05:15:38.180809",
+      "updated_at": "2026-07-12T05:15:38.180811"
     },
     {
       "id": "physics_2026-05-28_Condensed_Matter_Sem",
@@ -6334,8 +6953,8 @@
       ],
       "series": "Condensed Matter Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984304",
-      "updated_at": "2026-07-05T05:54:37.984305"
+      "created_at": "2026-07-12T05:15:38.180826",
+      "updated_at": "2026-07-12T05:15:38.180827"
     },
     {
       "id": "physics_2026-05-28_Special_Seminar____q",
@@ -6357,8 +6976,8 @@
       "tags": [],
       "series": "Special Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984316",
-      "updated_at": "2026-07-05T05:54:37.984317"
+      "created_at": "2026-07-12T05:15:38.180839",
+      "updated_at": "2026-07-12T05:15:38.180840"
     },
     {
       "id": "physics_2026-06-03_Special_Seminar____L",
@@ -6382,8 +7001,8 @@
       ],
       "series": "Special Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984330",
-      "updated_at": "2026-07-05T05:54:37.984331"
+      "created_at": "2026-07-12T05:15:38.180856",
+      "updated_at": "2026-07-12T05:15:38.180857"
     },
     {
       "id": "physics_2026-06-05_Special_Seminar____S",
@@ -6407,8 +7026,8 @@
       ],
       "series": "Special Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984345",
-      "updated_at": "2026-07-05T05:54:37.984345"
+      "created_at": "2026-07-12T05:15:38.180873",
+      "updated_at": "2026-07-12T05:15:38.180874"
     },
     {
       "id": "physics_2026-06-08_Final_Public_Oral_Ex",
@@ -6430,8 +7049,8 @@
       "tags": [],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984357",
-      "updated_at": "2026-07-05T05:54:37.984358"
+      "created_at": "2026-07-12T05:15:38.180889",
+      "updated_at": "2026-07-12T05:15:38.180890"
     },
     {
       "id": "physics_2026-06-16_Special_Seminar____q",
@@ -6455,8 +7074,8 @@
       ],
       "series": "Special Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984370",
-      "updated_at": "2026-07-05T05:54:37.984370"
+      "created_at": "2026-07-12T05:15:38.180903",
+      "updated_at": "2026-07-12T05:15:38.180904"
     },
     {
       "id": "physics_2026-06-18_TALK_CANCELLED___Spe",
@@ -6478,8 +7097,8 @@
       "tags": [],
       "series": "TALK CANCELLED | Special Seminar | &quot;Precision Metrological Devices",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984385",
-      "updated_at": "2026-07-05T05:54:37.984385"
+      "created_at": "2026-07-12T05:15:38.180921",
+      "updated_at": "2026-07-12T05:15:38.180922"
     },
     {
       "id": "physics_2026-06-24_Final_Public_Oral_Ex",
@@ -6501,8 +7120,8 @@
       "tags": [],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984399",
-      "updated_at": "2026-07-05T05:54:37.984400"
+      "created_at": "2026-07-12T05:15:38.180938",
+      "updated_at": "2026-07-12T05:15:38.180939"
     },
     {
       "id": "physics_2026-07-07_Special_Seminar____Q",
@@ -6526,8 +7145,8 @@
       ],
       "series": "Special Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984412",
-      "updated_at": "2026-07-05T05:54:37.984413"
+      "created_at": "2026-07-12T05:15:38.180955",
+      "updated_at": "2026-07-12T05:15:38.180956"
     },
     {
       "id": "physics_2026-07-08_Final_Public_Oral_Ex",
@@ -6549,8 +7168,8 @@
       "tags": [],
       "series": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984426",
-      "updated_at": "2026-07-05T05:54:37.984427"
+      "created_at": "2026-07-12T05:15:38.180972",
+      "updated_at": "2026-07-12T05:15:38.180973"
     },
     {
       "id": "physics_2026-07-09_Special_Seminar____q",
@@ -6572,8 +7191,31 @@
       "tags": [],
       "series": "Special Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984438",
-      "updated_at": "2026-07-05T05:54:37.984439"
+      "created_at": "2026-07-12T05:15:38.180987",
+      "updated_at": "2026-07-12T05:15:38.180988"
+    },
+    {
+      "id": "physics_2026-07-15_Final_Public_Oral_Ex",
+      "title": "Final Public Oral Examination - Taozhi Guo",
+      "description": "",
+      "start_date": "2026-07-15",
+      "end_date": "2026-07-15",
+      "time": "10:00 AM - 11:30 AM",
+      "location": "Princeton University",
+      "event_type": "Exam",
+      "department": "Physics",
+      "meta_category": "sciences_engineering",
+      "source_url": "https://phy.princeton.edu/events/final-public-oral-examination-taozhi-guo",
+      "source_name": "Physics Department Events",
+      "speaker": "",
+      "audience": "",
+      "topics": [],
+      "departments": [],
+      "tags": [],
+      "series": "",
+      "image_url": "",
+      "created_at": "2026-07-12T05:15:38.181004",
+      "updated_at": "2026-07-12T05:15:38.181005"
     },
     {
       "id": "physics_2026-07-16_Special_Seminar____q",
@@ -6595,8 +7237,8 @@
       "tags": [],
       "series": "Special Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984456",
-      "updated_at": "2026-07-05T05:54:37.984457"
+      "created_at": "2026-07-12T05:15:38.181025",
+      "updated_at": "2026-07-12T05:15:38.181026"
     },
     {
       "id": "physics_2026-08-04_Special_HET_Seminar_",
@@ -6620,11 +7262,11 @@
       ],
       "series": "Special HET Seminar",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:37.984468",
-      "updated_at": "2026-07-05T05:54:37.984469"
+      "created_at": "2026-07-12T05:15:38.181038",
+      "updated_at": "2026-07-12T05:15:38.181039"
     },
     {
-      "id": "geosciences_20260705_Final_Public_Oral_Ex",
+      "id": "geosciences_20260712_Final_Public_Oral_Ex",
       "title": "Final Public Oral Exam - Maya Chung",
       "description": "",
       "start_date": "2026-01-16",
@@ -6641,11 +7283,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.517161",
-      "updated_at": "2026-07-05T05:54:38.517170"
+      "created_at": "2026-07-12T05:15:38.644998",
+      "updated_at": "2026-07-12T05:15:38.645007"
     },
     {
-      "id": "geosciences_20260705_Final_Public_Oral_Ex",
+      "id": "geosciences_20260712_Final_Public_Oral_Ex",
       "title": "Final Public Oral Exam - Matthew Nadeau",
       "description": "",
       "start_date": "2026-01-30",
@@ -6662,11 +7304,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.517270",
-      "updated_at": "2026-07-05T05:54:38.517271"
+      "created_at": "2026-07-12T05:15:38.645097",
+      "updated_at": "2026-07-12T05:15:38.645099"
     },
     {
-      "id": "geosciences_20260705_Climate_Brown_Bag_Se",
+      "id": "geosciences_20260712_Climate_Brown_Bag_Se",
       "title": "Climate Brown Bag Seminar - David Thompson",
       "description": "",
       "start_date": "2026-02-05",
@@ -6686,11 +7328,11 @@
         "climate",
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517308",
-      "updated_at": "2026-07-05T05:54:38.517309"
+      "created_at": "2026-07-12T05:15:38.645140",
+      "updated_at": "2026-07-12T05:15:38.645141"
     },
     {
-      "id": "geosciences_20260705_Final_Public_Oral_Ex",
+      "id": "geosciences_20260712_Final_Public_Oral_Ex",
       "title": "Final Public Oral Exam - Mathieu Poupon",
       "description": "",
       "start_date": "2026-02-06",
@@ -6707,11 +7349,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.517342",
-      "updated_at": "2026-07-05T05:54:38.517344"
+      "created_at": "2026-07-12T05:15:38.645180",
+      "updated_at": "2026-07-12T05:15:38.645181"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Alice Gabriel",
       "description": "",
       "start_date": "2026-02-10",
@@ -6730,11 +7372,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517377",
-      "updated_at": "2026-07-05T05:54:38.517378"
+      "created_at": "2026-07-12T05:15:38.645224",
+      "updated_at": "2026-07-12T05:15:38.645225"
     },
     {
-      "id": "geosciences_20260705_EGGS_-_Keisuke_Inomu",
+      "id": "geosciences_20260712_EGGS_-_Keisuke_Inomu",
       "title": "EGGS - Keisuke Inomura",
       "description": "",
       "start_date": "2026-02-12",
@@ -6751,11 +7393,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.517410",
-      "updated_at": "2026-07-05T05:54:38.517411"
+      "created_at": "2026-07-12T05:15:38.645262",
+      "updated_at": "2026-07-12T05:15:38.645264"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Daniel Ibarra",
       "description": "",
       "start_date": "2026-02-17",
@@ -6774,11 +7416,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517448",
-      "updated_at": "2026-07-05T05:54:38.517449"
+      "created_at": "2026-07-12T05:15:38.645299",
+      "updated_at": "2026-07-12T05:15:38.645301"
     },
     {
-      "id": "geosciences_20260705_Solid_Earth_Brown_Ba",
+      "id": "geosciences_20260712_Solid_Earth_Brown_Ba",
       "title": "Solid Earth Brown Bag Seminar - Linda Pan",
       "description": "",
       "start_date": "2026-02-19",
@@ -6797,11 +7439,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517486",
-      "updated_at": "2026-07-05T05:54:38.517487"
+      "created_at": "2026-07-12T05:15:38.645342",
+      "updated_at": "2026-07-12T05:15:38.645344"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Alex Sessions - CANCELLED DUE TO WEATHER",
       "description": "",
       "start_date": "2026-02-24",
@@ -6820,11 +7462,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517522",
-      "updated_at": "2026-07-05T05:54:38.517523"
+      "created_at": "2026-07-12T05:15:38.645384",
+      "updated_at": "2026-07-12T05:15:38.645385"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Jie Deng",
       "description": "",
       "start_date": "2026-02-24",
@@ -6843,11 +7485,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517554",
-      "updated_at": "2026-07-05T05:54:38.517555"
+      "created_at": "2026-07-12T05:15:38.645423",
+      "updated_at": "2026-07-12T05:15:38.645424"
     },
     {
-      "id": "geosciences_20260705_Climate_Brown_Bag_Se",
+      "id": "geosciences_20260712_Climate_Brown_Bag_Se",
       "title": "Climate Brown Bag Seminar - Bill Collins",
       "description": "",
       "start_date": "2026-02-26",
@@ -6867,11 +7509,11 @@
         "climate",
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517582",
-      "updated_at": "2026-07-05T05:54:38.517583"
+      "created_at": "2026-07-12T05:15:38.645457",
+      "updated_at": "2026-07-12T05:15:38.645458"
     },
     {
-      "id": "geosciences_20260705_EGGS_-_Drew_Syverson",
+      "id": "geosciences_20260712_EGGS_-_Drew_Syverson",
       "title": "EGGS - Drew Syverson",
       "description": "",
       "start_date": "2026-03-05",
@@ -6888,11 +7530,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.517610",
-      "updated_at": "2026-07-05T05:54:38.517611"
+      "created_at": "2026-07-12T05:15:38.645492",
+      "updated_at": "2026-07-12T05:15:38.645494"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Benjamin Van Mooy",
       "description": "",
       "start_date": "2026-03-17",
@@ -6911,11 +7553,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517638",
-      "updated_at": "2026-07-05T05:54:38.517639"
+      "created_at": "2026-07-12T05:15:38.645533",
+      "updated_at": "2026-07-12T05:15:38.645534"
     },
     {
-      "id": "geosciences_20260705_Solid_Earth_Brown_Ba",
+      "id": "geosciences_20260712_Solid_Earth_Brown_Ba",
       "title": "Solid Earth Brown Bag Seminar - Annette Govindarajan",
       "description": "",
       "start_date": "2026-03-19",
@@ -6934,11 +7576,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517668",
-      "updated_at": "2026-07-05T05:54:38.517669"
+      "created_at": "2026-07-12T05:15:38.645593",
+      "updated_at": "2026-07-12T05:15:38.645595"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Miki Nakajima",
       "description": "",
       "start_date": "2026-03-24",
@@ -6957,11 +7599,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517696",
-      "updated_at": "2026-07-05T05:54:38.517697"
+      "created_at": "2026-07-12T05:15:38.645633",
+      "updated_at": "2026-07-12T05:15:38.645635"
     },
     {
-      "id": "geosciences_20260705_Climate_Brown_Bag_Se",
+      "id": "geosciences_20260712_Climate_Brown_Bag_Se",
       "title": "Climate Brown Bag Seminar - Taka Ito",
       "description": "",
       "start_date": "2026-03-26",
@@ -6981,11 +7623,11 @@
         "climate",
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517724",
-      "updated_at": "2026-07-05T05:54:38.517725"
+      "created_at": "2026-07-12T05:15:38.645672",
+      "updated_at": "2026-07-12T05:15:38.645674"
     },
     {
-      "id": "geosciences_20260705_Geo_Open_House",
+      "id": "geosciences_20260712_Geo_Open_House",
       "title": "Geo Open House",
       "description": "",
       "start_date": "2026-03-27",
@@ -7002,11 +7644,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.517752",
-      "updated_at": "2026-07-05T05:54:38.517753"
+      "created_at": "2026-07-12T05:15:38.645712",
+      "updated_at": "2026-07-12T05:15:38.645713"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Sarah Cooley",
       "description": "",
       "start_date": "2026-03-31",
@@ -7025,11 +7667,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517781",
-      "updated_at": "2026-07-05T05:54:38.517782"
+      "created_at": "2026-07-12T05:15:38.645751",
+      "updated_at": "2026-07-12T05:15:38.645753"
     },
     {
-      "id": "geosciences_20260705_PMI_&amp;_PCCM_Semin",
+      "id": "geosciences_20260712_PMI_&amp;_PCCM_Semin",
       "title": "PMI &amp; PCCM Seminar Series - Spring 2026",
       "description": "",
       "start_date": "2026-04-01",
@@ -7048,11 +7690,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517809",
-      "updated_at": "2026-07-05T05:54:38.517810"
+      "created_at": "2026-07-12T05:15:38.645791",
+      "updated_at": "2026-07-12T05:15:38.645793"
     },
     {
-      "id": "geosciences_20260705_EGGS_-_Isiah_Bolden",
+      "id": "geosciences_20260712_EGGS_-_Isiah_Bolden",
       "title": "EGGS - Isiah Bolden",
       "description": "",
       "start_date": "2026-04-02",
@@ -7069,11 +7711,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.517837",
-      "updated_at": "2026-07-05T05:54:38.517838"
+      "created_at": "2026-07-12T05:15:38.645831",
+      "updated_at": "2026-07-12T05:15:38.645833"
     },
     {
-      "id": "geosciences_20260705_Solid_Earth_Brown_Ba",
+      "id": "geosciences_20260712_Solid_Earth_Brown_Ba",
       "title": "Solid Earth Brown Bag Seminar - Yoshinori Miyazaki",
       "description": "",
       "start_date": "2026-04-09",
@@ -7092,11 +7734,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517881",
-      "updated_at": "2026-07-05T05:54:38.517882"
+      "created_at": "2026-07-12T05:15:38.645871",
+      "updated_at": "2026-07-12T05:15:38.645872"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Thomas Peter",
       "description": "",
       "start_date": "2026-04-14",
@@ -7115,11 +7757,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517909",
-      "updated_at": "2026-07-05T05:54:38.517910"
+      "created_at": "2026-07-12T05:15:38.645910",
+      "updated_at": "2026-07-12T05:15:38.645911"
     },
     {
-      "id": "geosciences_20260705_Climate_Brown_Bag_Se",
+      "id": "geosciences_20260712_Climate_Brown_Bag_Se",
       "title": "Climate Brown Bag Seminar - Peter Huybers",
       "description": "",
       "start_date": "2026-04-16",
@@ -7139,11 +7781,11 @@
         "climate",
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517935",
-      "updated_at": "2026-07-05T05:54:38.517936"
+      "created_at": "2026-07-12T05:15:38.645949",
+      "updated_at": "2026-07-12T05:15:38.645950"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Paul Wennberg",
       "description": "",
       "start_date": "2026-04-21",
@@ -7162,11 +7804,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.517962",
-      "updated_at": "2026-07-05T05:54:38.517963"
+      "created_at": "2026-07-12T05:15:38.645987",
+      "updated_at": "2026-07-12T05:15:38.645989"
     },
     {
-      "id": "geosciences_20260705_EGGS_-_Dana_Royer",
+      "id": "geosciences_20260712_EGGS_-_Dana_Royer",
       "title": "EGGS - Dana Royer",
       "description": "",
       "start_date": "2026-04-23",
@@ -7183,11 +7825,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.517989",
-      "updated_at": "2026-07-05T05:54:38.517990"
+      "created_at": "2026-07-12T05:15:38.646025",
+      "updated_at": "2026-07-12T05:15:38.646027"
     },
     {
-      "id": "geosciences_20260705_Junior_Poster_Sessio",
+      "id": "geosciences_20260712_Junior_Poster_Sessio",
       "title": "Junior Poster Session",
       "description": "",
       "start_date": "2026-04-27",
@@ -7204,11 +7846,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.518016",
-      "updated_at": "2026-07-05T05:54:38.518017"
+      "created_at": "2026-07-12T05:15:38.646065",
+      "updated_at": "2026-07-12T05:15:38.646067"
     },
     {
-      "id": "geosciences_20260705_Final_Public_Oral_Ex",
+      "id": "geosciences_20260712_Final_Public_Oral_Ex",
       "title": "Final Public Oral Exam - Paridhi Rustogi",
       "description": "",
       "start_date": "2026-05-01",
@@ -7225,11 +7867,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.518043",
-      "updated_at": "2026-07-05T05:54:38.518044"
+      "created_at": "2026-07-12T05:15:38.646101",
+      "updated_at": "2026-07-12T05:15:38.646103"
     },
     {
-      "id": "geosciences_20260705_Final_Public_Oral_Ex",
+      "id": "geosciences_20260712_Final_Public_Oral_Ex",
       "title": "Final Public Oral Exam - William P. Eaton",
       "description": "",
       "start_date": "2026-05-01",
@@ -7246,11 +7888,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.518071",
-      "updated_at": "2026-07-05T05:54:38.518072"
+      "created_at": "2026-07-12T05:15:38.646135",
+      "updated_at": "2026-07-12T05:15:38.646137"
     },
     {
-      "id": "geosciences_20260705_Final_Public_Oral_Ex",
+      "id": "geosciences_20260712_Final_Public_Oral_Ex",
       "title": "Final Public Oral Exam - Mason Scher",
       "description": "",
       "start_date": "2026-05-05",
@@ -7267,11 +7909,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.518098",
-      "updated_at": "2026-07-05T05:54:38.518099"
+      "created_at": "2026-07-12T05:15:38.646168",
+      "updated_at": "2026-07-12T05:15:38.646170"
     },
     {
-      "id": "geosciences_20260705_Senior_Presentations",
+      "id": "geosciences_20260712_Senior_Presentations",
       "title": "Senior Presentations",
       "description": "",
       "start_date": "2026-05-06",
@@ -7288,11 +7930,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.518125",
-      "updated_at": "2026-07-05T05:54:38.518126"
+      "created_at": "2026-07-12T05:15:38.646201",
+      "updated_at": "2026-07-12T05:15:38.646202"
     },
     {
-      "id": "geosciences_20260705_Special_Solid_Earth_",
+      "id": "geosciences_20260712_Special_Solid_Earth_",
       "title": "Special Solid Earth Brown Bag Seminar - Vera Schulte-Pelkum",
       "description": "",
       "start_date": "2026-05-14",
@@ -7311,11 +7953,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518153",
-      "updated_at": "2026-07-05T05:54:38.518154"
+      "created_at": "2026-07-12T05:15:38.646235",
+      "updated_at": "2026-07-12T05:15:38.646236"
     },
     {
-      "id": "geosciences_20260705_Geo_Reunions_Recepti",
+      "id": "geosciences_20260712_Geo_Reunions_Recepti",
       "title": "Geo Reunions Reception",
       "description": "",
       "start_date": "2026-05-22",
@@ -7332,11 +7974,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.518181",
-      "updated_at": "2026-07-05T05:54:38.518182"
+      "created_at": "2026-07-12T05:15:38.646269",
+      "updated_at": "2026-07-12T05:15:38.646270"
     },
     {
-      "id": "geosciences_20260705_Geo_Class_Day",
+      "id": "geosciences_20260712_Geo_Class_Day",
       "title": "Geo Class Day",
       "description": "",
       "start_date": "2026-05-25",
@@ -7353,11 +7995,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.518209",
-      "updated_at": "2026-07-05T05:54:38.518210"
+      "created_at": "2026-07-12T05:15:38.646302",
+      "updated_at": "2026-07-12T05:15:38.646303"
     },
     {
-      "id": "geosciences_20260705_HMEI_Faculty_Seminar",
+      "id": "geosciences_20260712_HMEI_Faculty_Seminar",
       "title": "HMEI Faculty Seminar Series",
       "description": "",
       "start_date": "2026-09-08",
@@ -7376,11 +8018,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518237",
-      "updated_at": "2026-07-05T05:54:38.518238"
+      "created_at": "2026-07-12T05:15:38.646336",
+      "updated_at": "2026-07-12T05:15:38.646337"
     },
     {
-      "id": "geosciences_20260705_Climate_Brown_Bag_Se",
+      "id": "geosciences_20260712_Climate_Brown_Bag_Se",
       "title": "Climate Brown Bag Seminar - Seth Bushinsky",
       "description": "",
       "start_date": "2026-09-10",
@@ -7400,11 +8042,11 @@
         "climate",
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518265",
-      "updated_at": "2026-07-05T05:54:38.518266"
+      "created_at": "2026-07-12T05:15:38.646370",
+      "updated_at": "2026-07-12T05:15:38.646371"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Sterling Nesbitt",
       "description": "",
       "start_date": "2026-09-15",
@@ -7423,11 +8065,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518292",
-      "updated_at": "2026-07-05T05:54:38.518293"
+      "created_at": "2026-07-12T05:15:38.646402",
+      "updated_at": "2026-07-12T05:15:38.646403"
     },
     {
-      "id": "geosciences_20260705_EGGS_-_Colette_Kelly",
+      "id": "geosciences_20260712_EGGS_-_Colette_Kelly",
       "title": "EGGS - Colette Kelly",
       "description": "",
       "start_date": "2026-09-17",
@@ -7444,11 +8086,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.518319",
-      "updated_at": "2026-07-05T05:54:38.518320"
+      "created_at": "2026-07-12T05:15:38.646435",
+      "updated_at": "2026-07-12T05:15:38.646436"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Frederic Hermann",
       "description": "",
       "start_date": "2026-09-22",
@@ -7467,11 +8109,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518348",
-      "updated_at": "2026-07-05T05:54:38.518349"
+      "created_at": "2026-07-12T05:15:38.646468",
+      "updated_at": "2026-07-12T05:15:38.646469"
     },
     {
-      "id": "geosciences_20260705_Solid_Earth_Brown_Ba",
+      "id": "geosciences_20260712_Solid_Earth_Brown_Ba",
       "title": "Solid Earth Brown Bag Seminar - TBD",
       "description": "",
       "start_date": "2026-09-24",
@@ -7490,11 +8132,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518374",
-      "updated_at": "2026-07-05T05:54:38.518375"
+      "created_at": "2026-07-12T05:15:38.646501",
+      "updated_at": "2026-07-12T05:15:38.646502"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Alex Sessions",
       "description": "",
       "start_date": "2026-09-29",
@@ -7513,11 +8155,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518401",
-      "updated_at": "2026-07-05T05:54:38.518402"
+      "created_at": "2026-07-12T05:15:38.646533",
+      "updated_at": "2026-07-12T05:15:38.646534"
     },
     {
-      "id": "geosciences_20260705_Climate_Brown_Bag_Se",
+      "id": "geosciences_20260712_Climate_Brown_Bag_Se",
       "title": "Climate Brown Bag Seminar - TBD",
       "description": "",
       "start_date": "2026-10-01",
@@ -7537,11 +8179,11 @@
         "climate",
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518426",
-      "updated_at": "2026-07-05T05:54:38.518427"
+      "created_at": "2026-07-12T05:15:38.646575",
+      "updated_at": "2026-07-12T05:15:38.646576"
     },
     {
-      "id": "geosciences_20260705_HMEI_Faculty_Seminar",
+      "id": "geosciences_20260712_HMEI_Faculty_Seminar",
       "title": "HMEI Faculty Seminar Series",
       "description": "",
       "start_date": "2026-10-06",
@@ -7560,11 +8202,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518453",
-      "updated_at": "2026-07-05T05:54:38.518454"
+      "created_at": "2026-07-12T05:15:38.646608",
+      "updated_at": "2026-07-12T05:15:38.646609"
     },
     {
-      "id": "geosciences_20260705_EGGS_-_Kelsey_Jenkin",
+      "id": "geosciences_20260712_EGGS_-_Kelsey_Jenkin",
       "title": "EGGS - Kelsey Jenkins",
       "description": "",
       "start_date": "2026-10-08",
@@ -7581,11 +8223,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.518478",
-      "updated_at": "2026-07-05T05:54:38.518479"
+      "created_at": "2026-07-12T05:15:38.646639",
+      "updated_at": "2026-07-12T05:15:38.646641"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Martijn van den Ende",
       "description": "",
       "start_date": "2026-10-13",
@@ -7604,11 +8246,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518505",
-      "updated_at": "2026-07-05T05:54:38.518506"
+      "created_at": "2026-07-12T05:15:38.646672",
+      "updated_at": "2026-07-12T05:15:38.646673"
     },
     {
-      "id": "geosciences_20260705_Solid_Earth_Brown_Ba",
+      "id": "geosciences_20260712_Solid_Earth_Brown_Ba",
       "title": "Solid Earth Brown Bag Seminar - TBD",
       "description": "",
       "start_date": "2026-10-15",
@@ -7627,11 +8269,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518532",
-      "updated_at": "2026-07-05T05:54:38.518533"
+      "created_at": "2026-07-12T05:15:38.646704",
+      "updated_at": "2026-07-12T05:15:38.646705"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Naomi Levin",
       "description": "",
       "start_date": "2026-10-27",
@@ -7650,11 +8292,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518559",
-      "updated_at": "2026-07-05T05:54:38.518560"
+      "created_at": "2026-07-12T05:15:38.646735",
+      "updated_at": "2026-07-12T05:15:38.646736"
     },
     {
-      "id": "geosciences_20260705_Climate_Brown_Bag_Se",
+      "id": "geosciences_20260712_Climate_Brown_Bag_Se",
       "title": "Climate Brown Bag Seminar - TBD",
       "description": "",
       "start_date": "2026-10-29",
@@ -7674,11 +8316,11 @@
         "climate",
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518587",
-      "updated_at": "2026-07-05T05:54:38.518588"
+      "created_at": "2026-07-12T05:15:38.646766",
+      "updated_at": "2026-07-12T05:15:38.646768"
     },
     {
-      "id": "geosciences_20260705_HMEI_Faculty_Seminar",
+      "id": "geosciences_20260712_HMEI_Faculty_Seminar",
       "title": "HMEI Faculty Seminar Series",
       "description": "",
       "start_date": "2026-11-03",
@@ -7697,11 +8339,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518614",
-      "updated_at": "2026-07-05T05:54:38.518615"
+      "created_at": "2026-07-12T05:15:38.646797",
+      "updated_at": "2026-07-12T05:15:38.646799"
     },
     {
-      "id": "geosciences_20260705_EGGS_-_TBD",
+      "id": "geosciences_20260712_EGGS_-_TBD",
       "title": "EGGS - TBD",
       "description": "",
       "start_date": "2026-11-05",
@@ -7718,11 +8360,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.518639",
-      "updated_at": "2026-07-05T05:54:38.518640"
+      "created_at": "2026-07-12T05:15:38.646829",
+      "updated_at": "2026-07-12T05:15:38.646830"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Emily Geyman",
       "description": "",
       "start_date": "2026-11-10",
@@ -7741,11 +8383,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518666",
-      "updated_at": "2026-07-05T05:54:38.518667"
+      "created_at": "2026-07-12T05:15:38.646861",
+      "updated_at": "2026-07-12T05:15:38.646862"
     },
     {
-      "id": "geosciences_20260705_Solid_Earth_Brown_Ba",
+      "id": "geosciences_20260712_Solid_Earth_Brown_Ba",
       "title": "Solid Earth Brown Bag Seminar - TBD",
       "description": "",
       "start_date": "2026-11-12",
@@ -7764,11 +8406,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518692",
-      "updated_at": "2026-07-05T05:54:38.518693"
+      "created_at": "2026-07-12T05:15:38.646894",
+      "updated_at": "2026-07-12T05:15:38.646895"
     },
     {
-      "id": "geosciences_20260705_Department_Seminar_-",
+      "id": "geosciences_20260712_Department_Seminar_-",
       "title": "Department Seminar - Paul O&#039;Gorman",
       "description": "",
       "start_date": "2026-11-17",
@@ -7787,11 +8429,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518718",
-      "updated_at": "2026-07-05T05:54:38.518719"
+      "created_at": "2026-07-12T05:15:38.646925",
+      "updated_at": "2026-07-12T05:15:38.646926"
     },
     {
-      "id": "geosciences_20260705_Climate_Brown_Bag_Se",
+      "id": "geosciences_20260712_Climate_Brown_Bag_Se",
       "title": "Climate Brown Bag Seminar - TBD",
       "description": "",
       "start_date": "2026-11-19",
@@ -7811,11 +8453,11 @@
         "climate",
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518745",
-      "updated_at": "2026-07-05T05:54:38.518745"
+      "created_at": "2026-07-12T05:15:38.646958",
+      "updated_at": "2026-07-12T05:15:38.646959"
     },
     {
-      "id": "geosciences_20260705_HMEI_Faculty_Seminar",
+      "id": "geosciences_20260712_HMEI_Faculty_Seminar",
       "title": "HMEI Faculty Seminar Series",
       "description": "",
       "start_date": "2026-12-01",
@@ -7834,11 +8476,11 @@
       "tags": [
         "seminar"
       ],
-      "created_at": "2026-07-05T05:54:38.518771",
-      "updated_at": "2026-07-05T05:54:38.518772"
+      "created_at": "2026-07-12T05:15:38.646994",
+      "updated_at": "2026-07-12T05:15:38.646995"
     },
     {
-      "id": "geosciences_20260705_EGGS_-_TBD",
+      "id": "geosciences_20260712_EGGS_-_TBD",
       "title": "EGGS - TBD",
       "description": "",
       "start_date": "2026-12-03",
@@ -7855,11 +8497,11 @@
       "topics": [],
       "departments": [],
       "tags": [],
-      "created_at": "2026-07-05T05:54:38.518797",
-      "updated_at": "2026-07-05T05:54:38.518798"
+      "created_at": "2026-07-12T05:15:38.647025",
+      "updated_at": "2026-07-12T05:15:38.647026"
     },
     {
-      "id": "politics_20260705_Tanner_Lectures_on_H",
+      "id": "politics_20260712_Tanner_Lectures_on_H",
       "title": "Tanner Lectures on Human Values with Amia Srinivasan (Oxford University) - \"Psyche and the City\"",
       "description": "Lecture I: Politics on the CouchAbstract for Professor Srinivasan's lectures:AmiaSrinivasan'slectures will explore the intersection of psychoanalysis and politics, tracing how thinkers from Freud to contemporary feminists have grappled with the potential of psychoanalysis to liberate not just individuals but societies. In her first lecture, Srinivasan will examine whether psychoanalysis can inform political discourse, reconcile justice with universal trauma, and balance structural critique with individual complexity. Her second lecture will revisit Freud’s controversial shift from seduction theory to the Oedipus Complex, questioning the implications of privileging psychic reality over objective truth. Together, the lectures will ask whether psychoanalysis can deepen our understanding of trauma, identity, and freedom in political life.Commentators:Two commentators follow each lecture (all commentators are with us both days):Cheshire Calhoun, Professor of Philosophy Emerit, Arizona State University;Dagmar Herzog, Distinguished Professor, History, Social Welfare, Women’s and Gender Studies, City University of New York;Mark Lilla, Professor of Humanities, Columbia University;Jacqueline Rose, Professor of Humanities and the London Critical Theory Summer School, Birbeck, University of London.",
       "start_date": "2026-03-24",
@@ -7880,11 +8522,11 @@
       "speaker_affiliation": "Oxford University",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:39.761986",
-      "updated_at": "2026-07-05T05:54:39.761994"
+      "created_at": "2026-07-12T05:15:40.000562",
+      "updated_at": "2026-07-12T05:15:40.000572"
     },
     {
-      "id": "politics_20260705_Tanner_Lectures_on_H",
+      "id": "politics_20260712_Tanner_Lectures_on_H",
       "title": "Tanner Lectures on Human Values with Amia Srinivasan (Oxford University) - \"Psyche and the City\"",
       "description": "Lecture II: Trauma and RealityAbstract for Professor Srinivasan's lectures:AmiaSrinivasan'slectures will explore the intersection of psychoanalysis and politics, tracing how thinkers from Freud to contemporary feminists have grappled with the potential of psychoanalysis to liberate not just individuals but societies. In her first lecture, Srinivasan will examine whether psychoanalysis can inform political discourse, reconcile justice with universal trauma, and balance structural critique with individual complexity. Her second lecture will revisit Freud’s controversial shift from seduction theory to the Oedipus Complex, questioning the implications of privileging psychic reality over objective truth. Together, the lectures will ask whether psychoanalysis can deepen our understanding of trauma, identity, and freedom in political life.Commentators:Two commentators follow each lecture (all commentators are with us both days):Cheshire Calhoun, Professor of Philosophy Emerit, Arizona State University;Dagmar Herzog, Distinguished Professor, History, Social Welfare, Women’s and Gender Studies, City University of New York;Mark Lilla, Professor of Humanities, Columbia University;Jacqueline Rose, Professor of Humanities and the London Critical Theory Summer School, Birbeck, University of London.",
       "start_date": "2026-03-25",
@@ -7905,8 +8547,8 @@
       "speaker_affiliation": "Oxford University",
       "speaker_url": "",
       "image_url": "",
-      "created_at": "2026-07-05T05:54:40.841668",
-      "updated_at": "2026-07-05T05:54:40.841684"
+      "created_at": "2026-07-12T05:15:41.117980",
+      "updated_at": "2026-07-12T05:15:41.117992"
     }
   ]
 }
