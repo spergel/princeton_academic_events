@@ -2,7 +2,7 @@
   {
     "name": "Anthropology",
     "meta_category": "social_sciences",
-    "event_count": 13,
+    "event_count": 11,
     "is_selected": false
   },
   {
@@ -20,7 +20,13 @@
   {
     "name": "CITP",
     "meta_category": "interdisciplinary",
-    "event_count": 6,
+    "event_count": 8,
+    "is_selected": false
+  },
+  {
+    "name": "Classics",
+    "meta_category": "arts_humanities",
+    "event_count": 1,
     "is_selected": false
   },
   {
@@ -32,7 +38,7 @@
   {
     "name": "ECE",
     "meta_category": "sciences_engineering",
-    "event_count": 5,
+    "event_count": 6,
     "is_selected": false
   },
   {
@@ -44,7 +50,13 @@
   {
     "name": "English",
     "meta_category": "arts_humanities",
-    "event_count": 12,
+    "event_count": 13,
+    "is_selected": false
+  },
+  {
+    "name": "Gender & Sexuality Studies",
+    "meta_category": "interdisciplinary",
+    "event_count": 3,
     "is_selected": false
   },
   {
@@ -62,13 +74,25 @@
   {
     "name": "History",
     "meta_category": "arts_humanities",
-    "event_count": 39,
+    "event_count": 51,
+    "is_selected": false
+  },
+  {
+    "name": "MAE",
+    "meta_category": "sciences_engineering",
+    "event_count": 3,
     "is_selected": false
   },
   {
     "name": "Mathematics",
     "meta_category": "sciences_engineering",
-    "event_count": 8,
+    "event_count": 10,
+    "is_selected": false
+  },
+  {
+    "name": "Molecular Biology",
+    "meta_category": "sciences_engineering",
+    "event_count": 12,
     "is_selected": false
   },
   {
@@ -86,19 +110,25 @@
   {
     "name": "Neuroscience (PNI)",
     "meta_category": "sciences_engineering",
-    "event_count": 24,
+    "event_count": 25,
+    "is_selected": false
+  },
+  {
+    "name": "ORFE",
+    "meta_category": "sciences_engineering",
+    "event_count": 6,
     "is_selected": false
   },
   {
     "name": "Philosophy",
     "meta_category": "arts_humanities",
-    "event_count": 20,
+    "event_count": 25,
     "is_selected": false
   },
   {
     "name": "Physics",
     "meta_category": "sciences_engineering",
-    "event_count": 100,
+    "event_count": 101,
     "is_selected": false
   },
   {
@@ -122,13 +152,13 @@
   {
     "name": "UCHV",
     "meta_category": "interdisciplinary",
-    "event_count": 17,
+    "event_count": 24,
     "is_selected": false
   },
   {
     "name": "politics",
     "meta_category": "social_sciences",
-    "event_count": 6,
+    "event_count": 12,
     "is_selected": false
   }
 ]
