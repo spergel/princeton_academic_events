@@ -8,13 +8,13 @@
   {
     "name": "Anthropology",
     "meta_category": "social_sciences",
-    "event_count": 23,
+    "event_count": 24,
     "is_selected": false
   },
   {
     "name": "Art & Archaeology",
     "meta_category": "arts_humanities",
-    "event_count": 53,
+    "event_count": 55,
     "is_selected": false
   },
   {
@@ -32,7 +32,7 @@
   {
     "name": "Classics",
     "meta_category": "arts_humanities",
-    "event_count": 1,
+    "event_count": 5,
     "is_selected": false
   },
   {
@@ -44,13 +44,13 @@
   {
     "name": "Computer Science",
     "meta_category": "sciences_engineering",
-    "event_count": 1,
+    "event_count": 4,
     "is_selected": false
   },
   {
     "name": "ECE",
     "meta_category": "sciences_engineering",
-    "event_count": 7,
+    "event_count": 9,
     "is_selected": false
   },
   {
@@ -60,21 +60,27 @@
     "is_selected": false
   },
   {
+    "name": "Economics",
+    "meta_category": "social_sciences",
+    "event_count": 18,
+    "is_selected": false
+  },
+  {
     "name": "English",
     "meta_category": "arts_humanities",
-    "event_count": 19,
+    "event_count": 41,
     "is_selected": false
   },
   {
     "name": "Gender & Sexuality Studies",
     "meta_category": "interdisciplinary",
-    "event_count": 4,
+    "event_count": 5,
     "is_selected": false
   },
   {
     "name": "Geosciences",
     "meta_category": "sciences_engineering",
-    "event_count": 56,
+    "event_count": 57,
     "is_selected": false
   },
   {
@@ -86,13 +92,13 @@
   {
     "name": "History",
     "meta_category": "arts_humanities",
-    "event_count": 55,
+    "event_count": 79,
     "is_selected": false
   },
   {
     "name": "MAE",
     "meta_category": "sciences_engineering",
-    "event_count": 9,
+    "event_count": 11,
     "is_selected": false
   },
   {
@@ -110,42 +116,48 @@
   {
     "name": "Music",
     "meta_category": "arts_humanities",
-    "event_count": 4,
+    "event_count": 19,
     "is_selected": false
   },
   {
     "name": "Near Eastern Studies",
     "meta_category": "area_studies",
-    "event_count": 30,
+    "event_count": 37,
     "is_selected": false
   },
   {
     "name": "Neuroscience (PNI)",
     "meta_category": "sciences_engineering",
-    "event_count": 23,
+    "event_count": 22,
     "is_selected": false
   },
   {
     "name": "ORFE",
     "meta_category": "sciences_engineering",
-    "event_count": 11,
+    "event_count": 20,
     "is_selected": false
   },
   {
     "name": "Philosophy",
     "meta_category": "arts_humanities",
-    "event_count": 26,
+    "event_count": 27,
     "is_selected": false
   },
   {
     "name": "Physics",
     "meta_category": "sciences_engineering",
-    "event_count": 102,
+    "event_count": 104,
     "is_selected": false
   },
   {
     "name": "Psychology",
     "meta_category": "social_sciences",
+    "event_count": 10,
+    "is_selected": false
+  },
+  {
+    "name": "Religion",
+    "meta_category": "arts_humanities",
     "event_count": 1,
     "is_selected": false
   },
@@ -158,13 +170,13 @@
   {
     "name": "Sociology",
     "meta_category": "social_sciences",
-    "event_count": 10,
+    "event_count": 7,
     "is_selected": false
   },
   {
     "name": "UCHV",
     "meta_category": "interdisciplinary",
-    "event_count": 32,
+    "event_count": 33,
     "is_selected": false
   },
   {
