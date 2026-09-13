@@ -2,37 +2,43 @@
   {
     "name": "African American Studies",
     "meta_category": "area_studies",
-    "event_count": 10,
+    "event_count": 11,
     "is_selected": false
   },
   {
     "name": "Anthropology",
     "meta_category": "social_sciences",
-    "event_count": 25,
+    "event_count": 31,
     "is_selected": false
   },
   {
     "name": "Art & Archaeology",
     "meta_category": "arts_humanities",
-    "event_count": 63,
+    "event_count": 72,
     "is_selected": false
   },
   {
     "name": "CBE",
     "meta_category": "sciences_engineering",
-    "event_count": 11,
+    "event_count": 10,
+    "is_selected": false
+  },
+  {
+    "name": "CEE",
+    "meta_category": "sciences_engineering",
+    "event_count": 1,
     "is_selected": false
   },
   {
     "name": "CITP",
     "meta_category": "interdisciplinary",
-    "event_count": 13,
+    "event_count": 25,
     "is_selected": false
   },
   {
     "name": "Classics",
     "meta_category": "arts_humanities",
-    "event_count": 9,
+    "event_count": 10,
     "is_selected": false
   },
   {
@@ -44,13 +50,13 @@
   {
     "name": "Computer Science",
     "meta_category": "sciences_engineering",
-    "event_count": 4,
+    "event_count": 7,
     "is_selected": false
   },
   {
     "name": "ECE",
     "meta_category": "sciences_engineering",
-    "event_count": 10,
+    "event_count": 12,
     "is_selected": false
   },
   {
@@ -60,9 +66,15 @@
     "is_selected": false
   },
   {
+    "name": "Economics",
+    "meta_category": "social_sciences",
+    "event_count": 20,
+    "is_selected": false
+  },
+  {
     "name": "English",
     "meta_category": "arts_humanities",
-    "event_count": 40,
+    "event_count": 41,
     "is_selected": false
   },
   {
@@ -80,13 +92,13 @@
   {
     "name": "Hellenic Studies",
     "meta_category": "area_studies",
-    "event_count": 4,
+    "event_count": 7,
     "is_selected": false
   },
   {
     "name": "History",
     "meta_category": "arts_humanities",
-    "event_count": 85,
+    "event_count": 88,
     "is_selected": false
   },
   {
@@ -98,7 +110,7 @@
   {
     "name": "Mathematics",
     "meta_category": "sciences_engineering",
-    "event_count": 47,
+    "event_count": 55,
     "is_selected": false
   },
   {
@@ -110,19 +122,19 @@
   {
     "name": "Music",
     "meta_category": "arts_humanities",
-    "event_count": 29,
+    "event_count": 38,
     "is_selected": false
   },
   {
     "name": "Near Eastern Studies",
     "meta_category": "area_studies",
-    "event_count": 37,
+    "event_count": 39,
     "is_selected": false
   },
   {
     "name": "Neuroscience (PNI)",
     "meta_category": "sciences_engineering",
-    "event_count": 22,
+    "event_count": 21,
     "is_selected": false
   },
   {
@@ -134,31 +146,31 @@
   {
     "name": "Philosophy",
     "meta_category": "arts_humanities",
-    "event_count": 27,
+    "event_count": 29,
     "is_selected": false
   },
   {
     "name": "Physics",
     "meta_category": "sciences_engineering",
-    "event_count": 135,
+    "event_count": 141,
     "is_selected": false
   },
   {
     "name": "Psychology",
     "meta_category": "social_sciences",
-    "event_count": 21,
+    "event_count": 20,
     "is_selected": false
   },
   {
     "name": "Religion",
     "meta_category": "arts_humanities",
-    "event_count": 2,
+    "event_count": 4,
     "is_selected": false
   },
   {
     "name": "Slavic Languages",
     "meta_category": "arts_humanities",
-    "event_count": 16,
+    "event_count": 50,
     "is_selected": false
   },
   {
@@ -170,13 +182,13 @@
   {
     "name": "UCHV",
     "meta_category": "interdisciplinary",
-    "event_count": 39,
+    "event_count": 40,
     "is_selected": false
   },
   {
     "name": "politics",
     "meta_category": "social_sciences",
-    "event_count": 18,
+    "event_count": 19,
     "is_selected": false
   }
 ]
